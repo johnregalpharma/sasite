@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Frequently Asked Questions | Sigma Audley</title>
+    <meta name="description" content="Find answers to common questions about Sigma Audley products, ordering, shipping, payments, and quality testing.">
+    <meta name="keywords" content="FAQ, help, support, questions, shipping, payment, quality, Janoshik testing">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sigma Audley Research Pharmaceuticals">
+    <meta property="og:title" content="FAQ - Frequently Asked Questions - Sigma Audley">
+    <meta property="og:description" content="Find answers to common questions about our products, ordering process, shipping, and quality testing.">
+    <meta property="og:url" content="https://sigmaaudley.site/faq.html">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sigmaaudley.site/faq.html">
+    
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --dark-blue: #1e40af;
+            --light-blue: #dbeafe;
+            --gray-900: #111827;
+            --gray-800: #1f2937;
+            --gray-700: #374151;
+            --gray-600: #4b5563;
+            --gray-500: #6b7280;
+            --gray-400: #9ca3af;
+            --gray-300: #d1d5db;
+            --gray-200: #e5e7eb;
+            --gray-100: #f3f4f6;
+            --gray-50: #f9fafb;
+            --white: #ffffff;
+            --success-green: #16a34a;
+            --warning-yellow: #eab308;
+            --error-red: #dc2626;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 0.8;
+        }
+
+        .faq-container {
+            padding: 40px;
+        }
+
+        .faq-categories {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .category-btn {
+            padding: 10px 20px;
+            border: 2px solid var(--primary-blue);
+            background: white;
+            color: var(--primary-blue);
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .category-btn:hover,
+        .category-btn.active {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .faq-section {
+            display: none;
+            animation: fadeIn 0.3s;
+        }
+
+        .faq-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 20px;
+            background: var(--gray-50);
+            border: none;
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-900);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+
+        .faq-question:hover {
+            background: var(--gray-100);
+        }
+
+        .faq-question.active {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .faq-arrow {
+            transition: transform 0.3s;
+            font-size: 1.2rem;
+        }
+
+        .faq-question.active .faq-arrow {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background: white;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+            transition: max-height 0.5s ease-in;
+        }
+
+        .faq-answer-content {
+            padding: 20px;
+            color: var(--gray-700);
+        }
+
+        .faq-answer-content ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .faq-answer-content li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: var(--light-blue);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid var(--primary-blue);
+        }
+
+        .contact-section {
+            background: var(--gray-50);
+            padding: 40px;
+            text-align: center;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .contact-section h2 {
+            color: var(--gray-900);
+            margin-bottom: 20px;
+        }
+
+        .contact-methods {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid var(--gray-200);
+            flex: 1;
+            min-width: 250px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-blue);
+        }
+
+        .contact-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--primary-blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: var(--dark-blue);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .faq-container {
+                padding: 20px;
+            }
+            
+            .faq-categories {
+                justify-content: flex-start;
+            }
+            
+            .category-btn {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+    
+    <!-- FAQ Schema Markup for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Sigma Audley?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sigma Audley is an online supplier of research-grade pharmaceuticals, performance enhancement compounds, and related products. Our catalogue includes peptides, SARMs, anabolic steroids, ancillaries, and raw materials. We focus on delivering high-purity products, verified by independent laboratory testing, with fast and discreet worldwide shipping."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "Do you provide third-party testing for your products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we provide comprehensive third-party testing through Janoshik Analytical. Every product undergoes HPLC analysis to verify purity, identity, and potency. Test results are available for review and demonstrate our commitment to quality and transparency."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the shipping times?",
+                "acceptedAnswer": {
+                    "@type": "Answer", 
+                    "text": "Shipping times vary by warehouse location: USA Warehouse: 1-2 days domestic, 5-7 days international; Germany Warehouse: 1-3 days EU, 5-10 days worldwide; Canada Warehouse: 1-2 days domestic, 5-7 days international; Australia Warehouse: 1-3 days domestic, 5-10 days international; UK Warehouse: 1-3 business days; China Warehouse: 3-10 business days. All orders include FREE shipping worldwide with tracking."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What payment methods do you accept?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We accept multiple payment methods including IBAN bank transfers (Monzo Bank - GB40 MONZ 0400 0328 6710 61, BIC/SWIFT: MONZGB2L), cryptocurrency (Bitcoin, Ethereum, PayPalUSD, XRP, Solana, USDT, USDC, Cardano, BNB with 15% extra discount), and PayPal Xoom for instant transfers worldwide. All payments are processed securely with order tracking provided."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What products do you offer?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer over 200+ research-grade products including peptides (semaglutide, tirzepatide, retatrutide, BPC-157, TB-500), growth hormones (HGH 191AA), research chemicals, injectable compounds, tablets, and raw materials. All products are Janoshik tested for purity and authenticity."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are bulk discounts available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we offer tiered bulk pricing: 20% discount on orders $250+, 30% discount on orders $500+, 35% discount on orders $1000+, plus an additional 15% crypto discount. You can save up to 45% when combining bulk orders with crypto payment! Volume pricing is available for research institutions and frequent customers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which countries do you ship to?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We ship worldwide from our 6 global warehouses: USA (Los Angeles), UK (London), Canada (Toronto), Germany (Berlin), Australia (Sydney), and China (Shanghai). Free worldwide shipping with tracking is included on all orders."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is your return policy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Due to the nature of research pharmaceuticals, we cannot accept returns of opened products. However, if you receive damaged or incorrect items, please contact us within 48 hours with photos for resolution. We stand behind our products with Janoshik testing verification."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html" class="back-link">← Back to Store</a>
+            <h1>Sigma Audley – Comprehensive FAQ</h1>
+            <p>Your trusted source for research-grade pharmaceuticals worldwide</p>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-categories">
+                <button class="category-btn active" onclick="showCategory('about')">🏢 About Us</button>
+                <button class="category-btn" onclick="showCategory('company')">🏭 Company Info</button>
+                <button class="category-btn" onclick="showCategory('products')">💊 Products & Quality</button>
+                <button class="category-btn" onclick="showCategory('injection')">💉 Injection Comfort</button>
+                <button class="category-btn" onclick="showCategory('ordering')">📦 Ordering</button>
+                <button class="category-btn" onclick="showCategory('shipping')">🚚 Shipping</button>
+                <button class="category-btn" onclick="showCategory('payment')">💳 Payment</button>
+                <button class="category-btn" onclick="showCategory('support')">💬 Support</button>
+                <button class="category-btn" onclick="showCategory('legal')">⚖️ Legal</button>
+            </div>
+
+            <!-- About Us Section -->
+            <div class="faq-section active" id="about">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is Sigma Audley?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Sigma Audley, officially known as Shanghai Sigma Audley New Material Technology Co., Ltd. (SSA), is a premium research pharmaceutical manufacturer established in 2010. Our headquarters are located at Room 901, Building 11, Lane 388, Baifu Road, Fengxian District, Shanghai, China. With a 20,000 square meter facility and over 500 employees, we specialize in research-grade peptides, growth hormones, anabolic compounds, and pharmaceutical raw materials. All products undergo rigorous Janoshik third-party testing to ensure 99%+ purity. We are the original and only authentic Sigma Audley - beware of imitators.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>When was Sigma Audley established?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Sigma Audley's current online platform is newly launched, though our team's experience in sourcing and distributing research chemicals spans multiple years. The sigmaaudley.site domain is recently registered, representing our latest expansion into direct-to-customer e-commerce.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Where is Sigma Audley based?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We operate through a network of international warehouses strategically located to serve different regions. This enables faster delivery and reduced customs delays for our customers. Our warehouses are located in:
+                            <ul>
+                                <li>Los Angeles, USA</li>
+                                <li>London, UK</li>
+                                <li>Toronto, Canada</li>
+                                <li>Berlin, Germany</li>
+                                <li>Sydney, Australia</li>
+                                <li>Shanghai, China</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is Sigma Audley's mission?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our mission is to make high-quality, independently tested research chemicals accessible worldwide, with minimal shipping times, secure packaging, and a professional customer service experience.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How can I verify I'm on the official Sigma Audley website?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            The ONLY official Sigma Audley websites are sigmaaudley.site, sigmaaudley.com, and sigmaaudley.site. We are Shanghai Sigma Audley New Material Technology Co., Ltd., established since 2010. Any other domain claiming to be Sigma Audley is fraudulent. Look for our verified company registration, Janoshik test results, and 15+ years of operation history.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Where is Sigma Audley located?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our headquarters and main manufacturing facility are located in Shanghai, China at Room 901, Building 11, Lane 388, Baifu Road, Fengxian District, Shanghai 201400. We also maintain warehouses in the USA, UK, EU, and other strategic locations for faster shipping. Contact us at +86-15937194204 or via WhatsApp: +852-9567-1324.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you have repeat customers?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, many of our orders come from returning customers, particularly those who value our carrier oil choice and low PIP (post-injection pain) formulations. Our commitment to quality and customer service has built a loyal customer base.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Information Section -->
+            <div class="faq-section" id="company">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Who is Sigma Audley?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <strong>Sigma Audley</strong> is operated by <strong>Sigma Audley New Material Technology Co., Ltd.</strong>, a leading research chemical manufacturer based in <strong>China</strong>. We specialize in producing high-purity peptides and research compounds that meet or exceed the quality standards similar to those of Sigma-Aldrich®.
+                            <div class="highlight" style="margin-top: 10px;">
+                                <strong>Company Details:</strong><br>
+                                • Legal Entity: Sigma Audley New Material Technology Co., Ltd.<br>
+                                • Country: China<br>
+                                • Also Known As: Sigma Audley Inc.<br>
+                                • Founded: 2010<br>
+                                • Global Warehouses: USA, UK, Germany, Canada, Australia
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Is Sigma Audley related to Sigma-Aldrich?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            No, <strong>Sigma Audley</strong> (Sigma Audley New Material Technology Co., Ltd.) is an independent company not affiliated with Sigma-Aldrich Corporation. We are often found when customers search for "Sigma Audrich" or alternatives to Sigma-Aldrich. While we provide similar quality research chemicals, we are a separate entity based in China with our own manufacturing facilities and quality control processes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Where are Sigma Audley products manufactured?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            All Sigma Audley products are manufactured by <strong>Sigma Audley New Material Technology Co., Ltd. in China</strong>. Our state-of-the-art facilities follow strict GMP standards and all products undergo rigorous quality control including third-party Janoshik testing. Despite manufacturing in China, we maintain local warehouses globally for fast, domestic shipping in USA, UK, Germany, Canada, and Australia.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Why choose Sigma Audley over other suppliers?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <ul>
+                                <li><strong>Sigma-Aldrich® Quality Standards:</strong> We maintain quality comparable to major suppliers</li>
+                                <li><strong>Manufacturing Excellence:</strong> Sigma Audley New Material Technology Co., Ltd. uses advanced production facilities in China</li>
+                                <li><strong>Competitive Pricing:</strong> Direct from manufacturer pricing without intermediaries</li>
+                                <li><strong>Global Distribution:</strong> 6 international warehouses for fast shipping</li>
+                                <li><strong>Third-Party Testing:</strong> All products Janoshik verified</li>
+                                <li><strong>311+ Products:</strong> Comprehensive catalog of peptides and research chemicals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products & Quality Section -->
+            <div class="faq-section" id="products">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What product categories do you offer?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our main product lines include:
+                            <ul>
+                                <li><strong>Peptides:</strong> BPC-157, TB-500, IGF-1 LR3, Semaglutide, Tirzepatide, HGH, and more</li>
+                                <li><strong>SARMs:</strong> RAD-140, LGD-4033, MK-677, Ostarine, Cardarine</li>
+                                <li><strong>Injectable Oils:</strong> Testosterone esters, Trenbolone, Nandrolone, Primobolan</li>
+                                <li><strong>Oral Tablets:</strong> Anavar, Winstrol, Dianabol, PCT medications</li>
+                                <li><strong>Raw Materials:</strong> Bulk powders for research use</li>
+                                <li><strong>Ancillaries:</strong> Aromatase inhibitors, cycle support products</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Are your products pharmaceutical grade?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our products are manufactured to research-grade standards, with purity levels typically exceeding 95% (most are 99%+). They are not intended for human or veterinary use and are sold strictly for laboratory research purposes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is Janoshik testing?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Janoshik Analytical is a third-party laboratory specialising in advanced chemical testing methods, including HPLC (High-Performance Liquid Chromatography) and GC-MS (Gas Chromatography-Mass Spectrometry), used to verify the chemical identity and purity of compounds. They are the gold standard for pharmaceutical testing in our industry.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Can I verify your test results?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes. Certificates of Analysis (COAs) can be requested through our customer support team, and each COA includes a batch number for independent verification with Janoshik Analytical. Most products contain direct Janoshik links on our website for immediate verification.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How do you ensure maximum purity and safety?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            All injectable products are manufactured in a sterile, ISO-certified facility, then triple-filtered through a 0.22 μm sterile membrane. Independent lab testing confirms potency, microbial safety, and chemical purity before any batch is released for sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you offer custom compounds?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, we can accommodate custom compound requests for bulk orders. Please contact support@sigmaaudley.site with your specific requirements and we'll provide a quote.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Injection Comfort Section -->
+            <div class="faq-section" id="injection">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What carrier oil do you use in your products?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We use medical-grade, hypoallergenic USP-filtered MCT oil (medium-chain triglycerides derived from coconut). MCT oil offers light viscosity, a smooth injection profile, and a low risk of allergic reactions compared to traditional seed oils such as cottonseed or grapeseed.
+                            <div class="highlight">
+                                💡 MCT oil is widely regarded as the premium carrier oil for injectable compounds due to its superior absorption and minimal irritation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Are your products suitable for people with carrier oil allergies?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes. MCT oil is widely regarded as one of the safest and most tolerable carriers available, even for individuals who have experienced allergic reactions to seed oils. It's hypoallergenic and has an extremely low incidence of adverse reactions.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What are your BA and BB levels?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our standard formulations contain:
+                            <ul>
+                                <li><strong>2% Benzyl Alcohol (BA)</strong> - For sterility</li>
+                                <li><strong>18% Benzyl Benzoate (BB)</strong> - For stability</li>
+                            </ul>
+                            This ratio is designed to ensure sterility and stability while minimising post-injection discomfort. It's the industry standard for comfortable, pip-free injections.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Will your products cause post-injection pain (PIP)?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our choice of MCT carrier oil, precise solvent ratios (2% BA / 18% BB), and sterile filtration process are optimised to significantly reduce the likelihood of PIP while ensuring full product stability and performance. Most customers report minimal to no discomfort with our formulations.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ordering Section -->
+            <div class="faq-section" id="ordering">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is the minimum order amount?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            There is no minimum order amount. However, we offer significant discounts for bulk orders:
+                            <ul>
+                                <li>Orders over $250 receive 20% OFF</li>
+                                <li>Orders over $500 receive 30% OFF</li>
+                                <li>Orders over $1000 receive 35% OFF</li>
+                                <li>Cryptocurrency payments receive an additional 15% OFF</li>
+                                <li><strong>Maximum savings: Up to 45% OFF with crypto on $1000+ orders!</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How do I place an order?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <ol>
+                                <li>Browse our product catalog and add items to your cart</li>
+                                <li>Click the cart icon and review your order</li>
+                                <li>Select your warehouse location (USA, Germany, or Canada)</li>
+                                <li>Enter your shipping information</li>
+                                <li>Choose your payment method</li>
+                                <li>Complete the payment following the provided instructions</li>
+                                <li>Save your order ID and screenshot the confirmation</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What if I want to add a product after ordering?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Contact support@sigmaaudley.site within 12 hours of ordering to make changes. After this time, orders enter processing and cannot be modified. We'll do our best to accommodate your request if caught in time.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you sell to individual buyers or only institutions?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We sell directly to both individual researchers and institutions, but all products are sold for research purposes only. No minimum order requirements apply.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping Section -->
+            <div class="faq-section" id="shipping">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What are the shipping times?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Shipping times vary by warehouse location:
+                            <ul>
+                                <li><strong>USA Warehouse:</strong> 1-2 business days (domestic), 5-7 days (international)</li>
+                                <li><strong>Germany Warehouse:</strong> 1-3 days (EU), 5-10 days (worldwide)</li>
+                                <li><strong>Canada Warehouse:</strong> 1-2 days (domestic), 5-7 days (international)</li>
+                                <li><strong>Australia Warehouse:</strong> 1-3 days (domestic), 5-10 days (international)</li>
+                                <li><strong>UK Warehouse:</strong> 1-3 business days</li>
+                                <li><strong>China Warehouse:</strong> 3-10 business days</li>
+                            </ul>
+                            <div class="highlight">
+                                <strong>Note:</strong> All orders include FREE shipping worldwide with tracking.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you provide tracking information?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, all orders include tracking. You will receive your tracking number via email within 24 hours of your order being shipped. You can track your package through the carrier's website.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Will customs seize my order?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            This depends on your country's import laws. We take steps to minimise seizure risk with discrete packaging and proper documentation. We have yet to have any seizures. In the event we do, we will offer a free reship up to two times. Our success rate for customs clearance is over 99%.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you offer free shipping?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! All orders include FREE worldwide shipping with tracking. Large or group orders may qualify for express shipping upgrades.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment Section -->
+            <div class="faq-section" id="payment">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What payment methods do you accept?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We accept the following payment methods:
+                            <ul>
+                                <li><strong>IBAN Transfer:</strong> International bank transfer to our Monzo Bank account
+                                    <ul style="margin-top: 8px; font-size: 0.95em;">
+                                        <li>Account Holder: Miss S Johnston</li>
+                                        <li>Business Name: Kizam (if needed)</li>
+                                        <li>IBAN: GB40 MONZ 0400 0328 6710 61</li>
+                                        <li>BIC/SWIFT: MONZGB2L</li>
+                                        <li>Sort Code: 04-00-03 (if needed by your bank)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Cryptocurrency (15% EXTRA OFF):</strong> Bitcoin (BTC), Ethereum (ETH), PayPalUSD (PYUSD), XRP, Solana (SOL), USDT, USDC, Cardano (ADA), BNB - Fast & anonymous</li>
+                                <li><strong>PayPal Xoom:</strong> Direct transfer to our domestic bank account (works worldwide, instant payment with lowest fees)</li>
+                            </ul>
+                            <div class="highlight">
+                                💡 <strong>Tip:</strong> Use cryptocurrency for the fastest processing and an extra 15% discount! Combine with bulk orders for up to 45% OFF total! PayPal Xoom is also a great option for instant transfers with low fees.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How long do I have to complete payment?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            You have 2 hours to complete cryptocurrency payments. The timer starts when you receive your payment instructions. Bank transfers should be completed within 24 hours. If you miss the deadline, you'll need to place a new order.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Can I pay with a credit card or regular PayPal?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We don't accept direct credit card payments. However, we do accept:
+                            <ul>
+                                <li><strong>PayPal Xoom:</strong> You can use your PayPal account to send money via Xoom to our bank account</li>
+                                <li><strong>Cryptocurrency:</strong> BTC, ETH, PYUSD, XRP, SOL, USDT, USDC, ADA, BNB (15% extra discount)</li>
+                                <li><strong>IBAN Bank Transfer:</strong> Direct bank wire transfer</li>
+                            </ul>
+                            These methods provide the best balance of security, privacy, and convenience for our customers.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Are payments refundable?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Due to the nature of our products and payment methods, refunds are only provided in cases of confirmed order errors on our part. We stand behind our products with quality guarantees and reship policies.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Section -->
+            <div class="faq-section" id="products">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Are your products genuine?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, all our products are 100% genuine and manufactured to the highest standards. Every batch is tested by Janoshik Analytical, an independent third-party laboratory. You can verify test results using the links provided for each product.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How should I store the products?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Storage requirements vary by product type:
+                            <ul>
+                                <li><strong>Peptides:</strong> Store in refrigerator (2-8°C) before reconstitution</li>
+                                <li><strong>Tablets:</strong> Store at room temperature in a dry place</li>
+                                <li><strong>Oils:</strong> Store at room temperature away from direct sunlight</li>
+                                <li><strong>HGH:</strong> Must be refrigerated at all times</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you offer bulk/wholesale pricing?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! We offer excellent bulk pricing:
+                            <ul>
+                                <li>5+ units: Special pricing tier</li>
+                                <li>10+ units: Additional discount</li>
+                                <li>20+ units: Wholesale pricing</li>
+                                <li>50+ units: Maximum discount tier</li>
+                            </ul>
+                            For orders over 100 units, contact us for custom pricing and OEM services.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quality Section -->
+            <div class="faq-section" id="quality">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is Janoshik testing?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Janoshik Analytical is the gold standard for pharmaceutical testing in our industry. They provide:
+                            <ul>
+                                <li>HPLC (High-Performance Liquid Chromatography) analysis</li>
+                                <li>Purity testing and contamination screening</li>
+                                <li>Concentration verification</li>
+                                <li>Heavy metals and microbiological testing</li>
+                            </ul>
+                            Every product page includes a link to its specific Janoshik test report.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How often do you test your products?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We test every new batch before it's released for sale. Additionally, we conduct random testing throughout the year to ensure consistency. Test reports are updated on our website as soon as they're available.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is your quality guarantee?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We guarantee:
+                            <ul>
+                                <li>✅ 99%+ purity on all products</li>
+                                <li>✅ Accurate dosing as labeled</li>
+                                <li>✅ No contamination or adulterants</li>
+                                <li>✅ Full refund if independent testing shows otherwise</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Section -->
+            <div class="faq-section" id="support">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How do I contact customer support?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We offer multiple support channels:
+                            <ul>
+                                <li><strong>Email (FASTEST):</strong> support@sigmaaudley.site - Response within 1 hour</li>
+                                <li><strong>Telegram:</strong> @Bellalel - Talk to Bella for instant support</li>
+                                <li><strong>WhatsApp:</strong> +1 (205) 456-0497 - Talk to Ray for personalized assistance</li>
+                                <li><strong>Support Discord:</strong> For web order support - Response within 3 hours</li>
+                            </ul>
+                            <div class="highlight">
+                                ⚠️ <strong>Important:</strong> Always include your Order ID when contacting support.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is your refund/reship policy?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We offer:
+                            <ul>
+                                <li><strong>Lost packages:</strong> Full reship or refund after 30 days</li>
+                                <li><strong>Customs seizure:</strong> One free reship</li>
+                                <li><strong>Damaged products:</strong> Full replacement with photo proof</li>
+                                <li><strong>Wrong items:</strong> Immediate reship of correct items</li>
+                            </ul>
+                            All claims must be made within 60 days of order placement.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you have a referral program?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! Our "Refer a Friend" program provides 25% OFF your next order when a friend places their first order and includes your email address. Visit our <a href="refer-a-friend.html" style="color: var(--primary-blue);">Refer a Friend</a> page for details.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you offer forum posting promotions?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, discounts are available for verified forum posts about Sigma Audley:
+                            <ul>
+                                <li>1 post: 20% OFF next order</li>
+                                <li>2 posts: 22% OFF next order</li>
+                                <li>3+ posts: 24% OFF next order</li>
+                            </ul>
+                            Submit proof of your posts to support@sigmaaudley.site to receive your discount code.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Do you have an affiliate program?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, affiliates earn commission on referred sales through a tracked link system. Contact support@sigmaaudley.site for more information about becoming an affiliate partner.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What if my order is wrong or damaged?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Contact our support team immediately at support@sigmaaudley.site. We review such cases individually and work with the customer to find a resolution. We offer free reshipment for any errors on our part.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal Section -->
+            <div class="faq-section" id="legal">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Are your products legal?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            The legality of research chemicals varies by country and jurisdiction. It is the customer's responsibility to ensure compliance with all local, state, and federal laws. Our products are sold strictly for laboratory research purposes and are not intended for human or veterinary use.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>How do you protect my data?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We store only the minimum required account and shipping information. Payment details are never stored on our servers, as all payments are processed through blockchain transactions or secure banking networks. All data transmission is encrypted with SSL technology.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>What is your privacy policy?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We are committed to protecting your privacy:
+                            <ul>
+                                <li>We never share customer information with third parties</li>
+                                <li>All communications are encrypted</li>
+                                <li>Order history is kept strictly confidential</li>
+                                <li>We use discrete billing and shipping practices</li>
+                                <li>Customer data is permanently deleted upon request</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Can I trust online reviews?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We recommend treating all anecdotal reviews with caution and seeking multiple sources before making a purchase decision. Look for reviews that include verifiable order numbers or Janoshik test results. Our own test results are independently verifiable through Janoshik Analytical.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">
+                        <span>Terms of Service</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            By purchasing from Sigma Audley, you agree that:
+                            <ul>
+                                <li>You are at least 18 years of age</li>
+                                <li>Products are for research purposes only</li>
+                                <li>You will comply with all applicable laws</li>
+                                <li>You understand the risks associated with research chemicals</li>
+                                <li>You will not hold Sigma Audley liable for misuse of products</li>
+                            </ul>
+                            <div class="highlight">
+                                ⚠️ <strong>Disclaimer:</strong> These products are not for human consumption. They are strictly for laboratory research use only.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>Still Have Questions?</h2>
+            <p>Our support team is here to help you 24/7</p>
+            
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <h3>📧 Email Support</h3>
+                    <p>support@sigmaaudley.site</p>
+                    <p style="color: var(--success-green); font-weight: 600;">Response within 1 hour</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📱 Telegram</h3>
+                    <p><a href="https://t.me/Bellalel" target="_blank" style="color: var(--primary-blue); text-decoration: underline;">@Bellalel</a></p>
+                    <p style="color: var(--primary-blue); font-weight: 600;">Talk to Bella - Instant support</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>💬 WhatsApp</h3>
+                    <p><a href="https://wa.me/12054560497" target="_blank" style="color: var(--primary-blue); text-decoration: underline;">+1 (205) 456-0497</a></p>
+                    <p style="color: var(--primary-blue); font-weight: 600;">Talk to Ray - Personalized help</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>💬 Discord Support</h3>
+                    <p>Web orders only</p>
+                    <p style="color: var(--primary-blue); font-weight: 600;">Response within 3 hours</p>
+                </div>
+            </div>
+            
+            <a href="index.html" class="btn">Return to Store</a>
+        </div>
+    </div>
+
+    <script>
+        function showCategory(category) {
+            // Hide all sections
+            document.querySelectorAll('.faq-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(category).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            const arrow = button.querySelector('.faq-arrow');
+            
+            // Toggle active states
+            button.classList.toggle('active');
+            answer.classList.toggle('active');
+            
+            // Close other answers in the same section
+            const section = button.closest('.faq-section');
+            section.querySelectorAll('.faq-question').forEach(q => {
+                if (q !== button && q.classList.contains('active')) {
+                    q.classList.remove('active');
+                    q.nextElementSibling.classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

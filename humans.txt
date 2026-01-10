@@ -1,0 +1,83 @@
+/* TEAM */
+
+Research Director: Dr. Chen Wei
+Title: Lead Peptide Researcher
+Location: Shanghai, China
+Contact: support [at] sigmaaudley.site
+
+Quality Assurance: Sarah Johnson
+Title: ISO 9001:2015 Compliance Officer  
+Location: Global Operations
+Contact: support [at] sigmaaudley.site
+
+Customer Success: Michael Zhang
+Title: Community Relations Manager
+Location: International Support
+Contact: support [at] sigmaaudley.site
+
+SEO & Digital Marketing: Alex Thompson
+Title: Growth Marketing Specialist
+Location: Global Marketing
+Contact: support [at] sigmaaudley.site
+
+/* THANKS */
+
+GLP1Forum Community - For trusting Sigma Audley since 2010
+Finnrick Forum Members - For authentic reviews and feedback
+Reddit r/Peptides - For community support and recommendations
+Janoshik Analytical - For independent third-party testing
+Research Community Worldwide - For advancing peptide science
+
+/* SITE */
+
+Last update: 2025/09/10
+Language: English
+Doctype: HTML5
+IDE: Claude Code, Visual Studio Code
+Standards: W3C, Schema.org, JSON-LD
+Components: PWA, Service Worker, Structured Data
+SEO Tools: Google Search Console, Analytics
+Testing: Janoshik Analytical Lab
+Fonts: System fonts, Arial, Segoe UI
+Frameworks: Vanilla JavaScript, CSS3
+
+/* COMPANY */
+
+Name: Sigma Audley - Official - Premium research Peptides, SARMs & Compounds
+Founded: 2010
+Location: Shanghai, China
+Website: https://sigmaaudley.site
+Description: Janoshik verified quality, Verified on GLP1Forum | Finnrick | FDA registered facility
+Quality Standard: Professional-grade research
+Certifications: ISO 9001:2015
+Shipping: Global (200+ Countries)
+
+/* PRODUCTS */
+
+Primary Focus: Research Peptides
+Featured: Semaglutide, Tirzepatide, Retatrutide
+Categories: GLP1 Agonists, Healing Peptides, Growth Hormones
+Quality: Third-party tested by Janoshik Analytical
+Storage: Professional cold-chain maintained
+Packaging: Pharmaceutical-grade sterile vials
+
+/* COMMUNITY */
+
+GLP1Forum: Verified Vendor Status Since 2010
+Finnrick Forum: Trusted Supplier Reviews
+Reddit Peptides: Community Recommended
+International Forums: Active Participation
+Research Publications: Supporting Scientific Studies
+
+/* CONTACT */
+
+Main Website: https://sigmaaudley.site
+Email: support [at] sigmaaudley.site  
+Support: Available 24/7 Global
+Shipping: Worldwide Express Delivery
+
+==================================================
+    Sigma Audley - Official Website
+    https://sigmaaudley.site
+    Research Excellence Since 2010
+==================================================

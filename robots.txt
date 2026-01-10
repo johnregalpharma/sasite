@@ -1,0 +1,49 @@
+# Sigma Audley Official Website
+# https://sigmaaudley.site
+
+User-agent: Googlebot
+Allow: /
+Allow: /index.html
+Allow: /faq.html
+Allow: /trust-and-reviews.html
+Allow: /refer-a-friend.html
+Allow: /humans.txt
+Allow: /security.txt
+Allow: /manifest.json
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /private/
+Disallow: /backup/
+Disallow: *.json
+Disallow: *.md
+
+# Block deleted/old pages
+Disallow: /reviews-20*.html
+Disallow: /usa-peptide-supplier.html
+Disallow: /canada-peptide-supplier.html
+Disallow: /uk-peptide-supplier.html
+Disallow: /australia-peptide-supplier.html
+Disallow: /germany-research-peptides-supplier.html
+Disallow: /usa-research-peptides-supplier.html
+Disallow: /complete-research-peptide-catalog.html
+Disallow: /price_list.html
+Disallow: /sigma-audley-official.html
+Disallow: /sigma-audley-vs-competitors.html
+Disallow: /peptides-better-than-sigma-aldrich.html
+Disallow: /sigma-audley-not-sigma-aldrich.html
+Disallow: /research-peptides-ultimate-authority.html
+Disallow: /glp1-forum-verified-excellence.html
+
+# Sitemap location for faster discovery
+Sitemap: https://sigmaaudley.site/sitemap.xml
