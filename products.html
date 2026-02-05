@@ -665,12 +665,11 @@ body {
         justify-content: space-between;
     }
     
-    .warehouse-selector {
-        order: -1;
-        width: 100%;
-        margin-bottom: 8px;
+    /* Hide original warehouse selector on mobile - using mobile toolbar button instead */
+    .header .warehouse-selector {
+        display: none !important;
     }
-    
+
     .warehouse-current {
         min-width: auto;
         padding: 8px 10px;
@@ -3204,19 +3203,20 @@ body {
                     
                     <!-- Mobile Sticky Toolbar Wrapper (Always visible on mobile) -->
                     <div class="mobile-sticky-toolbar">
-                        <!-- Brand Name Text -->
+                        <!-- Brand Logo -->
                         <a href="#" class="sticky-brand">
-                            Sigma Audley
+                            <img src="ssa.png" alt="Sigma Audley" class="sticky-logo">
                         </a>
-                        
+
                         <!-- Toolbar Buttons -->
                         <div class="sticky-buttons">
-                            <!-- Mobile Search Button -->
-                            <button class="mobile-search-btn" onclick="toggleMobileSearch()">
-                                <i class="fas fa-search"></i>
-                                <span class="btn-text">Search</span>
+                            <!-- Mobile Warehouse Button -->
+                            <button class="mobile-warehouse-btn" onclick="toggleWarehouseDropdown()">
+                                <span class="warehouse-flag-mobile" id="mobileWarehouseFlag">🇺🇸</span>
+                                <span class="btn-text">Warehouse</span>
+                                <i class="fas fa-chevron-down"></i>
                             </button>
-                            
+
                             <!-- Cart Button -->
                             <button class="cart-btn" onclick="toggleCart()">
                                 <i class="fas fa-shopping-cart"></i>
@@ -3298,7 +3298,7 @@ body {
                 <!-- Accepting Orders Notice -->
                 <div style="text-align: center; margin-top: 10px;">
                     <span style="font-size: 0.9rem; color: #dc2626; font-weight: 600;">
-                        ✅ Still operating as normal as of <span id="lastUpdatedDate"></span>. China orders rerouted to EU and USA warehouses. Contact <a href="mailto:support@sigmaaudley.site" style="color: #dc2626; text-decoration: underline;">support@sigmaaudley.site</a>, <a href="https://t.me/Bellalel" target="_blank" style="color: #dc2626; text-decoration: underline;">@Bellalel on Telegram</a> (Bella), or <a href="https://wa.me/12054560497" target="_blank" style="color: #dc2626; text-decoration: underline;">+1 (205) 456-0497 on WhatsApp</a> (Ray) for support.
+                        ✅ Still operating as normal as of <span id="lastUpdatedDate"></span>. China orders rerouted to EU and USA warehouses. Contact <a href="mailto:support@sigmaaudley.site" style="color: #dc2626; text-decoration: underline;">support@sigmaaudley.site</a>, <a href="https://t.me/Bellalel" target="_blank" style="color: #dc2626; text-decoration: underline;">@Bellalel on Telegram</a> (Bella), or <a href="https://wa.me/18169939630" target="_blank" style="color: #dc2626; text-decoration: underline;">+1 (816) 993-9630 on WhatsApp</a> (Ray) for support.
                     </span>
                 </div>
             </div>
@@ -3599,11 +3599,12 @@ body {
                         
                         /* Enhance buttons in sticky toolbar */
                         .mobile-sticky-toolbar .cart-btn,
-                        .mobile-sticky-toolbar .mobile-search-btn {
+                        .mobile-sticky-toolbar .mobile-warehouse-btn {
                             padding: 8px 12px !important;
                             font-size: 12px !important;
                             border-radius: 20px !important;
                             min-height: 36px !important;
+                            cursor: pointer !important;
                             display: flex !important;
                             align-items: center !important;
                             gap: 4px !important;
@@ -3619,26 +3620,39 @@ body {
                                 display: none !important;
                             }
                             .mobile-sticky-toolbar .cart-btn,
-                            .mobile-sticky-toolbar .mobile-search-btn {
+                            .mobile-sticky-toolbar .mobile-warehouse-btn {
                                 padding: 8px 10px !important;
                             }
                         }
-                        
+
                         .mobile-sticky-toolbar .cart-btn {
                             background: linear-gradient(135deg, #dc2626, #ef4444) !important;
                             color: white !important;
                         }
-                        
-                        .mobile-sticky-toolbar .mobile-search-btn {
-                            background: linear-gradient(135deg, #2563eb, #3b82f6) !important;
+
+                        .mobile-sticky-toolbar .mobile-warehouse-btn {
+                            background: #10b981 !important;
                             color: white !important;
+                            display: flex !important;
+                            align-items: center !important;
+                            gap: 4px !important;
+                            border: none !important;
                         }
-                        
+
+                        .mobile-sticky-toolbar .warehouse-flag-mobile {
+                            font-size: 1rem !important;
+                        }
+
+                        .mobile-sticky-toolbar .mobile-warehouse-btn i {
+                            font-size: 0.625rem !important;
+                        }
+
                         .mobile-sticky-toolbar .cart-btn:active {
                             transform: scale(0.95) !important;
                         }
-                        
-                        .mobile-sticky-toolbar .mobile-search-btn:active {
+
+                        .mobile-sticky-toolbar .mobile-warehouse-btn:active {
+                            background: #059669 !important;
                             transform: scale(0.95) !important;
                         }
                         
@@ -3675,8 +3689,13 @@ body {
                             animation: none !important;
                         }
                         
-                        /* Hide original buttons in header when scrolling */
+                        /* Show mobile toolbar in header - no longer hidden */
                         .header .mobile-sticky-toolbar {
+                            display: flex !important;
+                        }
+
+                        /* Hide if a cloned sticky toolbar exists */
+                        body.has-sticky-header .header .mobile-sticky-toolbar {
                             display: none !important;
                         }
                         
@@ -3695,13 +3714,36 @@ body {
                         .mobile-sticky-toolbar .cart-btn.pulse {
                             animation: cartPulse 0.5s ease !important;
                         }
-                        
+
+                        /* Mobile warehouse dropdown positioning */
+                        .warehouse-dropdown.show {
+                            position: fixed !important;
+                            top: 52px !important;
+                            left: 0 !important;
+                            right: 0 !important;
+                            width: 100% !important;
+                            max-height: calc(100vh - 52px) !important;
+                            overflow-y: auto !important;
+                            border-radius: 0 !important;
+                            margin-top: 0 !important;
+                            z-index: 10000 !important;
+                            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+                        }
+
+                        .warehouse-option {
+                            padding: 1rem !important;
+                        }
+
+                        .warehouse-option .warehouse-flag {
+                            font-size: 1.5rem !important;
+                        }
+
                         /* Add padding to body when sticky header is shown */
                         body.has-sticky-header {
                             padding-top: 52px !important;
                         }
                     }
-                    
+
                     /* Desktop - hide mobile sticky toolbar */
                     @media (min-width: 769px) {
                         .mobile-sticky-toolbar {
@@ -11041,7 +11083,13 @@ Please confirm when applied and let me know about shipping. Thank you!
                     <i class="fas fa-chevron-down"></i>
                 `;
             }
-            
+
+            // Update mobile warehouse flag
+            const mobileFlag = document.getElementById('mobileWarehouseFlag');
+            if (mobileFlag && warehouse) {
+                mobileFlag.textContent = warehouse.flag;
+            }
+
             // Update selected option
             document.querySelectorAll('.warehouse-option').forEach(option => {
                 option.classList.remove('selected');
@@ -11093,7 +11141,7 @@ Please confirm when applied and let me know about shipping. Thank you!
             
             // Close dropdowns when clicking outside
             document.addEventListener('click', (event) => {
-                if (!event.target.closest('.warehouse-selector')) {
+                if (!event.target.closest('.warehouse-selector') && !event.target.closest('.mobile-warehouse-btn')) {
                     document.getElementById('warehouseDropdown').classList.remove('show');
                 }
                 

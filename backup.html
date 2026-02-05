@@ -417,7 +417,6 @@ body {
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid var(--border-subtle);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .header-content {
@@ -435,7 +434,7 @@ body {
 }
 
 .logo-img {
-    height: 100px;
+    height: 80px;
     width: auto;
     object-fit: contain;
 }
@@ -646,16 +645,20 @@ body {
 
 
 @media (max-width: 768px) {
-    /* Hide entire header on mobile - mobile toolbar handles everything */
-    .header {
-        display: none !important;
+    .header-actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: space-between;
     }
-
-    /* Add padding for fixed mobile toolbar */
-    body {
-        padding-top: 56px !important;
+    
+    .warehouse-selector {
+        order: -1;
+        width: 100%;
+        margin-bottom: 8px;
     }
-
+    
     .warehouse-current {
         min-width: auto;
         padding: 8px 10px;
@@ -1158,7 +1161,7 @@ body {
 .nav {
     background: var(--white);
     border-bottom: 1px solid var(--gray-200);
-    padding: var(--space-3) 0;
+    padding: var(--space-4) 0;
 }
 
 .nav-content {
@@ -1176,10 +1179,9 @@ body {
 }
 
 .nav-link {
-    color: var(--gray-600);
+    color: var(--gray-700);
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.875rem;
     padding: var(--space-2) var(--space-3);
     border-radius: var(--radius-md);
     transition: all var(--transition-fast);
@@ -1189,33 +1191,6 @@ body {
 .nav-link.active {
     color: var(--primary-blue);
     background: var(--blue-50);
-}
-
-.nav-link-catalog {
-    background: #000 !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    border-radius: 8px !important;
-    padding: 8px 16px !important;
-}
-.nav-link-catalog:hover {
-    background: #222 !important;
-    color: #fff !important;
-}
-
-.nav-link-trustpilot {
-    background: #00b67a !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    border-radius: 8px !important;
-    padding: 8px 16px !important;
-}
-.nav-link-trustpilot:hover {
-    background: #00a06a !important;
-    color: #fff !important;
-}
-.nav-link-trustpilot i {
-    color: #fff !important;
 }
 
 .search-container {
@@ -2347,31 +2322,6 @@ body {
     box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
 }
 
-.view-test-report-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    width: 100%;
-    padding: 8px 12px;
-    font-size: 0.775rem;
-    font-weight: 600;
-    color: #059669;
-    background: #ecfdf5;
-    border: 1px solid #a7f3d0;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-.view-test-report-btn:hover {
-    background: #059669;
-    color: #fff;
-    border-color: #059669;
-}
-.view-test-report-btn i {
-    font-size: 0.7rem;
-}
-
 /* === CHECKOUT MODAL === */
 .checkout-modal .modal-content {
     max-width: 800px;
@@ -3194,7 +3144,7 @@ body {
     }
 
     .header .logo-img {
-        height: 85px !important;
+        height: 70px !important;
         width: auto !important;
     }
 
@@ -3423,14 +3373,6 @@ body {
         padding: 0.1875rem 0.375rem;
     }
 
-    .badge-popular {
-        display: none !important;
-    }
-
-    .product-card[data-cat="BC10-FEATURED"] {
-        display: none !important;
-    }
-
     .product-body {
         padding: 0 1rem 0.875rem;
     }
@@ -3626,324 +3568,6 @@ body {
         justify-content: center;
     }
 }
-
-/* === FULL CATALOG MODAL === */
-.catalog-modal .modal-content {
-    max-width: 1100px;
-    width: 95vw;
-    max-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-.catalog-header {
-    padding: 1rem 1.5rem;
-    background: var(--gray-50);
-    border-bottom: 1px solid var(--gray-200);
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
-.catalog-top-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.75rem;
-}
-.catalog-title {
-    font-size: 1.125rem;
-    font-weight: 800;
-    color: var(--gray-900);
-    margin: 0;
-    white-space: nowrap;
-}
-.catalog-count {
-    font-size: 0.75rem;
-    color: var(--gray-500);
-    font-weight: 500;
-    white-space: nowrap;
-}
-.catalog-search {
-    width: 100%;
-    padding: 0.5rem 0.875rem;
-    border: 1px solid var(--gray-200);
-    border-radius: 100px;
-    font-size: 0.8125rem;
-    color: var(--gray-700);
-    background: var(--white);
-    outline: none;
-    transition: border-color 0.2s;
-}
-.catalog-search:focus {
-    border-color: var(--primary-600);
-    box-shadow: 0 0 0 3px rgba(0,0,0,0.06);
-}
-.catalog-tabs {
-    display: flex;
-    gap: 0.375rem;
-    overflow-x: auto;
-    padding-bottom: 2px;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-.catalog-tabs::-webkit-scrollbar { display: none; }
-.catalog-tab {
-    padding: 0.375rem 0.875rem;
-    border-radius: 100px;
-    font-size: 0.6875rem;
-    font-weight: 600;
-    border: 1px solid var(--gray-200);
-    background: var(--white);
-    color: var(--gray-600);
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.2s;
-}
-.catalog-tab:hover { border-color: var(--gray-400); color: var(--gray-800); }
-.catalog-tab.active {
-    background: #000;
-    color: #fff;
-    border-color: #000;
-}
-.catalog-body {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1rem 1.5rem 1.5rem;
-}
-.catalog-category {
-    margin-bottom: 1.5rem;
-}
-.catalog-cat-header {
-    display: flex;
-    align-items: center;
-    gap: 0.625rem;
-    padding: 0.625rem 0;
-    border-bottom: 2px solid var(--gray-900);
-    margin-bottom: 0.75rem;
-}
-.catalog-cat-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: 6px;
-    background: #000;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
-}
-.catalog-cat-name {
-    font-weight: 800;
-    font-size: 0.9375rem;
-    color: var(--gray-900);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-}
-.catalog-cat-count {
-    font-size: 0.6875rem;
-    color: var(--gray-400);
-    margin-left: auto;
-}
-.catalog-subcat {
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--gray-600);
-    padding: 0.5rem 0 0.375rem;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    border-bottom: 1px solid var(--gray-100);
-    margin-top: 0.5rem;
-}
-.catalog-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.8125rem;
-}
-.catalog-table th {
-    font-size: 0.625rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gray-400);
-    font-weight: 600;
-    padding: 0.5rem 0.5rem;
-    text-align: left;
-    border-bottom: 1px solid var(--gray-100);
-}
-.catalog-table td {
-    padding: 0.5rem 0.5rem;
-    border-bottom: 1px solid var(--gray-50);
-    color: var(--gray-700);
-    vertical-align: middle;
-}
-.catalog-table tbody tr:hover {
-    background: var(--gray-50);
-}
-.catalog-table .cat-code {
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--primary-600);
-}
-.catalog-table .cat-name {
-    font-weight: 600;
-    color: var(--gray-900);
-}
-.catalog-table .cat-spec {
-    color: var(--gray-500);
-    font-size: 0.75rem;
-}
-.catalog-table .cat-price {
-    text-align: right;
-    font-weight: 700;
-    font-size: 0.875rem;
-    color: var(--gray-900);
-    white-space: nowrap;
-}
-.catalog-table .cat-bulk {
-    text-align: right;
-    font-size: 0.75rem;
-    color: var(--gray-500);
-    white-space: nowrap;
-}
-.cat-badge {
-    display: inline-block;
-    padding: 1px 6px;
-    border-radius: 100px;
-    font-size: 0.5625rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-}
-.cb-pop { background: #fef3c7; color: #92400e; }
-.cb-new { background: #dcfce7; color: #166534; }
-.cb-best { background: #dbeafe; color: #1e40af; }
-.cat-contact {
-    font-size: 0.75rem;
-    color: var(--gray-400);
-    font-style: italic;
-}
-.catalog-warehouse {
-    margin-top: 1.5rem;
-    border: 1px solid var(--gray-200);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-}
-.catalog-wh-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1rem;
-    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
-    border-bottom: 1px solid var(--gray-200);
-    font-weight: 700;
-    font-size: 0.8125rem;
-    color: var(--gray-800);
-}
-.catalog-wh-header .wh-flag { font-size: 1.125rem; }
-.catalog-wh-header .wh-delivery {
-    margin-left: auto;
-    font-size: 0.6875rem;
-    font-weight: 500;
-    color: var(--success-green);
-}
-.catalog-wh-body { padding: 0.75rem 1rem; }
-@media (max-width: 768px) {
-    .catalog-modal .modal-content {
-        width: 100%;
-        max-width: 100%;
-        max-height: 100vh;
-        height: 100vh;
-        border-radius: 0;
-        margin: 0;
-    }
-    .catalog-header { padding: 0.625rem 0.75rem; }
-    .catalog-body { padding: 0.5rem 0.75rem; }
-    .catalog-top-row { flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem; }
-    .catalog-title { font-size: 0.95rem; }
-    .catalog-title i { display: none; }
-    .catalog-search { padding: 0.5rem 0.75rem; font-size: 0.8125rem; }
-    .catalog-tabs { gap: 0.25rem; }
-    .catalog-tab { padding: 0.3rem 0.625rem; font-size: 0.625rem; }
-    #catalogWarehouse { min-width: 110px !important; font-size: 0.6875rem !important; padding: 0.4rem 0.5rem !important; }
-    .catalog-cat-header { padding: 0.5rem 0; margin-bottom: 0.5rem; }
-    .catalog-cat-icon { width: 24px; height: 24px; font-size: 0.65rem; }
-    .catalog-cat-name { font-size: 0.8125rem; }
-    .catalog-category { margin-bottom: 1rem; }
-    .catalog-subcat { font-size: 0.6875rem; padding: 0.375rem 0 0.25rem; }
-
-    /* Convert table to card layout on mobile */
-    .catalog-table { font-size: 0.75rem; }
-    .catalog-table thead { display: none; }
-    .catalog-table tbody { display: flex; flex-direction: column; gap: 6px; }
-    .catalog-table tbody tr {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-template-rows: auto auto auto;
-        gap: 1px 8px;
-        padding: 8px 10px;
-        background: var(--gray-50);
-        border-radius: 8px;
-        border: 1px solid var(--gray-100);
-        border-bottom: 1px solid var(--gray-100);
-    }
-    .catalog-table tbody tr:hover { background: var(--gray-100); }
-    /* Name - top left */
-    .catalog-table td.cat-name {
-        grid-column: 1;
-        grid-row: 1;
-        font-size: 0.8125rem;
-        font-weight: 700;
-        padding: 0;
-        border: none;
-    }
-    /* Price - top right */
-    .catalog-table td.cat-price,
-    .catalog-table td:nth-child(6) {
-        grid-column: 2;
-        grid-row: 1;
-        text-align: right;
-        font-size: 0.875rem;
-        font-weight: 800;
-        padding: 0;
-        border: none;
-    }
-    /* Spec - row 2 left */
-    .catalog-table td.cat-spec {
-        grid-column: 1;
-        grid-row: 2;
-        font-size: 0.6875rem;
-        color: var(--gray-500);
-        padding: 0;
-        border: none;
-        max-width: none;
-        overflow: visible;
-        white-space: normal;
-    }
-    /* Code - row 2 right */
-    .catalog-table td.cat-code {
-        grid-column: 2;
-        grid-row: 2;
-        text-align: right;
-        font-size: 0.625rem;
-        color: var(--gray-400);
-        padding: 0;
-        border: none;
-    }
-    /* Stock - row 3, spanning full width */
-    .catalog-table td:nth-child(5) {
-        grid-column: 1 / -1;
-        grid-row: 3;
-        text-align: left !important;
-        padding: 3px 0 0 !important;
-        border: none !important;
-    }
-    /* Hide badges and bulk on mobile */
-    .catalog-table td.cat-badges,
-    .catalog-table td:nth-child(7) {
-        display: none;
-    }
-}
     </style>
 
     <!-- PWA Manifest -->
@@ -4030,93 +3654,35 @@ body {
                         <span class="cart-count" id="desktopCartCount">0</span>
                     </button>
                     
-
+                    <!-- Mobile Sticky Toolbar Wrapper (Always visible on mobile) -->
+                    <div class="mobile-sticky-toolbar">
+                        <!-- Brand Logo -->
+                        <a href="#" class="sticky-brand">
+                            <img src="ssa.png" alt="Sigma Audley" class="sticky-logo">
+                        </a>
+                        
+                        <!-- Toolbar Buttons -->
+                        <div class="sticky-buttons">
+                            <!-- Mobile Search Button -->
+                            <button class="mobile-search-btn" onclick="toggleMobileSearch()">
+                                <i class="fas fa-search"></i>
+                                <span class="btn-text">Search</span>
+                            </button>
+                            
+                            <!-- Cart Button -->
+                            <button class="cart-btn" onclick="toggleCart()">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="btn-text">Cart</span>
+                                <span class="cart-count" id="cartCount">0</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Mobile Sticky Toolbar (Outside header for mobile visibility) -->
-    <div class="mobile-sticky-toolbar" id="mobileToolbar">
-        <!-- Brand Logo -->
-        <a href="#" class="sticky-brand">
-            <img src="ssa.png" alt="Sigma Audley" class="sticky-logo">
-        </a>
-
-        <!-- Toolbar Buttons -->
-        <div class="sticky-buttons">
-            <!-- Mobile Search Button -->
-            <button class="mobile-search-btn" onclick="toggleMobileSearchDropdown()">
-                <i class="fas fa-search"></i>
-                <span class="btn-text">Search</span>
-            </button>
-
-            <!-- Mobile Warehouse Button -->
-            <button class="mobile-warehouse-btn" onclick="toggleMobileWarehouse()">
-                <span class="warehouse-flag-mobile" id="mobileWarehouseFlag">🇺🇸</span>
-                <span class="btn-text" id="mobileWarehouseText">US</span>
-                <i class="fas fa-chevron-down"></i>
-            </button>
-
-            <!-- Cart Button -->
-            <button class="cart-btn" onclick="toggleCart()">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="cart-count" id="cartCount">0</span>
-            </button>
-        </div>
-
-        <!-- Mobile Warehouse Dropdown -->
-        <div class="mobile-warehouse-dropdown" id="mobileWarehouseDropdown">
-            <div class="mobile-warehouse-option selected" data-warehouse="US">
-                <span class="warehouse-flag">🇺🇸</span>
-                <div class="warehouse-option-info">
-                    <strong>United States</strong>
-                    <small>1-2 days domestic</small>
-                </div>
-            </div>
-            <div class="mobile-warehouse-option" data-warehouse="UK">
-                <span class="warehouse-flag">🇬🇧</span>
-                <div class="warehouse-option-info">
-                    <strong>United Kingdom</strong>
-                    <small>1-3 days</small>
-                </div>
-            </div>
-            <div class="mobile-warehouse-option" data-warehouse="CANADA">
-                <span class="warehouse-flag">🇨🇦</span>
-                <div class="warehouse-option-info">
-                    <strong>Canada</strong>
-                    <small>1-2 days domestic</small>
-                </div>
-            </div>
-            <div class="mobile-warehouse-option" data-warehouse="GERMANY">
-                <span class="warehouse-flag">🇩🇪</span>
-                <div class="warehouse-option-info">
-                    <strong>Germany</strong>
-                    <small>1-3 days EU</small>
-                </div>
-            </div>
-            <div class="mobile-warehouse-option" data-warehouse="AUSTRALIA">
-                <span class="warehouse-flag">🇦🇺</span>
-                <div class="warehouse-option-info">
-                    <strong>Australia</strong>
-                    <small>1-3 days domestic</small>
-                </div>
-            </div>
-            <div class="mobile-warehouse-option" data-warehouse="CHINA">
-                <span class="warehouse-flag">🇨🇳</span>
-                <div class="warehouse-option-info">
-                    <strong>China</strong>
-                    <small>3-10 days</small>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Search Dropdown -->
-        <div class="mobile-search-dropdown" id="mobileSearchDropdown">
-            <input type="text" class="mobile-search-input" id="mobileSearchInput" placeholder="Search products..." autocomplete="off">
-            <div class="mobile-search-results" id="mobileSearchResults"></div>
-        </div>
-    </div>
 
     <!-- Modern Clean Hero Section -->
     <section class="hero-section">
@@ -4135,7 +3701,7 @@ body {
             <div class="hero-trust">
                 <a href="trust-and-reviews.html" class="trust-badge">
                     <i class="fas fa-shield-alt"></i>
-                    Verified on GLP1Forum, Finnrick & Trustpilot
+                    Verified on GLP1Forum & Finnrick
                 </a>
             </div>
 
@@ -4160,8 +3726,6 @@ body {
                 <span class="feature-item"><i class="fas fa-check"></i> Janoshik Tested</span>
                 <span class="feature-item"><i class="fas fa-check"></i> FDA Registered</span>
                 <span class="feature-item"><i class="fas fa-check"></i> Worldwide Shipping</span>
-                <span class="feature-item" style="cursor:pointer;" onclick="window.open('trust-and-reviews.html','_blank')"><i class="fas fa-star" style="color:#00b67a;"></i> Trustpilot Verified</span>
-                <span class="feature-item" style="cursor:pointer;color:var(--primary-600);font-weight:600;" onclick="showCatalog()"><i class="fas fa-list"></i> Full Price List</span>
             </div>
 
             <!-- Email Signup -->
@@ -4173,7 +3737,7 @@ body {
             <!-- Contact Info (minimal) -->
             <p class="hero-contact">
                 <span id="lastUpdatedDate" style="display:none;"></span>
-                Questions? <a href="mailto:support@sigmaaudley.site">support@sigmaaudley.site</a> &bull; <a href="https://t.me/Bellalel" target="_blank">Telegram</a> &bull; <a href="https://wa.me/18169939630" target="_blank">WhatsApp</a> &bull; <a href="trust-and-reviews.html" target="_blank" style="color:#00b67a;font-weight:600;">Trustpilot</a>
+                Questions? <a href="mailto:support@sigmaaudley.site">support@sigmaaudley.site</a> &bull; <a href="https://t.me/Bellalel" target="_blank">Telegram</a> &bull; <a href="https://wa.me/18169939630" target="_blank">WhatsApp</a>
             </p>
         </div>
     </section>
@@ -4181,18 +3745,18 @@ body {
     <style>
     /* Modern Hero Styles */
     .hero-section {
-        background: linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%);
+        background: var(--surface-sunken);
         padding: 3rem 0 2.5rem;
         text-align: center;
         border-bottom: 1px solid var(--border-subtle);
     }
 
     .hero-title {
-        font-size: 2.25rem;
-        font-weight: 800;
+        font-size: 2rem;
+        font-weight: 600;
         color: var(--gray-900);
         margin-bottom: 0.5rem;
-        letter-spacing: -0.035em;
+        letter-spacing: -0.025em;
     }
 
     .hero-subtitle {
@@ -4229,10 +3793,9 @@ body {
         max-width: 480px;
         margin: 0 auto 1.5rem;
         background: var(--white);
-        border: 1px solid var(--gray-200);
+        border: 1px solid var(--border-subtle);
         border-radius: var(--radius-lg);
         overflow: hidden;
-        box-shadow: 0 4px 12px -2px rgba(0,0,0,0.06);
     }
 
     .promo-header {
@@ -4240,17 +3803,8 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 0.75rem 1rem;
-        background: var(--gray-900);
-        color: var(--white);
-        border-bottom: none;
-    }
-
-    .promo-header .promo-label {
-        color: var(--gray-300);
-    }
-
-    .promo-header .promo-free-shipping {
-        color: #34d399;
+        background: var(--gray-50);
+        border-bottom: 1px solid var(--border-subtle);
     }
 
     .promo-label {
@@ -4625,7 +4179,7 @@ body {
                         }
 
                         .mobile-sticky-toolbar .sticky-logo {
-                            height: 44px !important;
+                            height: 38px !important;
                             width: auto !important;
                             object-fit: contain !important;
                         }
@@ -4639,26 +4193,23 @@ body {
 
                         /* Clean button styling */
                         .mobile-sticky-toolbar .cart-btn,
-                        .mobile-sticky-toolbar .mobile-warehouse-btn,
                         .mobile-sticky-toolbar .mobile-search-btn {
-                            padding: 0.5rem 0.75rem !important;
-                            font-size: 0.75rem !important;
+                            padding: 0.5rem 0.875rem !important;
+                            font-size: 0.8125rem !important;
                             font-weight: 500 !important;
                             border-radius: 0.5rem !important;
-                            min-height: 36px !important;
+                            min-height: 40px !important;
                             display: flex !important;
                             align-items: center !important;
-                            gap: 0.25rem !important;
+                            gap: 0.375rem !important;
                             transition: background 0.15s ease !important;
                             border: none !important;
                             white-space: nowrap !important;
-                            cursor: pointer !important;
                         }
 
                         .mobile-sticky-toolbar .cart-btn {
                             background: #171717 !important;
                             color: #ffffff !important;
-                            padding: 0.5rem 0.625rem !important;
                         }
 
                         .mobile-sticky-toolbar .cart-btn:active {
@@ -4668,147 +4219,11 @@ body {
                         .mobile-sticky-toolbar .mobile-search-btn {
                             background: #f5f5f5 !important;
                             color: #525252 !important;
-                            border: 1px solid rgba(0,0,0,0.1) !important;
+                            border: 1px solid rgba(0, 0, 0, 0.1) !important;
                         }
 
                         .mobile-sticky-toolbar .mobile-search-btn:active {
                             background: #e5e5e5 !important;
-                        }
-
-                        .mobile-sticky-toolbar .mobile-warehouse-btn {
-                            background: #10b981 !important;
-                            color: #ffffff !important;
-                            border: none !important;
-                        }
-
-                        .mobile-sticky-toolbar .mobile-warehouse-btn:active {
-                            background: #059669 !important;
-                        }
-
-                        .mobile-sticky-toolbar .warehouse-flag-mobile {
-                            font-size: 0.875rem !important;
-                        }
-
-                        .mobile-sticky-toolbar .mobile-warehouse-btn i,
-                        .mobile-sticky-toolbar .mobile-search-btn i {
-                            font-size: 0.75rem !important;
-                        }
-
-                        /* Mobile Warehouse Dropdown */
-                        .mobile-warehouse-dropdown {
-                            display: none;
-                            position: absolute;
-                            top: 100%;
-                            left: 0;
-                            right: 0;
-                            background: #ffffff;
-                            border-top: 1px solid rgba(0,0,0,0.1);
-                            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-                            z-index: 10000;
-                            max-height: 60vh;
-                            overflow-y: auto;
-                        }
-
-                        .mobile-warehouse-dropdown.show {
-                            display: block !important;
-                        }
-
-                        .mobile-warehouse-option {
-                            display: flex;
-                            align-items: center;
-                            gap: 0.75rem;
-                            padding: 0.875rem 1rem;
-                            border-bottom: 1px solid rgba(0,0,0,0.05);
-                            cursor: pointer;
-                            transition: background 0.15s ease;
-                        }
-
-                        .mobile-warehouse-option:hover,
-                        .mobile-warehouse-option:active {
-                            background: #f5f5f5;
-                        }
-
-                        .mobile-warehouse-option.selected {
-                            background: #ecfdf5;
-                        }
-
-                        .mobile-warehouse-option .warehouse-flag {
-                            font-size: 1.25rem;
-                        }
-
-                        .mobile-warehouse-option .warehouse-option-info strong {
-                            display: block;
-                            font-size: 0.875rem;
-                            color: #171717;
-                        }
-
-                        .mobile-warehouse-option .warehouse-option-info small {
-                            font-size: 0.75rem;
-                            color: #737373;
-                        }
-
-                        /* Mobile Search Dropdown */
-                        .mobile-search-dropdown {
-                            display: none;
-                            position: absolute;
-                            top: 100%;
-                            left: 0;
-                            right: 0;
-                            background: #ffffff;
-                            border-top: 1px solid rgba(0,0,0,0.1);
-                            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-                            z-index: 10000;
-                            padding: 0.75rem;
-                        }
-
-                        .mobile-search-dropdown.show {
-                            display: block !important;
-                        }
-
-                        .mobile-search-input {
-                            width: 100%;
-                            padding: 0.75rem 1rem;
-                            border: 1px solid rgba(0,0,0,0.1);
-                            border-radius: 0.5rem;
-                            font-size: 1rem;
-                            outline: none;
-                        }
-
-                        .mobile-search-input:focus {
-                            border-color: #10b981;
-                            box-shadow: 0 0 0 3px rgba(16,185,129,0.1);
-                        }
-
-                        .mobile-search-results {
-                            max-height: 50vh;
-                            overflow-y: auto;
-                            margin-top: 0.5rem;
-                            position: relative;
-                            z-index: 10001;
-                        }
-
-                        .mobile-search-result-item {
-                            display: flex !important;
-                            align-items: center !important;
-                            padding: 12px 16px !important;
-                            border-bottom: 1px solid #f0f0f0 !important;
-                            cursor: pointer !important;
-                            gap: 12px !important;
-                            -webkit-tap-highlight-color: rgba(16, 185, 129, 0.3) !important;
-                            position: relative;
-                            z-index: 10002;
-                            background: #fff;
-                            user-select: none;
-                            -webkit-user-select: none;
-                        }
-
-                        .mobile-search-result-item:active,
-                        .mobile-search-result-item:hover {
-                            background: #ecfdf5 !important;
-                        }
-
-                        .mobile-search-result-item:last-child {
-                            border-bottom: none !important;
                         }
 
                         /* Cart count badge - Minimal */
@@ -4828,14 +4243,13 @@ body {
                         }
 
                         /* Hide button text on small screens */
-                        @media (max-width: 400px) {
+                        @media (max-width: 360px) {
                             .mobile-sticky-toolbar .btn-text {
                                 display: none !important;
                             }
                             .mobile-sticky-toolbar .cart-btn,
-                            .mobile-sticky-toolbar .mobile-warehouse-btn,
                             .mobile-sticky-toolbar .mobile-search-btn {
-                                padding: 0.5rem !important;
+                                padding: 0.5rem 0.625rem !important;
                             }
                         }
                         
@@ -4856,9 +4270,9 @@ body {
                             animation: none !important;
                         }
                         
-                        /* Mobile toolbar is now outside header - always visible on mobile */
-                        .mobile-sticky-toolbar {
-                            display: flex !important;
+                        /* Hide original buttons in header when scrolling */
+                        .header .mobile-sticky-toolbar {
+                            display: none !important;
                         }
                         
                         /* Add shadow on scroll */
@@ -4876,31 +4290,8 @@ body {
                         .mobile-sticky-toolbar .cart-btn.pulse {
                             animation: cartPulse 0.5s ease !important;
                         }
-
-                        /* Mobile warehouse dropdown positioning */
-                        .warehouse-dropdown.show {
-                            position: fixed !important;
-                            top: 56px !important;
-                            left: 0 !important;
-                            right: 0 !important;
-                            width: 100% !important;
-                            max-height: calc(100vh - 56px) !important;
-                            overflow-y: auto !important;
-                            border-radius: 0 !important;
-                            margin-top: 0 !important;
-                            z-index: 10000 !important;
-                            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
-                        }
-
-                        .warehouse-option {
-                            padding: 1rem !important;
-                        }
-
-                        .warehouse-option .warehouse-flag {
-                            font-size: 1.5rem !important;
-                        }
                     }
-
+                    
                     /* Desktop - hide mobile sticky toolbar */
                     @media (min-width: 769px) {
                         .mobile-sticky-toolbar {
@@ -4940,12 +4331,11 @@ body {
             <div class="nav-content">
                 <ul class="nav-links">
                     <li><a href="#product-categories" class="nav-link active">Products</a></li>
-                    <li><a href="#catalog" class="nav-link nav-link-catalog" onclick="event.preventDefault(); showCatalog();"><i class="fas fa-th-list" style="margin-right:4px;font-size:0.75rem;"></i>Full Catalog</a></li>
-                    <li><a href="trust-and-reviews.html" class="nav-link nav-link-trustpilot" target="_blank"><i class="fas fa-star" style="margin-right:4px;font-size:0.7rem;color:#00b67a;"></i>Trustpilot</a></li>
+                    <li><a href="trust-and-reviews.html" class="nav-link" target="_blank">🛡️ Trust & Reviews</a></li>
                     <li><a href="#about" class="nav-link" onclick="showModal('aboutModal')">About</a></li>
                     <li><a href="#contact" class="nav-link" onclick="showModal('contactModal')">Contact</a></li>
-                    <li><a href="refer-a-friend.html" class="nav-link" target="_blank">Refer Friend</a></li>
-                    <li><a href="faq.html" class="nav-link" target="_blank">FAQ</a></li>
+                    <li><a href="refer-a-friend.html" class="nav-link" target="_blank">🎁 Refer Friend</a></li>
+                    <li><a href="faq.html" class="nav-link" target="_blank">❓ FAQ</a></li>
                 </ul>
                 
                 <!-- Hidden SEO Navigation Links for Google Crawling -->
@@ -4969,106 +4359,6 @@ body {
             </div>
         </div>
     </nav>
-
-    <!-- Trustpilot Banner -->
-    <section class="trustpilot-banner" onclick="window.open('trust-and-reviews.html','_blank')" style="cursor:pointer;">
-        <div class="container">
-            <div class="tp-banner-inner">
-                <div class="tp-banner-left">
-                    <div class="tp-banner-stars">
-                        <span class="tp-b-star"></span>
-                        <span class="tp-b-star"></span>
-                        <span class="tp-b-star"></span>
-                        <span class="tp-b-star"></span>
-                        <span class="tp-b-star half"></span>
-                    </div>
-                    <div class="tp-banner-score">TrustScore <strong>4.9</strong></div>
-                    <div class="tp-banner-count">8,200+ verified reviews</div>
-                </div>
-                <a href="trust-and-reviews.html" target="_blank" class="tp-banner-btn" onclick="event.stopPropagation();">
-                    Read Our Reviews <i class="fas fa-arrow-right" style="margin-left:6px;font-size:0.8rem;"></i>
-                </a>
-            </div>
-        </div>
-        <style>
-            .trustpilot-banner {
-                background: linear-gradient(135deg, #00b67a 0%, #009e6a 100%);
-                padding: 14px 0;
-                transition: background 0.3s ease;
-            }
-            .trustpilot-banner:hover {
-                background: linear-gradient(135deg, #00c984 0%, #00b67a 100%);
-            }
-            .tp-banner-inner {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                gap: 1rem;
-                flex-wrap: wrap;
-            }
-            .tp-banner-left {
-                display: flex;
-                align-items: center;
-                gap: 1rem;
-                flex-wrap: wrap;
-            }
-            .tp-banner-stars {
-                display: flex;
-                gap: 3px;
-            }
-            .tp-b-star {
-                width: 26px;
-                height: 26px;
-                background: #fff;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-            }
-            .tp-b-star.half {
-                background: linear-gradient(90deg, #fff 50%, rgba(255,255,255,0.35) 50%);
-            }
-            .tp-banner-score {
-                color: #fff;
-                font-size: 1rem;
-                font-weight: 500;
-            }
-            .tp-banner-score strong {
-                font-weight: 800;
-                font-size: 1.15rem;
-            }
-            .tp-banner-count {
-                color: rgba(255,255,255,0.85);
-                font-size: 0.875rem;
-            }
-            .tp-banner-btn {
-                display: inline-flex;
-                align-items: center;
-                padding: 10px 24px;
-                background: #fff;
-                color: #00b67a;
-                font-weight: 700;
-                font-size: 0.95rem;
-                border-radius: 8px;
-                text-decoration: none;
-                transition: all 0.3s ease;
-                white-space: nowrap;
-            }
-            .tp-banner-btn:hover {
-                background: #f0fdf4;
-                transform: translateY(-1px);
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            }
-            @media (max-width: 600px) {
-                .trustpilot-banner { padding: 12px 0; }
-                .tp-banner-inner { justify-content: center; text-align: center; }
-                .tp-banner-left { justify-content: center; }
-                .tp-b-star { width: 22px; height: 22px; }
-                .tp-banner-score { font-size: 0.9rem; }
-                .tp-banner-btn { padding: 8px 20px; font-size: 0.875rem; }
-            }
-        </style>
-    </section>
 
     <!-- Categories -->
     <section class="categories">
@@ -5155,94 +4445,23 @@ body {
                 </button>
             </div>
             
-            <!-- Price List / Full Catalog Section -->
-            <style>
-                @keyframes catalogPulse {
-                    0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
-                    50% { box-shadow: 0 0 0 12px rgba(37, 99, 235, 0); }
-                }
-                .catalog-cta-section {
-                    background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-                    padding: 2rem 1.5rem;
-                    margin-top: var(--space-6);
-                    border-radius: 16px;
-                    text-align: center;
-                    position: relative;
-                    overflow: hidden;
-                }
-                .catalog-cta-section::before {
-                    content: '';
-                    position: absolute;
-                    top: -50%;
-                    left: -50%;
-                    width: 200%;
-                    height: 200%;
-                    background: radial-gradient(circle at 30% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%);
-                    pointer-events: none;
-                }
-                .catalog-cta-btn {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 10px;
-                    padding: 16px 36px;
-                    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-                    color: white;
-                    border-radius: 12px;
-                    font-weight: 700;
-                    font-size: 1.05rem;
-                    transition: all 0.3s ease;
-                    border: none;
-                    cursor: pointer;
-                    animation: catalogPulse 2.5s ease-in-out infinite;
-                    letter-spacing: 0.01em;
-                }
-                .catalog-cta-btn:hover {
-                    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-                    transform: translateY(-2px);
-                    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4);
-                    animation: none;
-                }
-                .catalog-cta-btn i {
-                    font-size: 1.1rem;
-                }
-                .catalog-pdf-link {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 8px;
-                    padding: 14px 24px;
-                    background: rgba(255,255,255,0.08);
-                    color: rgba(255,255,255,0.8);
-                    text-decoration: none;
-                    border-radius: 12px;
-                    font-weight: 600;
-                    font-size: 0.95rem;
-                    transition: all 0.3s ease;
-                    border: 1px solid rgba(255,255,255,0.15);
-                }
-                .catalog-pdf-link:hover {
-                    background: rgba(255,255,255,0.15);
-                    color: #fff;
-                    border-color: rgba(255,255,255,0.3);
-                }
-            </style>
-            <div class="catalog-cta-section">
-                <div style="max-width: 600px; margin: 0 auto; position: relative; z-index: 1;">
-                    <div style="display: inline-block; background: rgba(59,130,246,0.2); color: #93c5fd; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 5px 14px; border-radius: 100px; margin-bottom: 0.75rem;">400+ Products Available</div>
-                    <h3 style="color: #fff; font-size: 1.25rem; font-weight: 800; margin-bottom: 0.4rem;">
-                        Browse Our Complete Catalog
+            <!-- Price List Download Option -->
+            <div class="price-list-section" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: var(--space-6); margin-top: var(--space-6); border-radius: 12px; text-align: center; border: 2px dashed #cbd5e1;">
+                <div style="max-width: 600px; margin: 0 auto;">
+                    <h3 style="color: var(--primary-600); font-size: 1.25rem; font-weight: 700; margin-bottom: var(--space-2);">
+                        🔍 Can't find what you are looking for?
                     </h3>
-                    <p style="color: rgba(255,255,255,0.6); margin-bottom: 1.25rem; line-height: 1.6; font-size: 0.9rem;">
-                        Full product list with warehouse inventory, specifications, and bulk pricing.
+                    <p style="color: var(--gray-600); margin-bottom: var(--space-4); line-height: 1.6;">
+                        View our complete product catalog with detailed specifications and pricing information.
                     </p>
-                    <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
-                        <button onclick="showCatalog()" class="catalog-cta-btn">
-                            <i class="fas fa-th-list"></i>
-                            View Full Catalog
-                        </button>
-                        <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" class="catalog-pdf-link">
+                    <div style="display: flex; flex-direction: column; gap: var(--space-3); align-items: center;">
+                        <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; background: #000000; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='#333333'" onmouseout="this.style.background='#000000'">
                             <i class="fas fa-download"></i>
-                            Download PDF
+                            View Full Price List (PDF)
                         </a>
+                        <p style="color: var(--gray-500); font-size: 0.9rem;">
+                            📧 For enquiries: <a href="mailto:support@sigmaaudley.site" style="color: var(--primary-600); text-decoration: none; font-weight: 600;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">support@sigmaaudley.site</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -10085,71 +9304,6 @@ Please confirm when applied and let me know about shipping. Thank you!
                             "new": true
                         },
                         {
-                            "cat_no": "LC425",
-                            "name": "Lipo-C FOCUS",
-                            "specification": "10ml*10vials",
-                            "composition": "ATP 50mg/ml, Eria Jarensis 50mg/ml, L-Carnitine 200mg/ml, MIC Blend 25/50/50 mg/ml, Lidocaine 0.1%, Benzyl Alcohol 2%",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 155, "10": 150, "20": 145 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic",
-                            "new": true
-                        },
-                        {
-                            "cat_no": "LC526",
-                            "name": "Lipo-C FAT BLASTER",
-                            "specification": "10ml*10vials",
-                            "composition": "L-Carnitine 300mg/ml, Methionine 25mg/ml, Inositol 50mg/ml, Choline 50mg/ml, B12 1mg/ml, B6 50mg/ml, NADH 50mg/ml",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 165, "10": 160, "20": 155 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic",
-                            "new": true
-                        },
-                        {
-                            "cat_no": "RP226",
-                            "name": "Relaxation PM",
-                            "specification": "10ml*10vials",
-                            "composition": "GABA 100mg/ml, Melatonin 1mg/ml, Arginine 100mg/ml, Glutamine 25mg/ml",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 165, "10": 160, "20": 155 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic",
-                            "new": true
-                        },
-                        {
-                            "cat_no": "SHB",
-                            "name": "SUPER Human Blend",
-                            "specification": "10ml*10vials",
-                            "composition": "L-Arginine 110mg, L-Ornithine 110mg, L-Citrulline 120mg, L-Lysine 70mg, L-Glutamine 40mg, L-Proline 60mg, L-Taurine 60mg, L-Carnitine 220mg, NAC 75mg",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 165, "10": 160, "20": 155 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic",
-                            "new": true
-                        },
-                        {
-                            "cat_no": "HHB",
-                            "name": "Healthy Hair, Skin & Nails Blend",
-                            "specification": "10ml*10vials",
-                            "composition": "Niacinamide 50mg, Thiamine HCL 50mg, Pantothenic Acid 25mg, Choline 10mg, Inositol 10mg, Niacin 5mg, Biotin 100mcg, Folic Acid 100mcg, Riboflavin 100mcg",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 165, "10": 160, "20": 155 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic",
-                            "new": true
-                        },
-                        {
-                            "cat_no": "LC1201",
-                            "name": "Lipo-C + B12",
-                            "specification": "10ml x 121mg/ml/vial",
-                            "composition": "Methionine 15mg, Choline Chloride 50mg, L-Carnitine 50mg, Dexpanthenol 5mg, B12 (Methylcobalamin) 1mg",
-                            "janoshik_url": "#",
-                            "pricing": { "base": 95, "10": 95, "20": 90 },
-                            "category": "specialty_injections",
-                            "subcategory": "lipotropic"
-                        },
-                        {
                             "cat_no": "Lipo-C",
                             "name": "Lipo-C (Original)",
                             "specification": "10ml x 120mg/ml/vial",
@@ -11948,316 +11102,6 @@ Please confirm when applied and let me know about shipping. Thank you!
             console.log(`Loaded ${allProducts.length} products`);
         }
 
-        // ===== FULL CATALOG =====
-        const catalogCategoryMeta = {
-            peptides: { name: 'Peptides', icon: 'fa-dna' },
-            oral_tablets: { name: 'Oral Tablets', icon: 'fa-pills' },
-            injectable_oils: { name: 'Injectable Oils', icon: 'fa-syringe' },
-            specialty_injections: { name: 'Specialty Injections', icon: 'fa-vial' },
-            raw_materials: { name: 'Raw Materials', icon: 'fa-flask' }
-        };
-
-        const catalogSubNames = {
-            growth_hormones: 'Growth Hormones & HGH',
-            weight_loss: 'Weight Loss & GLP-1',
-            healing: 'Healing & Recovery',
-            blends: 'Blends & Combinations',
-            nootropics: 'Nootropics & Cognitive',
-            longevity: 'Longevity & Anti-Aging',
-            tanning: 'Tanning',
-            skin: 'Skin & Cosmetic',
-            immune: 'Immune Support',
-            sexual_health: 'Sexual Health',
-            other: 'Other Peptides',
-            bioregulators: 'Bioregulators',
-            supplies: 'Supplies',
-            anabolics: 'Anabolics',
-            sarms: 'SARMs',
-            support: 'Support & Health',
-            pct: 'PCT & Anti-Estrogen',
-            cutting: 'Cutting & Fat Loss',
-            peptide_orals: 'Oral Peptides',
-            testosterone: 'Testosterone',
-            trenbolone: 'Trenbolone',
-            nandrolone: 'Nandrolone & NPP',
-            other_inj: 'Other Injectables',
-            specialty: 'Specialty & Lipo',
-            lipotropic: 'Lipotropic & Fat Loss Blends',
-            wellness: 'Health & Wellness',
-            vitamins: 'Vitamins & Support',
-            raws: 'Raw Powders',
-            sarms_raw: 'SARMs Raw',
-            sex_enhancement: 'Sex Enhancement',
-            anti_estrogen: 'Anti-Estrogen',
-            lose_weight: 'Weight Loss Raws',
-            nootropics_raw: 'Nootropics Raw',
-            estrogen: 'Estrogen',
-            liver_health: 'Liver Health',
-            vitamin_series: 'Vitamins',
-            anesthesia: 'Local Anesthesia',
-            solvents: 'Organic Solvents',
-            api: 'API',
-            hot_raw: 'Hot Raw Materials'
-        };
-
-        let catalogActiveTab = 'all';
-
-        function showCatalog() {
-            showModal('catalogModal');
-            renderCatalogTabs();
-            renderCatalog();
-        }
-
-        function renderCatalogTabs() {
-            const tabs = document.getElementById('catalogTabs');
-            const cats = ['all', ...Object.keys(catalogCategoryMeta)];
-            tabs.innerHTML = cats.map(c => {
-                const label = c === 'all' ? 'All' : catalogCategoryMeta[c].name;
-                const count = c === 'all' ? allProducts.length : allProducts.filter(p => p.category === c).length;
-                if (c !== 'all' && count === 0) return '';
-                return `<button class="catalog-tab ${catalogActiveTab === c ? 'active' : ''}" onclick="setCatalogTab('${c}')">${label} (${count})</button>`;
-            }).join('');
-        }
-
-        function setCatalogTab(tab) {
-            catalogActiveTab = tab;
-            document.getElementById('catalogSearch').value = '';
-            renderCatalogTabs();
-            renderCatalog();
-        }
-
-        function filterCatalog() { renderCatalog(); }
-
-        const warehouseInfo = {
-            china: { flag: '🇨🇳', name: 'China Warehouse', delivery: '7-14 days worldwide', note: 'Ships direct from manufacturing facility' },
-            usa: { flag: '🇺🇸', name: 'USA Warehouse', delivery: '2-4 days US delivery', note: 'Free shipping on orders 2+ kits' },
-            uk: { flag: '🇬🇧', name: 'UK Warehouse', delivery: '2-4 days UK/EU delivery', note: 'Free shipping on orders 2+ kits' },
-            germany: { flag: '🇩🇪', name: 'Germany Warehouse', delivery: '2-4 days EU delivery', note: 'Free shipping on orders 2+ kits' },
-            canada: { flag: '🇨🇦', name: 'Canada Warehouse', delivery: '2-4 days CA delivery', note: 'Free shipping on orders 4+ kits' },
-            australia: { flag: '🇦🇺', name: 'Australia Warehouse', delivery: '2-5 days AU/NZ delivery', note: 'Free shipping on orders 2+ kits' }
-        };
-
-        // Map catalog warehouse codes to main warehouse codes for currency
-        const catalogWarehouseCurrencyMap = {
-            china: { currency: 'USD', symbol: '$' },
-            usa: { currency: 'USD', symbol: '$' },
-            uk: { currency: 'GBP', symbol: '£' },
-            germany: { currency: 'EUR', symbol: '€' },
-            canada: { currency: 'USD', symbol: '$' },
-            australia: { currency: 'AUD', symbol: 'A$' }
-        };
-
-        function formatCatalogPrice(usdPrice, whCode) {
-            const whCurr = catalogWarehouseCurrencyMap[whCode] || { currency: 'USD', symbol: '$' };
-            const rate = exchangeRates[whCurr.currency] || 1.0;
-            return `${whCurr.symbol}${(usdPrice * rate).toFixed(2)}`;
-        }
-
-        function renderCatalog() {
-            const body = document.getElementById('catalogBody');
-            const query = document.getElementById('catalogSearch').value.toLowerCase().trim();
-            const wh = document.getElementById('catalogWarehouse').value;
-            const whData = warehouseInfo[wh];
-            let products = [...allProducts].filter(p => p.category !== 'featured_products');
-
-            if (catalogActiveTab !== 'all') products = products.filter(p => p.category === catalogActiveTab);
-            if (query) {
-                products = products.filter(p =>
-                    p.cat_no.toLowerCase().includes(query) ||
-                    p.name.toLowerCase().includes(query) ||
-                    (p.specification || '').toLowerCase().includes(query)
-                );
-            }
-
-            document.getElementById('catalogCount').textContent = `${products.length} product${products.length !== 1 ? 's' : ''}`;
-
-            if (!products.length) {
-                body.innerHTML = '<div style="text-align:center;padding:3rem;color:var(--gray-400);"><i class="fas fa-search" style="font-size:2rem;margin-bottom:1rem;display:block;"></i>No products found</div>';
-                return;
-            }
-
-            // Group by category then subcategory
-            const grouped = {};
-            products.forEach(p => {
-                const cat = p.category || 'other';
-                if (!grouped[cat]) grouped[cat] = {};
-                const sub = p.subcategory || 'other';
-                if (!grouped[cat][sub]) grouped[cat][sub] = [];
-                grouped[cat][sub].push(p);
-            });
-
-            let html = `<div style="display:flex;align-items:center;gap:0.75rem;padding:0.625rem 0.875rem;background:linear-gradient(135deg,#f0fdf4,#ecfdf5);border:1px solid #bbf7d0;border-radius:8px;margin-bottom:1rem;">
-                <span style="font-size:1.25rem;">${whData.flag}</span>
-                <div style="flex:1;">
-                    <div style="font-weight:700;font-size:0.8125rem;color:#166534;">${whData.name}</div>
-                    <div style="font-size:0.6875rem;color:#15803d;">${whData.note}</div>
-                </div>
-                <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.75rem;font-weight:600;color:#16a34a;">
-                    <i class="fas fa-truck" style="font-size:0.625rem;"></i>${whData.delivery}
-                </div>
-            </div>`;
-            const catOrder = Object.keys(catalogCategoryMeta);
-
-            catOrder.forEach(cat => {
-                if (!grouped[cat]) return;
-                const meta = catalogCategoryMeta[cat];
-                const catProducts = products.filter(p => p.category === cat);
-
-                html += `<div class="catalog-category">`;
-                html += `<div class="catalog-cat-header">
-                    <div class="catalog-cat-icon"><i class="fas ${meta.icon}"></i></div>
-                    <span class="catalog-cat-name">${meta.name}</span>
-                    <span class="catalog-cat-count">${catProducts.length} items</span>
-                </div>`;
-
-                const subOrder = Object.keys(grouped[cat]).sort((a, b) => {
-                    const na = catalogSubNames[a] || a, nb = catalogSubNames[b] || b;
-                    return na.localeCompare(nb);
-                });
-
-                subOrder.forEach(sub => {
-                    const items = grouped[cat][sub];
-                    const subName = catalogSubNames[sub] || sub.replace(/_/g, ' ');
-                    html += `<div class="catalog-subcat">${subName} (${items.length})</div>`;
-                    html += `<table class="catalog-table"><thead><tr>
-                        <th style="width:70px;">Code</th><th>Product</th><th>Specification</th><th class="cat-badges">Badges</th><th style="text-align:center;">Stock</th><th style="text-align:right;">Price</th><th style="text-align:right;">Bulk</th>
-                    </tr></thead><tbody>`;
-
-                    items.sort((a, b) => a.name.localeCompare(b.name) || (getBasePrice(a) - getBasePrice(b)));
-                    items.forEach(p => {
-                        const bp = getBasePrice(p);
-                        const isContact = bp === 0;
-                        const price = isContact ? '<span class="cat-contact">Contact</span>' : `<span class="cat-price">${formatCatalogPrice(bp, wh)}</span>`;
-
-                        let bulk = '';
-                        if (!isContact) {
-                            const bulkKeys = ['10', '20', '50'].filter(k => p.pricing[k]);
-                            if (bulkKeys.length > 0) {
-                                const firstKey = bulkKeys[0];
-                                bulk = `<span class="cat-bulk">${bulkKeys.map(k => `${k}+: ${formatCatalogPrice(p.pricing[k], wh)}`).join(' / ')}</span>`;
-                            } else {
-                                bulk = '<span class="cat-bulk" style="color:var(--gray-300);">&mdash;</span>';
-                            }
-                        }
-
-                        let badges = '';
-                        if (p.popular) badges += '<span class="cat-badge cb-pop">Hot</span> ';
-                        if (p.new) badges += '<span class="cat-badge cb-new">New</span> ';
-                        if (p.best_value) badges += '<span class="cat-badge cb-best">Best</span> ';
-
-                        html += `<tr>
-                            <td class="cat-code">${p.cat_no}</td>
-                            <td class="cat-name">${p.name}</td>
-                            <td class="cat-spec">${p.specification || ''}</td>
-                            <td class="cat-badges">${badges || '<span style="color:var(--gray-300);">&mdash;</span>'}</td>
-                            <td style="text-align:center;"><span style="display:inline-flex;align-items:center;gap:3px;font-size:0.625rem;font-weight:600;color:#16a34a;background:#f0fdf4;padding:2px 7px;border-radius:100px;white-space:nowrap;"><i class="fas fa-circle" style="font-size:0.3rem;"></i>In Stock</span></td>
-                            <td class="cat-price">${price}</td>
-                            <td>${bulk}</td>
-                        </tr>`;
-                    });
-                    html += '</tbody></table>';
-                });
-                html += '</div>';
-            });
-
-            body.innerHTML = html;
-        }
-
-        function renderWarehouseInventory() {
-            const warehouserInventory = {
-                usa: {
-                    flag: '🇺🇸', name: 'USA Warehouse', delivery: '2-4 days delivery',
-                    note: 'MOQ: 2 Kits | Free Shipping',
-                    products: [
-                        { code: 'SM10', name: 'Semaglutide', spec: '10mg*10vials', price: 80, moq: '2 kits = $160' },
-                        { code: 'SM20', name: 'Semaglutide', spec: '20mg*10vials', price: 105, moq: '2 kits = $210' },
-                        { code: 'SM30', name: 'Semaglutide', spec: '30mg*10vials', price: 115, moq: '2 kits = $230' },
-                        { code: 'TR5', name: 'Tirzepatide', spec: '5mg*10vials', price: 60, moq: '5 kits = $300' },
-                        { code: 'TR10', name: 'Tirzepatide', spec: '10mg*10vials', price: 90, moq: '2 kits = $180' },
-                        { code: 'TR15', name: 'Tirzepatide', spec: '15mg*10vials', price: 115, moq: '2 kits = $230' },
-                        { code: 'TR20', name: 'Tirzepatide', spec: '20mg*10vials', price: 120, moq: '2 kits = $240' },
-                        { code: 'TR30', name: 'Tirzepatide', spec: '30mg*10vials', price: 130, moq: '2 kits = $260' },
-                        { code: 'TR40', name: 'Tirzepatide', spec: '40mg*10vials', price: 160, moq: '2 kits = $320' },
-                        { code: 'TR50', name: 'Tirzepatide', spec: '50mg*10vials', price: 215, moq: '2 kits = $430' },
-                        { code: 'TR60', name: 'Tirzepatide', spec: '60mg*10vials', price: 230, moq: '2 kits = $460' },
-                        { code: 'TR100', name: 'Tirzepatide (10ml)', spec: '100mg*10vials', price: 360, moq: '2 kits = $720' },
-                        { code: 'RT10', name: 'Retatrutide', spec: '10mg*10vials', price: 125, moq: '2 kits = $250' },
-                        { code: 'RT15', name: 'Retatrutide', spec: '15mg*10vials', price: 160, moq: '2 kits = $320' },
-                        { code: 'RT20', name: 'Retatrutide', spec: '20mg*10vials', price: 205, moq: '2 kits = $410' },
-                        { code: 'RT30', name: 'Retatrutide', spec: '30mg*10vials', price: 240, moq: '2 kits = $480' },
-                        { code: 'CGL5', name: 'Cagrilintide', spec: '5mg*10vials', price: 100, moq: '2 kits = $200' },
-                        { code: 'CGL10', name: 'Cagrilintide', spec: '10mg*10vials', price: 180, moq: '2 kits = $360' },
-                        { code: 'GLOW50', name: 'BPC+GHK-CU+TB500', spec: '50mg*10vials', price: 165, moq: '2 kits = $330' },
-                        { code: 'GLOW70', name: 'BPC+GHK-CU+TB500', spec: '70mg*10vials', price: 200, moq: '2 kits = $400' },
-                        { code: 'BB20', name: 'BPC 10mg + TB 10mg', spec: '20mg*10vials', price: 180, moq: '2 kits = $360' },
-                        { code: 'BC10', name: 'BPC-157', spec: '10mg*10vials', price: 70, moq: '5 kits = $350' },
-                        { code: 'BT10', name: 'TB500', spec: '10mg*10vials', price: 140, moq: '2 kits = $280' },
-                        { code: 'H10', name: 'HGH 191AA', spec: '10iu*10vials', price: 55, moq: '5 kits = $275' },
-                        { code: 'H24', name: 'HGH 191AA', spec: '24iu*10vials', price: 100, moq: '4 kits = $400' },
-                        { code: 'H36', name: 'HGH 191AA', spec: '36iu*10vials', price: 150, moq: '2 kits = $300' },
-                        { code: 'TSM10', name: 'Tesamorelin', spec: '10mg*10vials', price: 140, moq: '2 kits = $280' },
-                        { code: 'SMO10', name: 'Sermorelin Acetate', spec: '10mg*10vials', price: 120, moq: '2 kits = $240' }
-                    ]
-                },
-                germany: {
-                    flag: '🇩🇪', name: 'Germany Warehouse', delivery: '2-4 days delivery',
-                    note: 'MOQ: 2-5 Kits | Free Shipping',
-                    products: [
-                        { code: 'H10', name: 'HGH 191AA', spec: '10iu*10vials', price: 55, moq: '5 kits = $275' },
-                        { code: 'H24', name: 'HGH 191AA', spec: '24iu*10vials', price: 115, moq: '5 kits = $575' },
-                        { code: 'H36', name: 'HGH 191AA', spec: '36iu*10vials', price: 155, moq: '2 kits = $310' },
-                        { code: 'SM20', name: 'Semaglutide', spec: '20mg*10vials', price: 120, moq: '2 kits = $240' },
-                        { code: 'TR30', name: 'Tirzepatide', spec: '30mg*10vials', price: 135, moq: '2 kits = $270' },
-                        { code: 'TR60', name: 'Tirzepatide', spec: '60mg*10vials', price: 240, moq: '2 kits = $480' },
-                        { code: 'RT10', name: 'Retatrutide', spec: '10mg*10vials', price: 145, moq: '2 kits = $290' },
-                        { code: 'RT20', name: 'Retatrutide', spec: '20mg*10vials', price: 220, moq: '2 kits = $440' }
-                    ]
-                },
-                canada: {
-                    flag: '🇨🇦', name: 'Canada Warehouse', delivery: '2-4 days delivery',
-                    note: 'MOQ: 4-5 Kits | Free Shipping',
-                    products: [
-                        { code: 'H10', name: 'HGH 191AA', spec: '10iu*10vials', price: 60, moq: '5 kits = $300' },
-                        { code: 'H24', name: 'HGH 191AA', spec: '24iu*10vials', price: 115, moq: '5 kits = $575' },
-                        { code: 'H36', name: 'HGH 191AA', spec: '36iu*10vials', price: 155, moq: '4 kits = $620' },
-                        { code: 'SM20', name: 'Semaglutide', spec: '20mg*10vials', price: 130, moq: '5 kits = $650' },
-                        { code: 'TR10', name: 'Tirzepatide', spec: '10mg*10vials', price: 105, moq: '5 kits = $525' },
-                        { code: 'TR30', name: 'Tirzepatide', spec: '30mg*10vials', price: 140, moq: '5 kits = $700' },
-                        { code: 'RT10', name: 'Retatrutide', spec: '10mg*10vials', price: 145, moq: '5 kits = $725' },
-                        { code: 'RT20', name: 'Retatrutide', spec: '20mg*10vials', price: 220, moq: '4 kits = $880' }
-                    ]
-                }
-            };
-
-            let html = '<div style="margin-top:2rem;"><div class="catalog-cat-header"><div class="catalog-cat-icon"><i class="fas fa-warehouse"></i></div><span class="catalog-cat-name">Warehouse Inventory</span><span class="catalog-cat-count">Fast Local Delivery</span></div>';
-
-            for (const [key, wh] of Object.entries(warehouserInventory)) {
-                html += `<div class="catalog-warehouse">
-                    <div class="catalog-wh-header">
-                        <span class="wh-flag">${wh.flag}</span>
-                        <span>${wh.name}</span>
-                        <span class="wh-delivery"><i class="fas fa-truck" style="margin-right:4px;"></i>${wh.delivery}</span>
-                    </div>
-                    <div class="catalog-wh-body">
-                        <div style="font-size:0.6875rem;color:var(--gray-500);margin-bottom:0.5rem;">${wh.note}</div>
-                        <table class="catalog-table"><thead><tr>
-                            <th style="width:60px;">Code</th><th>Product</th><th>Spec</th><th style="text-align:right;">Price/Kit</th><th style="text-align:right;">MOQ</th>
-                        </tr></thead><tbody>`;
-                wh.products.forEach(p => {
-                    html += `<tr>
-                        <td class="cat-code">${p.code}</td>
-                        <td class="cat-name">${p.name}</td>
-                        <td class="cat-spec">${p.spec}</td>
-                        <td class="cat-price">${formatPrice(p.price)}</td>
-                        <td class="cat-bulk">${p.moq}</td>
-                    </tr>`;
-                });
-                html += '</tbody></table></div></div>';
-            }
-            html += '</div>';
-            return html;
-        }
-
         // Show products by category
         function showProducts(category) {
             currentCategory = category;
@@ -12441,20 +11285,22 @@ Please confirm when applied and let me know about shipping. Thank you!
                         <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: var(--space-2);">No products found matching your criteria</p>
                         <p class="text-sm text-gray-500" style="margin-bottom: var(--space-4);">Try adjusting your filters or search terms</p>
                         
-                        <!-- Full Catalog Option -->
+                        <!-- Price List Option -->
                         <div style="background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); padding: var(--space-4); margin-top: var(--space-4); border-radius: 8px; border: 1px solid #cbd5e1;">
+                            <h4 style="color: var(--primary-600); font-size: 1rem; font-weight: 700; margin-bottom: var(--space-2);">
+                                🔍 Can't find what you are looking for?
+                            </h4>
                             <p style="color: var(--gray-600); margin-bottom: var(--space-3); font-size: 0.9rem; line-height: 1.5;">
-                                Browse our complete catalog with all 400+ products.
+                                View our complete product catalog with detailed specifications.
                             </p>
-                            <div style="display: flex; gap: var(--space-2); justify-content: center; flex-wrap: wrap;">
-                                <button onclick="showCatalog()" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #000000; color: white; border: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.background='#333333'" onmouseout="this.style.background='#000000'">
-                                    <i class="fas fa-list"></i>
-                                    View Full Catalog
-                                </button>
-                                <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: transparent; color: var(--gray-600); text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem; border: 1px solid var(--gray-300);">
+                            <div style="display: flex; flex-direction: column; gap: var(--space-2); align-items: center;">
+                                <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #000000; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.background='#333333'" onmouseout="this.style.background='#000000'">
                                     <i class="fas fa-download"></i>
-                                    PDF
+                                    View Full Price List (PDF)
                                 </a>
+                                <p style="color: var(--gray-500); font-size: 0.8rem;">
+                                    📧 For enquiries: <a href="mailto:support@sigmaaudley.site" style="color: var(--primary-600); text-decoration: none; font-weight: 600;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">support@sigmaaudley.site</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -12485,7 +11331,6 @@ Please confirm when applied and let me know about shipping. Thank you!
         function createProductCard(product) {
             const card = document.createElement('div');
             card.className = 'product-card';
-            card.dataset.cat = product.cat_no;
             
             const basePrice = getBasePrice(product);
             const isVials = product.specification?.includes('vials');
@@ -12519,7 +11364,7 @@ Please confirm when applied and let me know about shipping. Thank you!
             const baseCatNo = product.cat_no.replace('-FEATURED', '');
             const janoshikUrl = janoshikMapping[baseCatNo] || product.janoshik_url;
             if (janoshikUrl) {
-                enhancedSpec += ` <a href="${janoshikUrl}" target="_blank" class="janoshik-link" title="View Janoshik Test Report"><i class="fas fa-flask" style="font-size:0.6rem;"></i> COA</a>`;
+                enhancedSpec += ` <a href="${janoshikUrl}" target="_blank" class="janoshik-link" title="View Janoshik Test Report">📋 Test Report</a>`;
             }
             
             // Create badges
@@ -12818,223 +11663,6 @@ Please confirm when applied and let me know about shipping. Thank you!
             dropdown.classList.toggle('show');
         }
 
-        // Mobile warehouse dropdown toggle - using style.display like backup.html
-        function toggleMobileWarehouse() {
-            const dropdown = document.getElementById('mobileWarehouseDropdown');
-            const searchDropdown = document.getElementById('mobileSearchDropdown');
-
-            // Close search dropdown if open
-            if (searchDropdown) {
-                searchDropdown.style.display = 'none';
-            }
-
-            // Toggle warehouse dropdown
-            if (dropdown) {
-                const isVisible = dropdown.style.display === 'block';
-                dropdown.style.display = isVisible ? 'none' : 'block';
-            }
-        }
-
-        // Mobile search dropdown toggle - using style.display like backup.html
-        function toggleMobileSearchDropdown() {
-            const dropdown = document.getElementById('mobileSearchDropdown');
-            const warehouseDropdown = document.getElementById('mobileWarehouseDropdown');
-
-            // Close warehouse dropdown if open
-            if (warehouseDropdown) {
-                warehouseDropdown.style.display = 'none';
-            }
-
-            // Toggle search dropdown
-            if (dropdown) {
-                const isVisible = dropdown.style.display === 'block';
-                dropdown.style.display = isVisible ? 'none' : 'block';
-                // Focus input when opening
-                if (!isVisible) {
-                    const input = dropdown.querySelector('.mobile-search-input');
-                    if (input) {
-                        setTimeout(() => input.focus(), 100);
-                    }
-                }
-            }
-        }
-
-        // Initialize mobile warehouse dropdown
-        function initMobileWarehouseDropdown() {
-            const options = document.querySelectorAll('.mobile-warehouse-option');
-            options.forEach(option => {
-                option.addEventListener('click', function() {
-                    const warehouseCode = this.dataset.warehouse;
-                    selectWarehouse(warehouseCode);
-
-                    // Update mobile UI
-                    const mobileFlag = document.getElementById('mobileWarehouseFlag');
-                    const mobileText = document.getElementById('mobileWarehouseText');
-                    const warehouse = warehouses[warehouseCode];
-
-                    if (mobileFlag && warehouse) {
-                        mobileFlag.textContent = warehouse.flag;
-                    }
-                    if (mobileText && warehouse) {
-                        mobileText.textContent = warehouseCode;
-                    }
-
-                    // Update selected state
-                    options.forEach(opt => opt.classList.remove('selected'));
-                    this.classList.add('selected');
-
-                    // Close dropdown - using style.display like backup.html
-                    const dropdown = document.getElementById('mobileWarehouseDropdown');
-                    if (dropdown) {
-                        dropdown.style.display = 'none';
-                    }
-                });
-            });
-        }
-
-        // Initialize mobile search
-        function initMobileSearch() {
-            const input = document.getElementById('mobileSearchInput');
-            if (!input) return;
-
-            input.addEventListener('input', debounce(handleMobileSearch, 300));
-        }
-
-        // Mobile search handler - same logic as desktop handleSearch
-        function handleMobileSearch(event) {
-            const searchTerm = event.target.value.toLowerCase().trim();
-            const dropdown = document.getElementById('mobileSearchResults');
-
-            if (searchTerm === '') {
-                dropdown.innerHTML = '';
-                return;
-            }
-
-            // Enhanced HGH/GH search handling (same as desktop)
-            const isHghSearch = searchTerm.includes('hgh') || searchTerm === 'gh';
-            const isGrowthHormoneSearch = searchTerm.includes('growth') || searchTerm.includes('hormone') || searchTerm.includes('somatropin');
-
-            const searchResults = allProducts.filter(product => {
-                const productName = product.name.toLowerCase();
-                const productCatNo = product.cat_no.toLowerCase();
-                const productSpec = product.specification.toLowerCase();
-                const productCategory = product.category.toLowerCase();
-                const productSubcategory = product.subcategory.toLowerCase();
-                const productComposition = (product.composition || '').toLowerCase();
-
-                const matchesOriginal = productName.includes(searchTerm) ||
-                       productCatNo.includes(searchTerm) ||
-                       productSpec.includes(searchTerm) ||
-                       productCategory.includes(searchTerm) ||
-                       productSubcategory.includes(searchTerm) ||
-                       productComposition.includes(searchTerm);
-
-                // If searching for "hgh" or "gh", match growth hormone products
-                if ((isHghSearch || isGrowthHormoneSearch) && !matchesOriginal) {
-                    return productName.includes('gh ') ||
-                           productName.includes('somatropin') ||
-                           productName.includes('growth hormone') ||
-                           productCatNo.startsWith('h') && productSubcategory.includes('growth_hormones') ||
-                           productSubcategory.includes('growth_hormones') ||
-                           productComposition.includes('growth hormone') ||
-                           productComposition.includes('somatropin');
-                }
-
-                return matchesOriginal;
-            });
-
-            // Show dropdown with search results
-            showMobileSearchDropdown(searchResults.slice(0, 8));
-        }
-
-        // Show mobile search dropdown - matching backup.html approach
-        function showMobileSearchDropdown(results) {
-            const dropdown = document.getElementById('mobileSearchResults');
-
-            if (results.length === 0) {
-                dropdown.innerHTML = '<div style="padding: 1rem; text-align: center; color: #737373;">No products found</div>';
-                return;
-            }
-
-            dropdown.innerHTML = results.map(product => {
-                const basePrice = getBasePrice(product);
-                const formattedPrice = formatPrice(basePrice);
-
-                return `
-                    <div class="mobile-search-result-item" style="display: flex; align-items: center; padding: 12px; border-bottom: 1px solid #f0f0f0; cursor: pointer;" onclick="selectMobileSearchResult('${product.cat_no}')">
-                        <div style="flex: 1;">
-                            <div style="font-weight: 600; color: #171717; font-size: 14px;">${product.name}</div>
-                            <div style="font-size: 12px; color: #737373;">${product.cat_no} • ${product.specification}</div>
-                            <div style="font-size: 12px; color: #10b981; font-weight: 600;">${formattedPrice}</div>
-                        </div>
-                        <i class="fas fa-chevron-right" style="color: #737373;"></i>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        // Select mobile search result - matching backup.html approach
-        function selectMobileSearchResult(productId) {
-            console.log('Mobile search result selected:', productId);
-
-            // Hide dropdown using style.display like backup.html
-            document.getElementById('mobileSearchDropdown').style.display = 'none';
-            document.getElementById('mobileSearchInput').value = '';
-
-            // Find the product
-            const selectedProduct = allProducts.find(p => p.cat_no === productId);
-            console.log('Selected product:', selectedProduct);
-            if (!selectedProduct) {
-                console.log('Product not found!');
-                return;
-            }
-
-            // Clear current filters
-            selectedCategory = 'all';
-            selectedSubcategory = 'all';
-            currentFilter = 'all';
-            currentPage = 1;
-
-            // Filter to show only this product
-            filteredProducts = [selectedProduct];
-            renderProducts();
-            updateProductCount();
-
-            // Scroll to products section
-            setTimeout(() => {
-                const productsSection = document.querySelector('.products-section') || document.querySelector('.products-grid');
-                if (productsSection) {
-                    productsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            }, 100);
-        }
-
-        // Close mobile dropdowns when clicking outside - using style.display like backup.html
-        document.addEventListener('click', function(e) {
-            if (window.innerWidth <= 768) {
-                const warehouseDropdown = document.getElementById('mobileWarehouseDropdown');
-                const searchDropdown = document.getElementById('mobileSearchDropdown');
-                const warehouseBtn = e.target.closest('.mobile-warehouse-btn');
-                const searchBtn = e.target.closest('.mobile-search-btn');
-
-                if (!warehouseBtn && warehouseDropdown && !e.target.closest('.mobile-warehouse-dropdown')) {
-                    warehouseDropdown.style.display = 'none';
-                }
-
-                if (!searchBtn && searchDropdown && !e.target.closest('.mobile-search-dropdown')) {
-                    searchDropdown.style.display = 'none';
-                }
-            }
-        });
-
-        // Initialize on DOM ready
-        document.addEventListener('DOMContentLoaded', function() {
-            if (window.innerWidth <= 768) {
-                initMobileWarehouseDropdown();
-                initMobileSearch();
-            }
-        });
-
         function selectWarehouse(warehouseCode) {
             // Clear cart when changing warehouses (prices may be different)
             if (selectedWarehouse !== warehouseCode && cart.length > 0) {
@@ -13126,25 +11754,6 @@ Please confirm when applied and let me know about shipping. Thank you!
                     <i class="fas fa-chevron-down"></i>
                 `;
             }
-
-            // Update mobile warehouse flag and text
-            const mobileFlag = document.getElementById('mobileWarehouseFlag');
-            const mobileText = document.getElementById('mobileWarehouseText');
-            if (mobileFlag && warehouse) {
-                mobileFlag.textContent = warehouse.flag;
-            }
-            if (mobileText) {
-                mobileText.textContent = warehouseCode;
-            }
-
-            // Update mobile dropdown selected state
-            const mobileOptions = document.querySelectorAll('.mobile-warehouse-option');
-            mobileOptions.forEach(opt => {
-                opt.classList.remove('selected');
-                if (opt.dataset.warehouse === warehouseCode) {
-                    opt.classList.add('selected');
-                }
-            });
             
             // Update selected option
             document.querySelectorAll('.warehouse-option').forEach(option => {
@@ -13197,7 +11806,7 @@ Please confirm when applied and let me know about shipping. Thank you!
             
             // Close dropdowns when clicking outside
             document.addEventListener('click', (event) => {
-                if (!event.target.closest('.warehouse-selector') && !event.target.closest('.mobile-warehouse-btn')) {
+                if (!event.target.closest('.warehouse-selector')) {
                     document.getElementById('warehouseDropdown').classList.remove('show');
                 }
                 
@@ -15240,6 +13849,152 @@ Thank you for your assistance.`;
                 // Add search event listener
                 searchInput.addEventListener('input', debounce(handleMobileSearch, 300));
             }, 100);
+        }
+
+        // Handle mobile search
+        function handleMobileSearch(event) {
+            const searchTerm = event.target.value.toLowerCase().trim();
+            const resultsContainer = document.getElementById('mobileSearchResults');
+            
+            if (searchTerm === '') {
+                resultsContainer.innerHTML = `
+                    <div style="text-align: center; padding: 20px;">
+                        <p style="color: var(--gray-500); margin-bottom: 16px;">Start typing to search products...</p>
+                        
+                        <!-- Mobile Price List Option -->
+                        <div style="background: var(--gray-50); padding: 16px; border-radius: 8px; border: 1px solid var(--gray-200);">
+                            <h4 style="color: var(--primary-600); font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                                🔍 Can't find what you need?
+                            </h4>
+                            <p style="color: var(--gray-600); margin-bottom: 12px; font-size: 12px;">
+                                View our complete product catalog
+                            </p>
+                            <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #000000; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 12px; transition: all 0.3s ease;" onmouseover="this.style.background='#333333'" onmouseout="this.style.background='#000000'">
+                                <i class="fas fa-download"></i>
+                                Download Price List
+                            </a>
+                            <p style="color: var(--gray-500); font-size: 11px; margin-top: 8px;">
+                                📧 <a href="mailto:support@sigmaaudley.site" style="color: var(--primary-600); text-decoration: none;">support@sigmaaudley.site</a>
+                            </p>
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Enhanced HGH/GH search handling
+            const isHghSearch = searchTerm.includes('hgh') || searchTerm === 'gh';
+            const isGrowthHormoneSearch = searchTerm.includes('growth') || searchTerm.includes('hormone') || searchTerm.includes('somatropin');
+
+            const searchResults = allProducts.filter(product => {
+                const productName = product.name.toLowerCase();
+                const productCatNo = product.cat_no.toLowerCase();
+                const productSpec = product.specification.toLowerCase();
+                const productCategory = product.category.toLowerCase();
+                const productSubcategory = product.subcategory.toLowerCase();
+                const productComposition = (product.composition || '').toLowerCase();
+
+                const matchesOriginal = productName.includes(searchTerm) ||
+                       productCatNo.includes(searchTerm) ||
+                       productSpec.includes(searchTerm) ||
+                       productCategory.includes(searchTerm) ||
+                       productSubcategory.includes(searchTerm) ||
+                       productComposition.includes(searchTerm);
+
+                // If searching for "hgh" or "gh", match growth hormone products
+                if ((isHghSearch || isGrowthHormoneSearch) && !matchesOriginal) {
+                    return productName.includes('gh ') ||
+                           productName.includes('somatropin') ||
+                           productName.includes('growth hormone') ||
+                           productCatNo.startsWith('h') && productSubcategory.includes('growth_hormones') ||
+                           productSubcategory.includes('growth_hormones') ||
+                           productComposition.includes('growth hormone') ||
+                           productComposition.includes('somatropin');
+                }
+
+                return matchesOriginal;
+            });
+            
+            if (searchResults.length === 0) {
+                resultsContainer.innerHTML = `
+                    <div style="color: var(--gray-500); text-align: center; padding: 20px;">
+                        <p style="margin-bottom: 15px;">No products found matching your search.</p>
+                        <p style="margin-bottom: 15px; font-size: 14px;">Can't find what you are looking for? View our full price list, contact support@sigmaaudley.site for enquiries</p>
+                        <a href="pricelist.pdf" download style="background-color: #000000 !important; color: white !important; padding: 10px 20px !important; border-radius: 4px !important; text-decoration: none !important; font-weight: 500 !important; display: inline-block !important; margin-top: 10px !important;">Download Price List</a>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Display search results
+            resultsContainer.innerHTML = searchResults.slice(0, 10).map(product => {
+                const basePrice = getBasePrice(product);
+                const formattedPrice = formatPrice(basePrice);
+                
+                return `
+                    <div class="mobile-search-result" style="display: flex; align-items: center; padding: 10px; border-bottom: 1px solid var(--gray-200); cursor: pointer;" onclick="selectMobileSearchResult('${product.cat_no}')">
+                        <div style="flex: 1;">
+                            <div style="font-weight: 600; color: var(--gray-800); font-size: 14px;">${product.name}</div>
+                            <div style="font-size: 12px; color: var(--gray-600);">${product.cat_no} • ${product.specification}</div>
+                            <div style="font-size: 12px; color: var(--primary-blue); font-weight: 600;">${formattedPrice}</div>
+                        </div>
+                        <i class="fas fa-chevron-right" style="color: var(--gray-400);"></i>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Select a product from mobile search
+        function selectMobileSearchResult(productId) {
+            console.log('Mobile search result selected:', productId);
+            document.getElementById('mobileSearchModal').style.display = 'none';
+            
+            // Find the selected product
+            const selectedProduct = allProducts.find(p => p.cat_no === productId);
+            console.log('Selected product:', selectedProduct);
+            if (!selectedProduct) {
+                console.log('Product not found!');
+                return;
+            }
+            
+            // Clear current filters and search
+            selectedCategory = 'all';
+            selectedSubcategory = 'all';
+            currentFilter = 'all';
+            currentPage = 1;
+            
+            // Set search term to match the product
+            const mainSearchInput = document.getElementById('searchInput');
+            if (mainSearchInput) {
+                mainSearchInput.value = selectedProduct.name;
+            }
+            
+            // Filter products to show only the selected one
+            filteredProducts = [selectedProduct];
+            console.log('Filtered products set to:', filteredProducts);
+            renderProducts();
+            updateProductCount();
+            
+            // Update active filters - set all categories to active
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.includes('All') || btn.onclick.toString().includes("'all'"));
+            });
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === 'all' || btn.textContent.includes('All'));
+            });
+            
+            // Scroll to products section
+            setTimeout(() => {
+                const productsSection = document.querySelector('.products-section') || document.querySelector('.products-grid');
+                if (productsSection) {
+                    productsSection.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'start' 
+                    });
+                }
+            }, 100);
+            
+            showNotification(`Found ${selectedProduct.name} - Ready to add to cart!`, 'success');
         }
 
         // Download order as PDF
@@ -17428,32 +16183,6 @@ Thank you for your assistance.`;
         </div>
     </div>
 
-    <!-- Full Catalog Modal -->
-    <div class="modal catalog-modal" id="catalogModal">
-        <div class="modal-content">
-            <div class="catalog-header">
-                <div class="catalog-top-row">
-                    <h2 class="catalog-title"><i class="fas fa-list" style="margin-right:6px;"></i>Full Product Catalog</h2>
-                    <span class="catalog-count" id="catalogCount">Loading...</span>
-                    <button class="modal-close" onclick="closeModal('catalogModal')" style="margin-left:auto;"><i class="fas fa-times"></i></button>
-                </div>
-                <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.625rem;">
-                    <input type="text" class="catalog-search" id="catalogSearch" placeholder="Search by name, code, or spec..." oninput="filterCatalog()" style="flex:1;">
-                    <select id="catalogWarehouse" onchange="renderCatalog()" style="padding:0.5rem 0.75rem;border:1px solid var(--gray-200);border-radius:100px;font-size:0.75rem;font-weight:600;color:var(--gray-700);background:var(--white);cursor:pointer;outline:none;min-width:140px;font-family:inherit;">
-                        <option value="china">🇨🇳 China</option>
-                        <option value="usa" selected>🇺🇸 USA</option>
-                        <option value="uk">🇬🇧 United Kingdom</option>
-                        <option value="germany">🇩🇪 Germany</option>
-                        <option value="canada">🇨🇦 Canada</option>
-                        <option value="australia">🇦🇺 Australia</option>
-                    </select>
-                </div>
-                <div class="catalog-tabs" id="catalogTabs"></div>
-            </div>
-            <div class="catalog-body" id="catalogBody"></div>
-        </div>
-    </div>
-
     <!-- Thank You Page Modal -->
     <div class="modal thank-you-modal" id="thankYouModal">
         <div class="modal-content" style="max-width: 600px;">
@@ -17494,16 +16223,10 @@ Thank you for your assistance.`;
                 Can't find what you are looking for? Download our comprehensive price list with detailed specifications, dosages, and pricing information for our entire product range.
             </p>
             <div style="display: flex; flex-direction: column; gap: var(--space-4); align-items: center;">
-                <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
-                    <button onclick="showCatalog()" style="display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: #ffffff; color: #000; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; border: 2px solid #ffffff; cursor:pointer;" onmouseover="this.style.background='#e5e5e5'" onmouseout="this.style.background='#ffffff'">
-                        <i class="fas fa-list"></i>
-                        Browse Full Catalog
-                    </button>
-                    <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" style="display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: transparent; color: #ccc; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; border: 2px solid #555;" onmouseover="this.style.borderColor='#888'" onmouseout="this.style.borderColor='#555'" itemprop="url">
-                        <i class="fas fa-download"></i>
-                        Download PDF
-                    </a>
-                </div>
+                <a href="pricelist.pdf" download="Sigma_Audley_Price_List.pdf" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: #000000; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; border: 2px solid #000000;" onmouseover="this.style.background='#333333'; this.style.borderColor='#333333'" onmouseout="this.style.background='#000000'; this.style.borderColor='#000000'" itemprop="url">
+                    <i class="fas fa-download"></i>
+                    Download Full Price List (PDF)
+                </a>
                 <div style="color: #b0b0b0; font-size: 1.15rem; line-height: 1.8; margin-top: 25px;" itemscope itemtype="https://schema.org/ContactPoint">
                     <p style="margin-bottom: 10px; font-weight: 500;">📧 For enquiries and custom orders:</p>
                     <a href="mailto:support@sigmaaudley.site" style="color: #4a9eff; text-decoration: none; font-weight: 700; font-size: 1.3rem;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" itemprop="email">
@@ -17657,33 +16380,94 @@ Thank you for your assistance.`;
             console.log('User already subscribed:', localStorage.getItem('sigmaAudleySubscribedEmail'));
         }
         
-        // Mobile Sticky Toolbar Functionality - Simple initialization
+        // Mobile Sticky Toolbar Functionality
         (function() {
-            // Initialize mobile toolbar functionality
+            // Only run on mobile devices
             if (window.innerWidth <= 768) {
-                const mobileToolbar = document.getElementById('mobileToolbar');
-                if (mobileToolbar) {
+                // Clone the toolbar for sticky positioning
+                const originalToolbar = document.querySelector('.mobile-sticky-toolbar');
+                if (originalToolbar) {
+                    // Create a clone for the sticky version
+                    const stickyToolbar = originalToolbar.cloneNode(true);
+                    stickyToolbar.classList.add('sticky-clone');
+                    document.body.appendChild(stickyToolbar);
+                    
+                    // Initially hide the sticky toolbar
+                    stickyToolbar.style.display = 'none';
+                    
+                    // Always show sticky toolbar on mobile
+                    stickyToolbar.style.display = 'flex';
                     document.body.classList.add('has-sticky-header');
-
-                    // Initialize warehouse dropdown
-                    initMobileWarehouseDropdown();
-
-                    // Initialize search
-                    initMobileSearch();
-                }
-            }
-
-            // Handle resize/orientation changes
-            window.addEventListener('resize', function() {
-                const mobileToolbar = document.getElementById('mobileToolbar');
-                if (mobileToolbar) {
-                    if (window.innerWidth <= 768) {
-                        mobileToolbar.style.display = 'flex';
-                    } else {
-                        mobileToolbar.style.display = 'none';
+                    
+                    // Handle cart button clicks in sticky toolbar
+                    const stickyCartBtn = stickyToolbar.querySelector('.cart-btn');
+                    if (stickyCartBtn) {
+                        stickyCartBtn.onclick = function() {
+                            // Add pulse animation
+                            this.classList.add('pulse');
+                            setTimeout(() => this.classList.remove('pulse'), 500);
+                            
+                            // Call original cart toggle function
+                            toggleCart();
+                        };
+                    }
+                    
+                    // Handle search button clicks in sticky toolbar
+                    const stickySearchBtn = stickyToolbar.querySelector('.mobile-search-btn');
+                    if (stickySearchBtn) {
+                        stickySearchBtn.onclick = function() {
+                            toggleMobileSearch();
+                        };
+                    }
+                    
+                    // Update cart count in sticky toolbar when cart changes
+                    const originalCartCount = document.getElementById('cartCount');
+                    const stickyCartCount = stickyToolbar.querySelector('.cart-count');
+                    
+                    if (originalCartCount && stickyCartCount) {
+                        // Create observer to sync cart counts
+                        const observer = new MutationObserver(function(mutations) {
+                            mutations.forEach(function(mutation) {
+                                if (mutation.type === 'childList' || mutation.type === 'characterData') {
+                                    stickyCartCount.textContent = originalCartCount.textContent;
+                                    // Add pulse animation when cart updates
+                                    if (stickyCartBtn) {
+                                        stickyCartBtn.classList.add('pulse');
+                                        setTimeout(() => stickyCartBtn.classList.remove('pulse'), 500);
+                                    }
+                                }
+                            });
+                        });
+                        
+                        // Start observing cart count changes
+                        observer.observe(originalCartCount, {
+                            childList: true,
+                            characterData: true,
+                            subtree: true
+                        });
+                    }
+                    
+                    // Handle orientation change
+                    window.addEventListener('orientationchange', function() {
+                        setTimeout(() => {
+                            if (window.innerWidth > 768) {
+                                stickyToolbar.style.display = 'none';
+                            }
+                        }, 300);
+                    });
+                    
+                    // Add haptic feedback on mobile (if supported)
+                    if ('vibrate' in navigator) {
+                        [stickyCartBtn, stickySearchBtn].forEach(btn => {
+                            if (btn) {
+                                btn.addEventListener('touchstart', () => {
+                                    navigator.vibrate(10); // Subtle haptic feedback
+                                });
+                            }
+                        });
                     }
                 }
-            });
+            }
         })();
     </script>
 

@@ -12,11 +12,63 @@
     <!-- Trust and Reviews Page -->
     <url>
         <loc>https://sigmaaudley.site/trust-and-reviews.html</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-02-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
-    
+
+    <!-- Review Year Pages -->
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2026.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2025.html</loc>
+        <lastmod>2026-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2024.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2023.html</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2022.html</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2021.html</loc>
+        <lastmod>2022-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/reviews-2020.html</loc>
+        <lastmod>2021-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Campaign Page -->
+    <url>
+        <loc>https://sigmaaudley.site/campaign.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
     <!-- FAQ Page -->
     <url>
         <loc>https://sigmaaudley.site/faq.html</loc>
@@ -24,7 +76,57 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-    
+
+    <!-- Product Pages -->
+    <url>
+        <loc>https://sigmaaudley.site/products/peptides/</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/growth-hormones/</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/semaglutide-10mg-research.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/tirzepatide-15mg-research.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/retatrutide-5mg-peptide.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/bpc-157-5mg-healing.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/tb500-10mg-research.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://sigmaaudley.site/products/h36-somatropin-hgh-36iu.html</loc>
+        <lastmod>2026-02-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
     <!-- Refer a Friend Page -->
     <url>
         <loc>https://sigmaaudley.site/refer-a-friend.html</loc>

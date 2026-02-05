@@ -3,460 +3,740 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refer a Friend - Get 25% OFF - Sigma Audley Research Pharmaceuticals</title>
-    <meta name="description" content="Refer friends to Sigma Audley and get 25% OFF your next order! Share premium research pharmaceuticals, peptides, and growth hormones with your network.">
-    <meta name="keywords" content="refer friend, referral program, discount, 25% off, sigma audley, research pharmaceuticals, peptides, share bonus">
-    
-    <!-- Advanced SEO Meta Tags -->
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-    <meta name="author" content="Sigma Audley Research Pharmaceuticals">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
-    <meta name="rating" content="general">
-    <meta name="distribution" content="global">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Sigma Audley Research Pharmaceuticals">
-    <meta property="og:title" content="Refer a Friend - Get 25% OFF - Sigma Audley">
-    <meta property="og:description" content="Share Sigma Audley with friends and get 25% OFF your next order! Premium research pharmaceuticals with global shipping.">
-    <meta property="og:url" content="https://sigmaaudley.site/refer-a-friend.html">
-    <meta property="og:image" content="https://sigmaaudley.site/images/referral-program.png">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@SigmaAudley">
-    <meta name="twitter:title" content="Refer a Friend - Get 25% OFF - Sigma Audley">
-    <meta name="twitter:description" content="Share Sigma Audley with friends and get 25% OFF your next order!">
-    <meta name="twitter:image" content="https://sigmaaudley.site/images/referral-program.png">
-    
-    <!-- Canonical URL -->
+    <title>Refer a Friend - Sigma Audley</title>
+    <meta name="description" content="Refer a friend to Sigma Audley and receive 25% off your next order.">
     <link rel="canonical" href="https://sigmaaudley.site/refer-a-friend.html">
-    
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Refer a Friend Program - Sigma Audley",
-        "description": "Refer friends to Sigma Audley and get 25% OFF your next order of premium research pharmaceuticals.",
-        "url": "https://sigmaaudley.site/refer-a-friend.html",
-        "inLanguage": "en-US",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sigma Audley Research Pharmaceuticals",
-            "url": "https://sigmaaudley.site"
-        },
-        "about": {
-            "@type": "Thing",
-            "name": "Referral Program",
-            "description": "Customer referral program offering 25% discount"
-        },
-        "mainEntity": {
-            "@type": "Offer",
-            "name": "25% OFF Referral Discount",
-            "description": "Get 25% OFF when your referred friend places their first order",
-            "validFrom": "2024-01-01",
-            "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "25",
-                "priceCurrency": "USD",
-                "valueAddedTaxIncluded": false
-            },
-            "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 1,
-                "unitText": "per referral"
-            }
-        }
-    }
-    </script>
-    
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sigma Audley">
+    <meta property="og:title" content="Refer a Friend - Sigma Audley">
+    <meta property="og:description" content="Refer a friend and receive 25% off your next order.">
+    <meta property="og:url" content="https://sigmaaudley.site/refer-a-friend.html">
+
     <!-- Vercel Analytics -->
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-    
-    <!-- Analytics Tracking -->
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            if (window.va) {
-                window.va('track', 'page_view', { page: 'refer-a-friend' });
-            }
-        });
-    </script>
-    
+
     <style>
-        * {
+        /* === CSS Variables === */
+        :root {
+            --color-black: #0f172a;
+            --color-white: #ffffff;
+            --color-gray-50: #f8fafc;
+            --color-gray-100: #f1f5f9;
+            --color-gray-200: #e2e8f0;
+            --color-gray-300: #cbd5e1;
+            --color-gray-400: #94a3b8;
+            --color-gray-500: #64748b;
+            --color-gray-600: #475569;
+            --color-gray-700: #334155;
+            --color-gray-800: #1e293b;
+            --color-gray-900: #0f172a;
+            --color-green: #16a34a;
+            --color-green-light: #f0fdf4;
+            --color-green-dark: #15803d;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+            --radius: 8px;
+            --transition: 200ms ease;
+        }
+
+        /* === Reset === */
+        *, *::before, *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
+        /* === Base === */
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #1e40af 0%, #0f766e 100%);
-            min-height: 100vh;
+            font-family: var(--font-family);
+            color: var(--color-gray-800);
+            background-color: var(--color-gray-50);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* === Nav === */
+        .nav {
+            background-color: var(--color-white);
+            border-bottom: 1px solid var(--color-gray-200);
+            padding: 16px 24px;
+        }
+
+        .nav-inner {
+            max-width: 720px;
+            margin: 0 auto;
             display: flex;
             align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--color-gray-900);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .nav-back {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--color-gray-500);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: color var(--transition);
+        }
+
+        .nav-back:hover {
+            color: var(--color-gray-900);
+        }
+
+        /* === Layout === */
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        /* === Header === */
+        .page-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-gray-900);
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .page-header p {
+            font-size: 1.0625rem;
+            color: var(--color-gray-500);
+        }
+
+        /* === Card === */
+        .card {
+            background-color: var(--color-white);
+            border: 1px solid var(--color-gray-200);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 32px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--color-gray-900);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-title i {
+            color: var(--color-gray-400);
+            font-size: 1rem;
+        }
+
+        /* === Reward Highlight === */
+        .reward-card {
+            text-align: center;
+            border: 2px solid var(--color-green);
+            background-color: var(--color-green-light);
+        }
+
+        .reward-icon {
+            display: inline-flex;
+            align-items: center;
             justify-content: center;
-            padding: 20px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: var(--color-green);
+            color: var(--color-white);
+            font-size: 1.25rem;
+            margin-bottom: 16px;
         }
-        
-        .container {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-            max-width: 600px;
-            width: 100%;
-            overflow: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #10b981, #047857);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        
-        .content {
-            padding: 40px 30px;
-        }
-        
-        .reward-box {
-            background: linear-gradient(135deg, #fbbf24, #f59e0b);
-            color: white;
-            padding: 20px;
-            border-radius: 15px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .reward-box .icon {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-        
-        .reward-box h2 {
+
+        .reward-card h2 {
             font-size: 1.5rem;
-            margin-bottom: 5px;
+            font-weight: 700;
+            color: var(--color-gray-900);
+            margin-bottom: 4px;
+            letter-spacing: -0.01em;
         }
-        
-        .steps {
-            margin-bottom: 30px;
+
+        .reward-card p {
+            font-size: 0.9375rem;
+            color: var(--color-gray-500);
         }
-        
+
+        /* === Steps === */
+        .steps-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
         .step {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f8fafc;
-            border-radius: 10px;
-            border-left: 4px solid #10b981;
+            gap: 16px;
         }
-        
+
         .step-number {
-            background: #10b981;
-            color: white;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
+            flex-shrink: 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            margin-right: 15px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: var(--color-gray-900);
+            color: var(--color-white);
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .step-content {
+            padding-top: 4px;
+        }
+
+        .step-content strong {
+            display: block;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: var(--color-gray-900);
+            margin-bottom: 2px;
+        }
+
+        .step-content span {
+            font-size: 0.875rem;
+            color: var(--color-gray-500);
+        }
+
+        .step-icon {
+            color: var(--color-gray-400);
+            margin-left: auto;
+            font-size: 1rem;
+            padding-top: 8px;
+        }
+
+        /* === Referral Message === */
+        .message-label {
+            display: block;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--color-gray-500);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 8px;
+        }
+
+        .message-input-group {
+            margin-bottom: 20px;
+        }
+
+        .message-input-group label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--color-gray-700);
+            margin-bottom: 6px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px 14px;
+            font-family: var(--font-family);
+            font-size: 0.9375rem;
+            color: var(--color-gray-800);
+            background-color: var(--color-white);
+            border: 1px solid var(--color-gray-300);
+            border-radius: var(--radius);
+            transition: border-color var(--transition), box-shadow var(--transition);
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: var(--color-gray-900);
+            box-shadow: 0 0 0 3px rgb(15 23 42 / 0.08);
+        }
+
+        .message-textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 14px 16px;
+            font-family: var(--font-family);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--color-gray-800);
+            background-color: var(--color-gray-50);
+            border: 1px solid var(--color-gray-200);
+            border-radius: var(--radius);
+            resize: vertical;
+            transition: border-color var(--transition), box-shadow var(--transition);
+        }
+
+        .message-textarea:focus {
+            outline: none;
+            border-color: var(--color-gray-900);
+            box-shadow: 0 0 0 3px rgb(15 23 42 / 0.08);
+            background-color: var(--color-white);
+        }
+
+        /* === Buttons === */
+        .btn-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            font-family: var(--font-family);
+            font-size: 0.875rem;
+            font-weight: 600;
+            border: none;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: var(--color-gray-900);
+            color: var(--color-white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--color-gray-700);
+        }
+
+        .btn-secondary {
+            background-color: var(--color-white);
+            color: var(--color-gray-700);
+            border: 1px solid var(--color-gray-300);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--color-gray-50);
+            border-color: var(--color-gray-400);
+        }
+
+        .btn-success {
+            background-color: var(--color-green);
+            color: var(--color-white);
+        }
+
+        /* === Benefits === */
+        .benefits-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .benefits-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.9375rem;
+            color: var(--color-gray-700);
+        }
+
+        .benefits-list li i {
+            color: var(--color-green);
+            font-size: 0.75rem;
             flex-shrink: 0;
         }
-        
-        .step-text {
-            font-size: 1rem;
-            line-height: 1.5;
+
+        /* === Notice === */
+        .notice {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 16px 20px;
+            background-color: var(--color-gray-50);
+            border: 1px solid var(--color-gray-200);
+            border-radius: var(--radius);
+            margin-bottom: 32px;
         }
-        
-        .message-box {
-            background: #f1f5f9;
-            border: 2px dashed #cbd5e1;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            font-style: italic;
-            line-height: 1.6;
+
+        .notice i {
+            color: var(--color-gray-400);
+            font-size: 0.875rem;
+            padding-top: 2px;
         }
-        
-        .email-input {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            font-size: 1rem;
-            margin-bottom: 15px;
+
+        .notice p {
+            font-size: 0.875rem;
+            color: var(--color-gray-600);
         }
-        
-        .email-input:focus {
-            outline: none;
-            border-color: #10b981;
+
+        .notice strong {
+            color: var(--color-gray-800);
         }
-        
-        .button {
-            background: linear-gradient(135deg, #10b981, #047857);
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
+
+        /* === Support === */
+        .support-section {
+            text-align: center;
+            padding: 32px;
+            border: 1px solid var(--color-gray-200);
+            border-radius: var(--radius);
+            background-color: var(--color-white);
+            margin-bottom: 32px;
+        }
+
+        .support-section h3 {
             font-size: 1rem;
             font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin: 5px;
+            color: var(--color-gray-900);
+            margin-bottom: 12px;
         }
-        
-        .button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+
+        .support-channels {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
         }
-        
-        .button-secondary {
-            background: linear-gradient(135deg, #6366f1, #4f46e5);
+
+        .support-channels p {
+            font-size: 0.875rem;
+            color: var(--color-gray-500);
         }
-        
-        .button-secondary:hover {
-            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
-        }
-        
-        .warning {
-            background: #fef3c7;
-            color: #92400e;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            text-align: center;
+
+        .support-channels a {
+            color: var(--color-gray-700);
             font-weight: 500;
-        }
-        
-        .back-link {
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        .back-link a {
-            color: #10b981;
             text-decoration: none;
+            transition: color var(--transition);
+        }
+
+        .support-channels a:hover {
+            color: var(--color-gray-900);
+        }
+
+        /* === Return Link === */
+        .return-link {
+            text-align: center;
+        }
+
+        .return-link a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.875rem;
             font-weight: 500;
+            color: var(--color-gray-500);
+            text-decoration: none;
+            transition: color var(--transition);
         }
-        
-        .back-link a:hover {
-            text-decoration: underline;
+
+        .return-link a:hover {
+            color: var(--color-gray-900);
         }
-        
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2rem;
+
+        /* === Divider === */
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: var(--color-gray-200);
+            margin: 24px 0;
+            border: none;
+        }
+
+        /* === Toast === */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background-color: var(--color-gray-900);
+            color: var(--color-white);
+            padding: 12px 24px;
+            border-radius: var(--radius);
+            font-family: var(--font-family);
+            font-size: 0.875rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            transition: all 300ms ease;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .toast.visible {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* === Responsive === */
+        @media (max-width: 640px) {
+            .page {
+                padding: 32px 16px 64px;
             }
-            
-            .content {
-                padding: 30px 20px;
+
+            .page-header h1 {
+                font-size: 1.625rem;
+            }
+
+            .card {
+                padding: 24px 20px;
+            }
+
+            .reward-card h2 {
+                font-size: 1.25rem;
+            }
+
+            .btn-row {
+                flex-direction: column;
+            }
+
+            .btn {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .step-icon {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="icon">🎁</div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <span class="nav-brand">Sigma Audley</span>
+            <a href="index.html" class="nav-back">
+                <i class="fa-solid fa-arrow-left"></i> Back to Store
+            </a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="page">
+
+        <!-- Header -->
+        <header class="page-header">
             <h1>Refer a Friend</h1>
-            <p>Share Sigma Audley and get rewarded!</p>
-        </div>
-        
-        <div class="content">
-            <div class="reward-box">
-                <div class="icon">💰</div>
-                <h2>Get 25% OFF Your Next Order!</h2>
-                <p>When your friend places their first order</p>
+            <p>Share Sigma Audley with a friend and earn a reward on your next order.</p>
+        </header>
+
+        <!-- Reward Highlight -->
+        <div class="card reward-card">
+            <div class="reward-icon">
+                <i class="fa-solid fa-percent"></i>
             </div>
-            
-            <div class="steps">
-                <div class="step">
+            <h2>25% Off Your Next Order</h2>
+            <p>Earned when your referred friend places their first order</p>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card">
+            <h3 class="card-title">
+                <i class="fa-solid fa-list-ol"></i> How It Works
+            </h3>
+            <ol class="steps-list">
+                <li class="step">
                     <div class="step-number">1</div>
-                    <div class="step-text">
-                        <strong>Share your email with a friend</strong><br>
-                        Tell them about our premium research pharmaceuticals
+                    <div class="step-content">
+                        <strong>Share your referral message</strong>
+                        <span>Send the pre-written message below to a friend</span>
                     </div>
-                </div>
-                
-                <div class="step">
+                    <i class="fa-solid fa-share-nodes step-icon"></i>
+                </li>
+                <li class="step">
                     <div class="step-number">2</div>
-                    <div class="step-text">
-                        <strong>They include your email in their order notes</strong><br>
-                        When they place their first order, they mention you referred them
+                    <div class="step-content">
+                        <strong>Your friend places an order</strong>
+                        <span>They include your email in the order notes at checkout</span>
                     </div>
-                </div>
-                
-                <div class="step">
+                    <i class="fa-solid fa-cart-shopping step-icon"></i>
+                </li>
+                <li class="step">
                     <div class="step-number">3</div>
-                    <div class="step-text">
-                        <strong>We email you a 25% OFF referral code!</strong><br>
-                        You'll receive your discount code within 24 hours
+                    <div class="step-content">
+                        <strong>You receive your discount code</strong>
+                        <span>A 25% off code is sent to your email within 24 hours</span>
                     </div>
-                </div>
+                    <i class="fa-solid fa-tag step-icon"></i>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Referral Message -->
+        <div class="card">
+            <h3 class="card-title">
+                <i class="fa-solid fa-message"></i> Your Referral Message
+            </h3>
+
+            <div class="message-input-group">
+                <label for="userEmail">Your email address</label>
+                <input
+                    type="email"
+                    id="userEmail"
+                    class="input-field"
+                    placeholder="you@example.com"
+                >
             </div>
-            
-            <!-- Alternative way to earn discount -->
-            <div style="margin: 30px 0; padding: 20px; background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-radius: 15px; border-left: 4px solid #0ea5e9;">
-                <h3 style="color: #0369a1; margin: 0 0 15px 0; display: flex; align-items: center; gap: 10px;">
-                    <span style="font-size: 1.5em;">💬</span>
-                    <span>Alternative: Forum Posting Rewards</span>
-                </h3>
-                <p style="margin: 0 0 10px 0; line-height: 1.6;">
-                    <strong>Post about the sigmaaudley.site website on forums like Looksmax.org, GLP1Forum, or other relevant communities and get rewarded!</strong>
-                </p>
-                <div style="background: white; padding: 15px; border-radius: 10px; margin: 10px 0;">
-                    <p style="margin: 0 0 10px 0; font-weight: 600;">How it works:</p>
-                    <ol style="margin: 0; padding-left: 20px; line-height: 1.8;">
-                        <li>Post about the <strong>sigmaaudley.site website</strong> on Looksmax.org, GLP1Forum, or other relevant forums</li>
-                        <li>Take a screenshot showing your post with your username visible</li>
-                        <li>Email the screenshot to <strong>support@sigmaaudley.site</strong></li>
-                        <li>We'll send you a <strong>one-time discount code</strong> within 24 hours</li>
-                    </ol>
-                    <div style="background: linear-gradient(135deg, #fef3c7, #fed7aa); padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #f59e0b;">
-                        <p style="margin: 0; font-weight: 600; color: #92400e;">🎯 Reward Structure:</p>
-                        <ul style="margin: 10px 0 0 0; padding-left: 20px; color: #92400e;">
-                            <li><strong>20% OFF</strong> for posting in 1 forum</li>
-                            <li><strong>21% OFF</strong> for posting in 2 forums</li>
-                            <li><strong>22% OFF</strong> for posting in 3 forums</li>
-                            <li><strong>And so on...</strong> (+1% per additional forum)</li>
-                        </ul>
-                        <p style="margin: 10px 0 0 0; font-size: 0.9em; color: #b45309;">
-                            <strong>Example:</strong> Post in 5 different forums = 24% OFF discount code!
-                        </p>
-                    </div>
-                </div>
-                <p style="margin: 10px 0 0 0; font-size: 0.9em; color: #64748b;">
-                    <strong>Note:</strong> This is separate from the referral program above. You can earn both rewards!
-                </p>
-            </div>
-            
-            <div class="warning">
-                ⚠️ <strong>Single Use Only</strong> - Each referral code can only be used once
-            </div>
-            
-            <div>
-                <label for="userEmail" style="display: block; font-weight: 600; margin-bottom: 5px;">Your Email Address:</label>
-                <input type="email" id="userEmail" class="email-input" placeholder="Enter your email address" value="your-email@example.com">
-            </div>
-            
-            <div class="message-box" id="referralMessage">
-                "Hey! I found this amazing research pharmaceutical company called Sigma Audley with over 200+ tested products. 
-                When you place your first order, just include my email <strong id="emailPlaceholder">your-email@example.com</strong> in the order notes, 
-                and I'll get a 25% discount code! Check them out: <strong>sigmaaudley.site</strong>"
-            </div>
-            
-            <div style="text-align: center;">
-                <button class="button" onclick="copyMessage()">📋 Copy Message</button>
-                <button class="button button-secondary" onclick="shareViaEmail()">📧 Share via Email</button>
-            </div>
-            
-            <div class="back-link">
-                <a href="index.html">← Back to Products</a>
-            </div>
-            
-            <div style="text-align: center; margin-top: 30px; padding: 20px; background: #f8fafc; border-radius: 10px; font-size: 0.85em; color: var(--gray-600);">
-                <p><strong>Need Help?</strong></p>
-                <p><strong>Email:</strong> support@sigmaaudley.site (All order enquiries - Response within 1 hour)</p>
-                <p><strong>Support Discord:</strong> discord.gg/SNM7VBR6 (Web orders - Response within 3 hours)</p>
+
+            <span class="message-label">Message Preview</span>
+            <textarea id="referralMessage" class="message-textarea" readonly>Hey, I wanted to recommend Sigma Audley -- they carry a large catalogue of tested research compounds with global shipping. If you place an order, include my email in the order notes and I'll receive a discount on my next purchase. Take a look: sigmaaudley.site</textarea>
+
+            <hr class="divider">
+
+            <div class="btn-row">
+                <button class="btn btn-primary" id="copyBtn" onclick="copyMessage()">
+                    <i class="fa-regular fa-copy"></i> Copy Message
+                </button>
+                <button class="btn btn-secondary" onclick="shareViaEmail()">
+                    <i class="fa-regular fa-envelope"></i> Share via Email
+                </button>
             </div>
         </div>
+
+        <!-- Notice -->
+        <div class="notice">
+            <i class="fa-solid fa-circle-info"></i>
+            <p><strong>Single use.</strong> Each referral discount code is valid for one order only.</p>
+        </div>
+
+        <!-- Benefits -->
+        <div class="card">
+            <h3 class="card-title">
+                <i class="fa-solid fa-check-double"></i> Programme Benefits
+            </h3>
+            <ul class="benefits-list">
+                <li><i class="fa-solid fa-circle-check"></i> No limit on the number of friends you can refer</li>
+                <li><i class="fa-solid fa-circle-check"></i> 25% discount applied to your entire next order</li>
+                <li><i class="fa-solid fa-circle-check"></i> Discount code delivered via email within 24 hours</li>
+                <li><i class="fa-solid fa-circle-check"></i> Referral and discount programmes can be combined</li>
+            </ul>
+        </div>
+
+        <!-- Support -->
+        <section class="support-section">
+            <h3>Need Help?</h3>
+            <div class="support-channels">
+                <p><i class="fa-regular fa-envelope"></i> Email: <a href="mailto:support@sigmaaudley.site">support@sigmaaudley.site</a></p>
+                <p><i class="fa-brands fa-discord"></i> Discord: <a href="https://discord.gg/SNM7VBR6" target="_blank" rel="noopener">discord.gg/SNM7VBR6</a></p>
+            </div>
+        </section>
+
+        <!-- Return -->
+        <div class="return-link">
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i> Return to Store
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-check"></i>
+        <span id="toastMessage">Copied to clipboard</span>
     </div>
-    
+
     <script>
-        // Update email placeholder when user types
-        document.getElementById('userEmail').addEventListener('input', function() {
-            const email = this.value || 'your-email@example.com';
-            document.getElementById('emailPlaceholder').textContent = email;
-        });
-        
-        function copyMessage() {
-            const email = document.getElementById('userEmail').value || 'your-email@example.com';
-            const message = `Hey! I found this amazing research pharmaceutical company called Sigma Audley with over 200+ tested products. When you place your first order, just include my email ${email} in the order notes, and I'll get a 25% discount code! Check them out: sigmaaudley.site`;
-            
-            // Track copy event
-            if (window.va) {
-                window.va('track', 'referral_message_copied', { user_email: email });
+        // Update the referral message when the user types their email
+        var emailInput = document.getElementById('userEmail');
+        var messageArea = document.getElementById('referralMessage');
+
+        function buildMessage() {
+            var email = emailInput.value.trim();
+            var base = 'Hey, I wanted to recommend Sigma Audley -- they carry a large catalogue of tested research compounds with global shipping.';
+            if (email) {
+                base += ' If you place an order, include my email (' + email + ') in the order notes and I\'ll receive a discount on my next purchase.';
+            } else {
+                base += ' If you place an order, include my email in the order notes and I\'ll receive a discount on my next purchase.';
             }
-            
-            navigator.clipboard.writeText(message).then(() => {
-                const button = event.target;
-                const originalText = button.textContent;
-                button.textContent = '✅ Copied!';
-                button.style.background = 'linear-gradient(135deg, #059669, #047857)';
-                
-                setTimeout(() => {
-                    button.textContent = originalText;
-                    button.style.background = 'linear-gradient(135deg, #10b981, #047857)';
-                }, 2000);
-            }).catch(err => {
-                alert('Failed to copy message. Please copy manually.');
-                console.error('Failed to copy: ', err);
+            base += ' Take a look: sigmaaudley.site';
+            return base;
+        }
+
+        emailInput.addEventListener('input', function () {
+            messageArea.value = buildMessage();
+        });
+
+        // Show toast notification
+        function showToast(message) {
+            var toast = document.getElementById('toast');
+            var toastMsg = document.getElementById('toastMessage');
+            toastMsg.textContent = message;
+            toast.classList.add('visible');
+            setTimeout(function () {
+                toast.classList.remove('visible');
+            }, 2500);
+        }
+
+        // Copy referral message
+        function copyMessage() {
+            var text = messageArea.value;
+
+            if (window.va) {
+                window.va('track', 'referral_message_copied');
+            }
+
+            navigator.clipboard.writeText(text).then(function () {
+                showToast('Copied to clipboard');
+            }).catch(function () {
+                // Fallback: select the textarea content
+                messageArea.select();
+                document.execCommand('copy');
+                showToast('Copied to clipboard');
             });
         }
-        
+
+        // Share via email
         function shareViaEmail() {
-            const email = document.getElementById('userEmail').value || 'your-email@example.com';
-            const subject = 'Check out Sigma Audley - Premium Research Pharmaceuticals';
-            
-            // Track email share event
+            var email = emailInput.value.trim();
+            var subject = 'Sigma Audley - Research Compounds';
+            var body = buildMessage();
+
             if (window.va) {
-                window.va('track', 'referral_email_shared', { user_email: email });
+                window.va('track', 'referral_email_shared');
             }
-            const body = `Hey!
 
-I found this amazing research pharmaceutical company called Sigma Audley with over 200+ tested products.
-
-When you place your first order, just include my email ${email} in the order notes, and I'll get a 25% discount code!
-
-Check them out: sigmaaudley.site
-
-Thanks!`;
-            
-            const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-            window.open(mailtoLink, '_blank');
+            var mailto = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            window.location.href = mailto;
         }
     </script>
-    
-    <!-- Hidden SEO Content for Search Engine Crawling -->
-    <div style="display: none; visibility: hidden; position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
-        <h1>Sigma Audley Referral Program - 25% OFF Discount</h1>
-        <p>Refer friends to Sigma Audley research pharmaceuticals and earn 25% OFF your next order. Share premium peptides, growth hormones, and research compounds with your network and get rewarded.</p>
-        
-        <h2>Referral Rewards and Benefits</h2>
-        <p>Friend referral program discount coupon code 25 percent off next order sigma audley research pharmaceuticals peptides growth hormones sharing bonus rewards customer loyalty program affiliate program partner program commission earnings.</p>
-        
-        <h3>How the Referral Program Works</h3>
-        <p>Share email address friend places first order mention referrer receive discount code within 24 hours email notification reward system customer acquisition referral marketing word of mouth promotion viral marketing.</p>
-        
-        <h3>Premium Research Pharmaceutical Sharing</h3>
-        <p>Share sigma audley premium research pharmaceuticals peptides semaglutide tirzepatide growth hormone HGH research chemicals laboratory tested janoshik verified quality products global shipping worldwide delivery.</p>
-        
-        <p>Referral program terms conditions single use discount code 25% off coupon reward system customer loyalty program friend sharing bonus research pharmaceutical products premium quality laboratory tested verified.</p>
-    </div>
-    
-    <!-- Technical SEO Elements -->
-    <noscript>
-        <p>Sigma Audley Referral Program - Refer friends and get 25% OFF your next order of premium research pharmaceuticals and peptides.</p>
-    </noscript>
-    
+
 </body>
 </html>
