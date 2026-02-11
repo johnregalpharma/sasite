@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmed - Sigma Audley</title>
+
+    <!-- Google Ads Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17491427417"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17491427417');
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; color: #333; min-height: 100vh; }
+      .container { max-width: 680px; margin: 0 auto; padding: 40px 20px; }
+      .card { background: white; border-radius: 16px; padding: 40px 32px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+      .success-header { text-align: center; margin-bottom: 32px; }
+      .success-icon { width: 72px; height: 72px; background: #dcfce7; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+      .success-icon i { font-size: 36px; color: #22c55e; }
+      h1 { color: #1a56db; font-size: 26px; margin-bottom: 8px; }
+      .subtitle { color: #6b7280; font-size: 15px; }
+      .order-id-box { background: #1a56db; color: white; padding: 12px 24px; border-radius: 10px; font-family: 'Courier New', monospace; font-size: 20px; font-weight: bold; text-align: center; margin: 24px 0; letter-spacing: 1px; }
+      .details-section { margin: 24px 0; }
+      .details-section h3 { font-size: 15px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; }
+      .detail-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #f3f4f6; }
+      .detail-row:last-child { border-bottom: none; }
+      .detail-label { color: #6b7280; font-size: 14px; }
+      .detail-value { font-weight: 600; color: #111827; font-size: 14px; }
+      .total-row { border-top: 2px solid #1a56db; margin-top: 8px; padding-top: 14px; }
+      .total-row .detail-value { font-size: 20px; color: #22c55e; }
+      .total-row .detail-label { font-size: 16px; font-weight: 600; color: #111827; }
+      .info-box { background: #eff6ff; border-left: 4px solid #1a56db; padding: 20px; border-radius: 0 10px 10px 0; margin: 28px 0; }
+      .info-box h3 { color: #1a56db; margin-bottom: 12px; font-size: 16px; }
+      .info-box ul { padding-left: 20px; color: #4b5563; line-height: 2; font-size: 14px; }
+      .actions { text-align: center; margin-top: 28px; }
+      .btn { display: inline-block; background: #1a56db; color: white; padding: 14px 36px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 15px; transition: background 0.2s, transform 0.1s; }
+      .btn:hover { background: #1e40af; transform: translateY(-1px); }
+      .items-list { margin: 16px 0; }
+      .item-row { display: flex; justify-content: space-between; padding: 8px 12px; background: #f9fafb; border-radius: 8px; margin-bottom: 6px; font-size: 14px; }
+      .item-name { color: #374151; }
+      .item-price { font-weight: 600; color: #111827; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="success-header">
+                <div class="success-icon"><i class="fas fa-check"></i></div>
+                <h1>Order Confirmed!</h1>
+                <p class="subtitle">Thank you for your order. We've received your payment notification.</p>
+            </div>
+
+            <div class="order-id-box" id="orderIdDisplay">Loading...</div>
+
+            <div id="orderDetails"></div>
+
+            <div class="info-box">
+                <h3><i class="fas fa-info-circle"></i> What Happens Next?</h3>
+                <ul>
+                    <li>We will verify your payment within 24 hours</li>
+                    <li>Confirmation email will be sent once payment is confirmed</li>
+                    <li>Your order will be prepared and shipped</li>
+                    <li>Tracking information will be provided via email</li>
+                </ul>
+            </div>
+
+            <div class="actions">
+                <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i>&nbsp; Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      // Read order data from URL parameters
+      const params = new URLSearchParams(window.location.search);
+      const orderId = params.get('order_id') || '';
+      const orderValue = parseFloat(params.get('value')) || 0;
+      const currency = params.get('currency') || 'USD';
+
+      // Display order ID
+      if (orderId) {
+        document.getElementById('orderIdDisplay').textContent = orderId;
+      }
+
+      // Fire Google Ads Purchase Conversion (real label from Google Ads account)
+      if (orderId) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17491427417/qwpOCJiP-JYbENmAyJRB',
+          'value': orderValue,
+          'currency': currency,
+          'transaction_id': orderId
+        });
+      }
+
+      // Load detailed order data from localStorage
+      try {
+        const savedOrder = JSON.parse(localStorage.getItem('sa_last_order'));
+        if (savedOrder) {
+          const details = document.getElementById('orderDetails');
+          let html = '<div class="details-section"><h3>Order Details</h3>';
+
+          const methodNames = {
+            'iban': 'Bank Transfer (IBAN)',
+            'crypto': 'Cryptocurrency',
+            'bitcoin': 'Bitcoin (BTC)',
+            'xoom': 'PayPal (via Xoom)',
+            'usdt': 'USDT (Tether)',
+            'cashapp': 'Cashapp (Bitcoin)',
+            'amazon': 'Amazon UK Gift Cards'
+          };
+
+          if (savedOrder.paymentMethod) {
+            html += '<div class="detail-row"><span class="detail-label">Payment Method</span><span class="detail-value">' + (methodNames[savedOrder.paymentMethod] || savedOrder.paymentMethod) + '</span></div>';
+          }
+
+          if (savedOrder.shippingInfo) {
+            if (savedOrder.shippingInfo.fullName) {
+              html += '<div class="detail-row"><span class="detail-label">Name</span><span class="detail-value">' + savedOrder.shippingInfo.fullName + '</span></div>';
+            }
+            if (savedOrder.shippingInfo.email) {
+              html += '<div class="detail-row"><span class="detail-label">Email</span><span class="detail-value">' + savedOrder.shippingInfo.email + '</span></div>';
+            }
+            if (savedOrder.shippingInfo.city || savedOrder.shippingInfo.country) {
+              html += '<div class="detail-row"><span class="detail-label">Shipping To</span><span class="detail-value">' + (savedOrder.shippingInfo.city ? savedOrder.shippingInfo.city + ', ' : '') + (savedOrder.shippingInfo.country || '') + '</span></div>';
+            }
+          }
+
+          if (savedOrder.warehouse && savedOrder.warehouse.name) {
+            html += '<div class="detail-row"><span class="detail-label">Ships From</span><span class="detail-value">' + (savedOrder.warehouse.flag || '') + ' ' + savedOrder.warehouse.name + '</span></div>';
+          }
+
+          html += '</div>';
+
+          // Order items
+          if (savedOrder.cart && savedOrder.cart.length > 0) {
+            html += '<div class="details-section"><h3>Items Ordered</h3><div class="items-list">';
+            savedOrder.cart.forEach(function(item) {
+              var name = item.product ? item.product.name : 'Item';
+              var qty = item.quantity || 1;
+              html += '<div class="item-row"><span class="item-name">' + name + ' x' + qty + '</span></div>';
+            });
+            html += '</div></div>';
+          }
+
+          // Total
+          var total = savedOrder.finalTotal || savedOrder.total || orderValue;
+          var curr = (savedOrder.warehouse && savedOrder.warehouse.currency) ? savedOrder.warehouse.currency : currency;
+          var currSymbols = { 'USD': '$', 'GBP': '£', 'EUR': '€', 'CAD': 'CA$', 'AUD': 'A$' };
+          var symbol = currSymbols[curr] || curr + ' ';
+          html += '<div class="detail-row total-row"><span class="detail-label">Total Amount</span><span class="detail-value">' + symbol + total.toFixed(2) + '</span></div>';
+
+          details.innerHTML = html;
+
+          // Set enhanced conversions user data for better attribution
+          if (savedOrder.shippingInfo && savedOrder.shippingInfo.email) {
+            var nameParts = (savedOrder.shippingInfo.fullName || '').trim().split(' ');
+            gtag('set', 'user_data', {
+              email: savedOrder.shippingInfo.email,
+              phone_number: savedOrder.shippingInfo.phone || '',
+              address: {
+                first_name: nameParts[0] || '',
+                last_name: nameParts.slice(1).join(' ') || '',
+                street: savedOrder.shippingInfo.address || '',
+                city: savedOrder.shippingInfo.city || '',
+                region: savedOrder.shippingInfo.state || '',
+                postal_code: savedOrder.shippingInfo.zipCode || '',
+                country: savedOrder.shippingInfo.country || ''
+              }
+            });
+          }
+
+          // Clean up - remove saved order data
+          localStorage.removeItem('sa_last_order');
+        }
+      } catch(e) {
+        console.warn('Could not load order details:', e);
+      }
+
+      // Clear cart from localStorage
+      localStorage.removeItem('sigmaAudleyCart');
+    </script>
+</body>
+</html>

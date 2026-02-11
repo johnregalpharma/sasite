@@ -3,7 +3,16 @@
 <head>
     <!-- Google Tag Assistant Debug Support -->
     <meta name="google-site-verification" content="AW-17491427417" />
-    
+
+    <!-- Google Ads Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17491427417"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17491427417');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -14858,10 +14867,16 @@ Please confirm when applied and let me know about shipping. Thank you!
                     gtag('set', 'user_data', userData);
                 }
                 
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-17491427417/qwpOCJiP-JYbENmAyJRB',
+                    'transaction_id': orderId,
+                    'value': orderTotal,
+                    'currency': orderData.warehouse?.currency || 'USD'
+                });
                 gtag('event', 'purchase', {
                     'transaction_id': orderId,
                     'value': orderTotal,
-                    'currency': 'USD',
+                    'currency': orderData.warehouse?.currency || 'USD',
                     'items': cart.map(item => ({
                         'item_name': item.product.name,
                         'quantity': item.quantity,
@@ -14938,9 +14953,19 @@ Please confirm when applied and let me know about shipping. Thank you!
                 console.warn('Reddit conversion tracking setup error:', error);
             }
             
-            // Close checkout modal and show original thank you page
+            // Save order data for the confirmation page
+            const itemCount = cart.length;
+            localStorage.setItem('sa_last_order', JSON.stringify(orderData));
+
+            // Clear cart
+            cart = [];
+            saveCartToStorage();
+            updateCartDisplay();
+
+            // Redirect to dedicated confirmation page (real page load = reliable Google Ads tracking)
             closeModal('checkoutModal');
-            showThankYouPage();
+            const confirmUrl = 'order-confirmed.html?order_id=' + encodeURIComponent(orderId) + '&value=' + encodeURIComponent(orderTotal) + '&currency=' + encodeURIComponent(orderData.warehouse?.currency || 'USD') + '&items=' + encodeURIComponent(itemCount);
+            window.location.href = confirmUrl;
         }
 
         // Show thank you page with order summary
@@ -17029,8 +17054,8 @@ Thank you for your assistance.`;
                 const orderId = urlParams.get('order');
                 const amount = parseFloat(urlParams.get('amount')) || 0;
                 if (typeof gtag !== 'undefined') {
-                    gtag('event', 'purchase', {
-                        'send_to': 'AW-17491427417/purchase',
+                    gtag('event', 'conversion', {
+                        'send_to': 'AW-17491427417/qwpOCJiP-JYbENmAyJRB',
                         'transaction_id': orderId,
                         'value': amount,
                         'currency': 'USD'
