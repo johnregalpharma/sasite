@@ -5086,6 +5086,19 @@ Please confirm when applied and let me know about shipping. Thank you!
                     <div class="checkout-step" id="checkoutStep3" style="display: none;">
                         <h3>💳 Payment Method</h3>
                         <div class="payment-methods">
+                            <!-- Credit/Debit Card via PayGate -->
+                            <label class="payment-method" onclick="updatePaymentMethod();" style="cursor: pointer;">
+                                <input type="radio" name="paymentMethod" value="card" onchange="updatePaymentMethod();">
+                                <div class="payment-option">
+                                    <div class="payment-icon">
+                                        <i class="fas fa-credit-card"></i>
+                                    </div>
+                                    <div class="payment-info">
+                                        <h4>Pay with Credit/Debit Card</h4>
+                                        <p>Visa, Mastercard, Apple Pay, Google Pay - Secure checkout</p>
+                                    </div>
+                                </div>
+                            </label>
                             <label class="payment-method" style="opacity: 0.5; pointer-events: none;">
                                 <input type="radio" name="paymentMethod" value="iban" disabled>
                                 <div class="payment-option">
@@ -14113,15 +14126,15 @@ Thank you for your assistance.`;
             
             const launchDiscountAmount = originalTotal * discountPercent;
             const afterLaunchDiscount = originalTotal - launchDiscountAmount;
-            // Apply 15% crypto discount for both 'crypto' and 'bitcoin' payment methods
-            const btcDiscountAmount = (paymentMethod === 'crypto' || paymentMethod === 'bitcoin') ? afterLaunchDiscount * 0.15 : 0;
+            // Apply 15% crypto discount for both 'crypto' and 'bitcoin' payment methods (NOT for card)
+            const btcDiscountAmount = (paymentMethod === 'crypto' || paymentMethod === 'bitcoin' || paymentMethod === 'cashapp') ? afterLaunchDiscount * 0.15 : 0;
             const finalTotal = afterLaunchDiscount - btcDiscountAmount;
-            
+
             currentOrderId = generateOrderId();
-            
+
             // Get referral data if present
             const referralData = getReferralData();
-            
+
             orderData = {
                 orderId: currentOrderId,
                 cart: [...cart],
@@ -14146,28 +14159,143 @@ Thank you for your assistance.`;
                 referral: referralData, // Include referral tracking data
                 timestamp: new Date().toISOString()
             };
-            
+
             // Start crypto price updates and payment timer if needed
             if (paymentMethod === 'crypto' || paymentMethod === 'bitcoin' || paymentMethod === 'usdt') {
                 startCryptoPriceUpdates();
                 startPaymentTimer(paymentMethod);
             }
-            
+
             currentCheckoutStep = 4;
             updateCheckoutSteps();
             showCheckoutStep(4);
             await showPaymentInstructions();
         }
         
+        // PayGate.to integration for card payments
+        const PAYGATE_API = 'https://api.paygate.to';
+        const PAYGATE_CHECKOUT = 'https://checkout.paygate.to';
+        const SA_MERCHANT_WALLET = '0x4eb32cD8777cFB68E351Ce9F59fE222883F59ce1';
+        const SA_SITE_URL = 'https://sigmaaudley.site';
+
+        async function generatePaygateWallet(orderId) {
+            const callbackUrl = SA_SITE_URL + '/order-confirmed?order_id=' + encodeURIComponent(orderId);
+            const response = await fetch(
+                PAYGATE_API + '/control/wallet.php?address=' + SA_MERCHANT_WALLET + '&callback=' + encodeURIComponent(callbackUrl)
+            );
+            if (!response.ok) {
+                throw new Error('PayGate wallet API error: ' + response.status);
+            }
+            const data = await response.json();
+            if (!data || !data.address_in) {
+                throw new Error('PayGate returned invalid wallet data');
+            }
+            return data;
+        }
+
+        function buildCheckoutUrl(addressIn, amount, email, currency) {
+            currency = currency || 'USD';
+            var customerEmail = encodeURIComponent(email);
+            return PAYGATE_CHECKOUT + '/pay.php?address=' + addressIn + '&amount=' + amount.toFixed(2) + '&provider=hosted&email=' + customerEmail + '&currency=' + currency;
+        }
+
+        function buildRevolutUrl(addressIn, amount, email, currency) {
+            currency = currency || 'USD';
+            var customerEmail = encodeURIComponent(email);
+            return PAYGATE_CHECKOUT + '/process-payment.php?address=' + addressIn + '&amount=' + amount.toFixed(2) + '&provider=revolut&email=' + customerEmail + '&currency=' + currency;
+        }
+
         // Show payment instructions with crypto integration
         async function showPaymentInstructions() {
             document.getElementById('finalOrderId').textContent = currentOrderId;
             const paymentInstructions = document.getElementById('paymentInstructions');
             const paymentMethod = orderData.paymentMethod;
-            
+
             let instructionsHTML = '';
-            
-            if (paymentMethod === 'iban') {
+
+            if (paymentMethod === 'card') {
+                const totalAmount = orderData.finalTotal || orderData.total;
+                const customerEmail = orderData.shippingInfo.email || '';
+
+                // Show loading state
+                paymentInstructions.innerHTML = '<div style="text-align:center;padding:40px;"><i class="fas fa-spinner fa-spin" style="font-size:2rem;color:#1a1a2e;"></i><p style="margin-top:12px;color:#6b7280;">Setting up secure checkout...</p></div>';
+
+                let paygateUrl = null;
+                let revolutUrl = null;
+                try {
+                    const walletData = await generatePaygateWallet(currentOrderId);
+                    paygateUrl = buildCheckoutUrl(walletData.address_in, totalAmount, customerEmail);
+                    revolutUrl = buildRevolutUrl(walletData.address_in, totalAmount, customerEmail);
+                } catch (err) {
+                    console.error('PayGate.to error:', err.message);
+                }
+
+                instructionsHTML = '<div class="payment-details" style="max-width:600px;margin:0 auto;">';
+
+                // Order confirmation header
+                instructionsHTML += '<div style="text-align:center;margin-bottom:20px;">' +
+                    '<div style="font-size:2.5rem;margin-bottom:8px;">✅</div>' +
+                    '<h3 style="color:#1a1a2e;margin-bottom:4px;">Order Placed!</h3>' +
+                    '<p style="color:#6b7280;">Complete your payment to finalize the order.</p>' +
+                    '</div>';
+
+                // Order number and total
+                instructionsHTML += '<div style="background:#f9fafb;padding:16px;border-radius:12px;margin-bottom:24px;text-align:center;">' +
+                    '<p style="font-size:0.85rem;color:#6b7280;margin-bottom:4px;">Order Number</p>' +
+                    '<p style="font-family:monospace;font-size:1.3em;font-weight:700;background:#1a1a2e;color:white;padding:8px 16px;border-radius:6px;display:inline-block;">' + currentOrderId + '</p>' +
+                    '<p style="font-size:1.1rem;font-weight:700;margin-top:12px;">Total: $' + totalAmount.toFixed(2) + ' USD</p>' +
+                    '</div>';
+
+                // Pay with Credit/Debit Card button
+                if (paygateUrl) {
+                    instructionsHTML += '<div style="margin-bottom:12px;">' +
+                        '<a href="' + paygateUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#1a1a2e,#16213e);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
+                        ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
+                        '<i class="fas fa-credit-card"></i> Pay with Credit/Debit Card</a>' +
+                        '<div style="text-align:center;margin-top:6px;">' +
+                        '<span style="font-size:0.7rem;color:#9ca3af;">Visa, Mastercard, Apple Pay, Google Pay</span>' +
+                        '</div></div>';
+                }
+
+                // Pay with Revolut button
+                if (revolutUrl) {
+                    instructionsHTML += '<div style="margin-bottom:12px;">' +
+                        '<a href="' + revolutUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#0075EB,#00D4FF);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
+                        ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
+                        '<i class="fas fa-wallet"></i> Pay with Revolut</a>' +
+                        '</div>';
+                }
+
+                // Fallback if PayGate failed
+                if (!paygateUrl && !revolutUrl) {
+                    instructionsHTML += '<div style="background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:16px;margin-bottom:12px;text-align:center;">' +
+                        '<p style="color:#92400e;font-weight:600;margin-bottom:8px;">Card checkout is temporarily unavailable.</p>' +
+                        '<p style="color:#92400e;font-size:0.9em;">Please go back and select Cryptocurrency or another payment method, or contact support.</p>' +
+                        '</div>';
+                }
+
+                // After payment info
+                instructionsHTML += '<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:18px;margin-top:22px;">' +
+                    '<h4 style="color:#1e40af;font-size:0.95rem;margin-bottom:10px;"><i class="fas fa-info-circle" style="margin-right:6px;"></i>After Payment</h4>' +
+                    '<ul style="color:#1e3a5f;font-size:0.85rem;padding-left:20px;line-height:1.8;margin-bottom:16px;">' +
+                    '<li>Payment is verified automatically (or within 24 hours)</li>' +
+                    '<li>Confirmation email sent to your address</li>' +
+                    '<li>Order shipped with tracking provided</li>' +
+                    '</ul>' +
+                    '<div style="font-size:0.85rem;font-weight:600;color:#1e40af;margin-bottom:10px;">Questions? Contact us:</div>' +
+                    '<div style="display:flex;flex-wrap:wrap;gap:8px;">' +
+                    '<a href="mailto:support@sigmaaudley.site" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#1e40af;color:white;border-radius:8px;text-decoration:none;font-size:0.8rem;font-weight:600;transition:opacity 0.2s;" onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'"><i class="fas fa-envelope"></i> support@sigmaaudley.site</a>' +
+                    '</div>' +
+                    '</div>';
+
+                // Confirm payment sent button
+                instructionsHTML += '<button onclick="confirmPaymentSent()" style="width:100%;padding:14px;background:#10b981;color:white;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:1em;margin-top:20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">✅ I\'ve Sent Payment</button>';
+
+                instructionsHTML += '</div>';
+
+                paymentInstructions.innerHTML = instructionsHTML;
+                return;
+            } else if (paymentMethod === 'iban') {
                 const referenceNumber = `REF${currentOrderId}`;
                 instructionsHTML = `
                     <div class="payment-details">
