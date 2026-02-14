@@ -6531,15 +6531,16 @@ Please confirm when applied and let me know about shipping. Thank you!
                     <div class="checkout-step" id="checkoutStep3" style="display: none;">
                         <h3>💳 Payment Method</h3>
                         <div class="payment-methods">
-                            <!-- Credit/Debit Card via PayGate -->
-                            <label class="payment-method" onclick="updatePaymentMethod();" style="cursor: pointer;">
+                            <!-- Credit/Debit Card via PayGate (Highlighted/Recommended) -->
+                            <label class="payment-method" onclick="updatePaymentMethod();" style="cursor: pointer; border: 2px solid #6366f1; background: linear-gradient(135deg, #eef2ff, #e0e7ff); border-radius: 12px; position: relative; box-shadow: 0 0 12px rgba(99,102,241,0.2);">
                                 <input type="radio" name="paymentMethod" value="card" onchange="updatePaymentMethod();">
+                                <span style="position: absolute; top: -10px; right: 16px; background: linear-gradient(135deg, #6366f1, #4f46e5); color: #fff; font-size: 0.7em; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.5px; box-shadow: 0 2px 6px rgba(99,102,241,0.3);">⭐ RECOMMENDED</span>
                                 <div class="payment-option">
-                                    <div class="payment-icon">
+                                    <div class="payment-icon" style="color: #6366f1;">
                                         <i class="fas fa-credit-card"></i>
                                     </div>
                                     <div class="payment-info">
-                                        <h4>Pay with Credit/Debit Card</h4>
+                                        <h4 style="color: #4338ca;">Pay with Credit/Debit Card</h4>
                                         <p>Visa, Mastercard, Apple Pay, Google Pay - Secure checkout</p>
                                     </div>
                                 </div>
@@ -6598,7 +6599,7 @@ Please confirm when applied and let me know about shipping. Thank you!
                                     </div>
                                     <div class="payment-info">
                                         <h4>Pay with PayPal, Credit/Debit, Apple/Google Pay, Bank Transfer</h4>
-                                        <p>Gift Cards (If You Can't Pay with Bitcoin) - For international customers</p>
+                                        <p>Gift Cards (If You Can't Pay with Card, Identity Verification, or Crypto) - For international customers</p>
                                         <div style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; padding: 8px; margin-top: 8px;">
                                             <small style="color: #92400e; font-weight: 600;">⚠️ 10-15% higher fees.</small>
                                         </div>
@@ -6606,19 +6607,6 @@ Please confirm when applied and let me know about shipping. Thank you!
                                             <i class="fas fa-question-circle" style="margin-right: 6px;"></i>
                                             How to Pay?
                                         </button>
-                                    </div>
-                                </div>
-                            </label>
-                            <!-- Alipay Option -->
-                            <label class="payment-method" style="opacity: 0.5; pointer-events: none;">
-                                <input type="radio" name="paymentMethod" value="alipay" disabled>
-                                <div class="payment-option">
-                                    <div class="payment-icon">
-                                        <i class="fab fa-alipay"></i>
-                                    </div>
-                                    <div class="payment-info">
-                                        <h4>Pay With Alipay <span style="color: #ef4444; font-size: 0.8em;">(Temporarily Unavailable)</span></h4>
-                                        <p>Direct transfer to our Domestic Bank - Currently undergoing maintenance</p>
                                     </div>
                                 </div>
                             </label>
