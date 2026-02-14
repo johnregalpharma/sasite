@@ -6396,6 +6396,23 @@ Please confirm when applied and let me know about shipping. Thank you!
                     <!-- Step 1: Order Review -->
                     <div class="checkout-step" id="checkoutStep1">
                         <h3>📋 Order Review</h3>
+                        <!-- KYC / Card Verification Guide -->
+                        <div id="kycGuide" style="margin-bottom:16px; background:linear-gradient(135deg,#eff6ff,#e0f2fe); border:1px solid #bfdbfe; border-radius:10px; overflow:hidden;">
+                            <div onclick="toggleKycGuide()" style="display:flex; align-items:center; justify-content:space-between; padding:12px 16px; cursor:pointer; gap:8px;" onmouseover="this.style.background='rgba(59,130,246,0.06)'" onmouseout="this.style.background='transparent'">
+                                <span style="font-size:0.875rem; color:#1e40af; display:flex; align-items:center; gap:8px;"><i class="fas fa-credit-card" style="color:#3b82f6; font-size:1rem;"></i> <strong>Paying by Card?</strong> Quick tips to ensure smooth payment</span>
+                                <i class="fas fa-chevron-down" id="kycChevron" style="color:#3b82f6; font-size:0.75rem; transition:transform 0.3s ease; flex-shrink:0;"></i>
+                            </div>
+                            <div id="kycGuideContent" style="display:none; padding:0 16px 16px;">
+                                <p style="font-size:0.875rem; color:#374151; line-height:1.7; margin-bottom:12px;">Our payment processor requires standard KYC (Know Your Customer) verification for card payments. This is a legal requirement for all international payment processors to prevent fraud and comply with financial regulations.</p>
+                                <ul style="list-style:none; padding:0; margin:0 0 12px 0; display:flex; flex-direction:column; gap:8px;">
+                                    <li style="font-size:0.875rem; color:#374151; line-height:1.6; padding:8px 12px; background:rgba(255,255,255,0.7); border-radius:6px; display:flex; align-items:flex-start; gap:8px;"><i class="fas fa-check-circle" style="color:#22c55e; margin-top:3px; flex-shrink:0; font-size:0.8rem;"></i> <span><strong>Use your real name</strong> — it must match the name on your card exactly</span></li>
+                                    <li style="font-size:0.875rem; color:#374151; line-height:1.6; padding:8px 12px; background:rgba(255,255,255,0.7); border-radius:6px; display:flex; align-items:flex-start; gap:8px;"><i class="fas fa-check-circle" style="color:#22c55e; margin-top:3px; flex-shrink:0; font-size:0.8rem;"></i> <span><strong>Use a valid email</strong> — you'll receive payment confirmation and order updates here</span></li>
+                                    <li style="font-size:0.875rem; color:#374151; line-height:1.6; padding:8px 12px; background:rgba(255,255,255,0.7); border-radius:6px; display:flex; align-items:flex-start; gap:8px;"><i class="fas fa-check-circle" style="color:#22c55e; margin-top:3px; flex-shrink:0; font-size:0.8rem;"></i> <span><strong>ID verification may be required</strong> — for first-time purchases, the processor may ask for a photo ID. This is standard practice and your data is handled securely by the payment provider (not by us)</span></li>
+                                    <li style="font-size:0.875rem; color:#374151; line-height:1.6; padding:8px 12px; background:rgba(255,255,255,0.7); border-radius:6px; display:flex; align-items:flex-start; gap:8px;"><i class="fas fa-check-circle" style="color:#22c55e; margin-top:3px; flex-shrink:0; font-size:0.8rem;"></i> <span><strong>Enable international payments</strong> — if your bank blocks the charge, call them to authorize international transactions</span></li>
+                                </ul>
+                                <p style="font-size:0.875rem; color:#92400e; background:linear-gradient(135deg,#fffbeb,#fef3c7); padding:10px 14px; border-radius:8px; line-height:1.6;"><i class="fab fa-bitcoin" style="margin-right:4px; color:#f59e0b;"></i> <strong>Want to skip KYC (Know Your Customer)?</strong> Pay with cryptocurrency and get <strong>15% OFF</strong> your order — no verification needed!</p>
+                            </div>
+                        </div>
                         <!-- Spend More Save More Notification (Top) -->
                         <div id="spendNotificationTop" class="spend-notification" style="display: none;">
                             <div class="notification-content">
@@ -15678,6 +15695,19 @@ Thank you for your assistance.`;
             showNotification(`Warehouse changed to ${warehouse.flag} ${warehouse.name}`, 'success');
         }
         
+        // KYC Guide toggle
+        function toggleKycGuide() {
+            var content = document.getElementById('kycGuideContent');
+            var chevron = document.getElementById('kycChevron');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                chevron.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.display = 'none';
+                chevron.style.transform = 'rotate(0deg)';
+            }
+        }
+
         // Update payment method and proceed to payment instructions
         function updatePaymentMethod() {
             // Get selected payment method
