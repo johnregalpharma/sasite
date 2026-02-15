@@ -14186,17 +14186,27 @@ Thank you for your assistance.`;
 
         async function generatePaygateWallet(orderId) {
             const callbackUrl = SA_SITE_URL + '/order-confirmed?order_id=' + encodeURIComponent(orderId);
-            const response = await fetch(
-                PAYGATE_API + '/control/wallet.php?address=' + SA_MERCHANT_WALLET + '&callback=' + encodeURIComponent(callbackUrl)
-            );
-            if (!response.ok) {
-                throw new Error('PayGate wallet API error: ' + response.status);
+            const url = PAYGATE_API + '/control/wallet.php?address=' + SA_MERCHANT_WALLET + '&callback=' + encodeURIComponent(callbackUrl);
+            // Retry up to 3 times — PayGate.to API is intermittently flaky
+            for (var attempt = 1; attempt <= 3; attempt++) {
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        var body = '';
+                        try { body = await response.text(); } catch(e) {}
+                        throw new Error('PayGate wallet API error: ' + response.status + ' - ' + body);
+                    }
+                    const data = await response.json();
+                    if (!data || !data.address_in) {
+                        throw new Error('PayGate returned invalid wallet data');
+                    }
+                    return data;
+                } catch (err) {
+                    console.error('PayGate attempt ' + attempt + '/3 failed:', err.message);
+                    if (attempt === 3) throw err;
+                    await new Promise(function(r) { setTimeout(r, 1500 * attempt); });
+                }
             }
-            const data = await response.json();
-            if (!data || !data.address_in) {
-                throw new Error('PayGate returned invalid wallet data');
-            }
-            return data;
         }
 
         function buildCheckoutUrl(addressIn, amount, email, currency) {
@@ -14236,49 +14246,56 @@ Thank you for your assistance.`;
                     console.error('PayGate.to error:', err.message);
                 }
 
-                instructionsHTML = '<div class="payment-details" style="max-width:600px;margin:0 auto;">';
+                // Build the payment UI
+                function buildPaymentUI(pgUrl, revUrl) {
+                    var html = '<div class="payment-details" style="max-width:600px;margin:0 auto;">';
 
-                // Order confirmation header
-                instructionsHTML += '<div style="text-align:center;margin-bottom:20px;">' +
-                    '<div style="font-size:2.5rem;margin-bottom:8px;">✅</div>' +
-                    '<h3 style="color:#1a1a2e;margin-bottom:4px;">Order Placed!</h3>' +
-                    '<p style="color:#6b7280;">Complete your payment to finalize the order.</p>' +
-                    '</div>';
-
-                // Order number and total
-                instructionsHTML += '<div style="background:#f9fafb;padding:16px;border-radius:12px;margin-bottom:24px;text-align:center;">' +
-                    '<p style="font-size:0.85rem;color:#6b7280;margin-bottom:4px;">Order Number</p>' +
-                    '<p style="font-family:monospace;font-size:1.3em;font-weight:700;background:#1a1a2e;color:white;padding:8px 16px;border-radius:6px;display:inline-block;">' + currentOrderId + '</p>' +
-                    '<p style="font-size:1.1rem;font-weight:700;margin-top:12px;">Total: $' + totalAmount.toFixed(2) + ' USD</p>' +
-                    '</div>';
-
-                // Pay with Credit/Debit Card button
-                if (paygateUrl) {
-                    instructionsHTML += '<div style="margin-bottom:12px;">' +
-                        '<a href="' + paygateUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#1a1a2e,#16213e);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
-                        ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
-                        '<i class="fas fa-credit-card"></i> Pay with Credit/Debit Card</a>' +
-                        '<div style="text-align:center;margin-top:6px;">' +
-                        '<span style="font-size:0.7rem;color:#9ca3af;">Visa, Mastercard, Apple Pay, Google Pay</span>' +
-                        '</div></div>';
-                }
-
-                // Pay with Revolut button
-                if (revolutUrl) {
-                    instructionsHTML += '<div style="margin-bottom:12px;">' +
-                        '<a href="' + revolutUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#0075EB,#00D4FF);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
-                        ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
-                        '<i class="fas fa-wallet"></i> Pay with Revolut</a>' +
+                    // Order confirmation header
+                    html += '<div style="text-align:center;margin-bottom:20px;">' +
+                        '<div style="font-size:2.5rem;margin-bottom:8px;">✅</div>' +
+                        '<h3 style="color:#1a1a2e;margin-bottom:4px;">Order Placed!</h3>' +
+                        '<p style="color:#6b7280;">Complete your payment to finalize the order.</p>' +
                         '</div>';
+
+                    // Order number and total
+                    html += '<div style="background:#f9fafb;padding:16px;border-radius:12px;margin-bottom:24px;text-align:center;">' +
+                        '<p style="font-size:0.85rem;color:#6b7280;margin-bottom:4px;">Order Number</p>' +
+                        '<p style="font-family:monospace;font-size:1.3em;font-weight:700;background:#1a1a2e;color:white;padding:8px 16px;border-radius:6px;display:inline-block;">' + currentOrderId + '</p>' +
+                        '<p style="font-size:1.1rem;font-weight:700;margin-top:12px;">Total: $' + totalAmount.toFixed(2) + ' USD</p>' +
+                        '</div>';
+
+                    // Pay with Credit/Debit Card button
+                    if (pgUrl) {
+                        html += '<div style="margin-bottom:12px;">' +
+                            '<a href="' + pgUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#1a1a2e,#16213e);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
+                            ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
+                            '<i class="fas fa-credit-card"></i> Pay with Credit/Debit Card</a>' +
+                            '<div style="text-align:center;margin-top:6px;">' +
+                            '<span style="font-size:0.7rem;color:#9ca3af;">Visa, Mastercard, Apple Pay, Google Pay</span>' +
+                            '</div></div>';
+                    }
+
+                    // Pay with Revolut button
+                    if (revUrl) {
+                        html += '<div style="margin-bottom:12px;">' +
+                            '<a href="' + revUrl + '" target="_blank" style="width:100%;font-size:0.95rem;padding:14px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#0075EB,#00D4FF);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;box-sizing:border-box;transition:opacity 0.2s;"' +
+                            ' onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'">' +
+                            '<i class="fas fa-wallet"></i> Pay with Revolut</a>' +
+                            '</div>';
+                    }
+
+                    // Fallback if PayGate failed
+                    if (!pgUrl && !revUrl) {
+                        html += '<div id="paygate-retry-msg" style="background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:16px;margin-bottom:12px;text-align:center;">' +
+                            '<p style="color:#92400e;font-weight:600;margin-bottom:8px;"><i class="fas fa-spinner fa-spin" style="margin-right:6px;"></i>Retrying card checkout setup...</p>' +
+                            '<p style="color:#92400e;font-size:0.9em;">Please wait a moment while we connect to the payment processor.</p>' +
+                            '</div>';
+                    }
+
+                    return html;
                 }
 
-                // Fallback if PayGate failed
-                if (!paygateUrl && !revolutUrl) {
-                    instructionsHTML += '<div style="background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:16px;margin-bottom:12px;text-align:center;">' +
-                        '<p style="color:#92400e;font-weight:600;margin-bottom:8px;">Card checkout is temporarily unavailable.</p>' +
-                        '<p style="color:#92400e;font-size:0.9em;">Please go back and select Cryptocurrency or another payment method, or contact support.</p>' +
-                        '</div>';
-                }
+                instructionsHTML = buildPaymentUI(paygateUrl, revolutUrl);
 
                 // After payment info
                 instructionsHTML += '<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:18px;margin-top:22px;">' +
@@ -14300,6 +14317,47 @@ Thank you for your assistance.`;
                 instructionsHTML += '</div>';
 
                 paymentInstructions.innerHTML = instructionsHTML;
+
+                // If PayGate failed, retry in the background with a fresh set of attempts
+                if (!paygateUrl && !revolutUrl) {
+                    (async function() {
+                        for (var retryRound = 1; retryRound <= 3; retryRound++) {
+                            await new Promise(function(r) { setTimeout(r, 2000 * retryRound); });
+                            try {
+                                var walletData = await generatePaygateWallet(currentOrderId);
+                                var pgUrl = buildCheckoutUrl(walletData.address_in, totalAmount, customerEmail);
+                                var revUrl = buildRevolutUrl(walletData.address_in, totalAmount, customerEmail);
+                                // Success! Rebuild the entire payment UI with working URLs
+                                var newHTML = buildPaymentUI(pgUrl, revUrl);
+                                newHTML += '<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:18px;margin-top:22px;">' +
+                                    '<h4 style="color:#1e40af;font-size:0.95rem;margin-bottom:10px;"><i class="fas fa-info-circle" style="margin-right:6px;"></i>After Payment</h4>' +
+                                    '<ul style="color:#1e3a5f;font-size:0.85rem;padding-left:20px;line-height:1.8;margin-bottom:16px;">' +
+                                    '<li>Payment is verified automatically (or within 24 hours)</li>' +
+                                    '<li>Confirmation email sent to your address</li>' +
+                                    '<li>Order shipped with tracking provided</li>' +
+                                    '</ul>' +
+                                    '<div style="font-size:0.85rem;font-weight:600;color:#1e40af;margin-bottom:10px;">Questions? Contact us:</div>' +
+                                    '<div style="display:flex;flex-wrap:wrap;gap:8px;">' +
+                                    '<a href="mailto:support@sigmaaudley.site" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:#1e40af;color:white;border-radius:8px;text-decoration:none;font-size:0.8rem;font-weight:600;transition:opacity 0.2s;" onmouseover="this.style.opacity=\'0.9\'" onmouseout="this.style.opacity=\'1\'"><i class="fas fa-envelope"></i> support@sigmaaudley.site</a>' +
+                                    '</div></div>';
+                                newHTML += '<button onclick="confirmPaymentSent()" style="width:100%;padding:14px;background:#10b981;color:white;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:1em;margin-top:20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">✅ I\'ve Sent Payment</button>';
+                                newHTML += '</div>';
+                                paymentInstructions.innerHTML = newHTML;
+                                console.log('PayGate recovered on background retry ' + retryRound);
+                                return;
+                            } catch (e) {
+                                console.error('PayGate background retry ' + retryRound + '/3 failed:', e.message);
+                            }
+                        }
+                        // All background retries failed — show final fallback
+                        var retryMsg = document.getElementById('paygate-retry-msg');
+                        if (retryMsg) {
+                            retryMsg.innerHTML = '<p style="color:#92400e;font-weight:600;margin-bottom:8px;">Card checkout is temporarily unavailable.</p>' +
+                                '<p style="color:#92400e;font-size:0.9em;">Please go back and select Cryptocurrency or another payment method, or contact support.</p>';
+                        }
+                    })();
+                }
+
                 return;
             } else if (paymentMethod === 'iban') {
                 const referenceNumber = `REF${currentOrderId}`;
