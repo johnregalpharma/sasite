@@ -1,0 +1,4874 @@
+{
+  "company_info": {
+    "name": "Official Sigma Audley",
+    "contact": {
+      "email": "support@sigmaaudley.site",
+      "telegram": "@Bellalel",
+      "telegram_name": "Bella",
+      "whatsapp": "+1 (816) 993-9630",
+      "whatsapp_name": "Ray"
+    }
+  },
+  "categories": [
+    {
+      "key": "peptides",
+      "description": "1BOX=10VIALS - Premium Peptide Products",
+      "subcategories": [
+        {
+          "key": "growth_hormones",
+          "description": "Human Growth Hormone (HGH) Products",
+          "products": [
+            {
+              "cat_no": "H06",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "6iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58743-hgh_6iu_L81I8NPDIJCG",
+              "pricing": {
+                "10": 32,
+                "20": 30,
+                "50": 29,
+                "base": 38
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H08",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "8iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/69785-HGH_8iu_G97KA61RP578",
+              "pricing": {
+                "10": 35,
+                "20": 34,
+                "50": 32,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H10",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "10iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58042-H10HGH_10mg_A6XZKHG7YPLJ",
+              "pricing": {
+                "10": 40,
+                "20": 38,
+                "50": 36,
+                "base": 48
+              },
+              "popular": true,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H12",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "12iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/51088-HGH_12_IU_CL5GSAU71W4T",
+              "pricing": {
+                "10": 48,
+                "20": 46,
+                "50": 44,
+                "base": 58
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H15",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "15iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/60444-HGH_15iu_EVKUNCG3RUTC",
+              "pricing": {
+                "10": 58,
+                "20": 56,
+                "50": 53,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H24",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "24iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58036-H24HGH_24iu_LNG5X2B4K9F7",
+              "pricing": {
+                "10": 73,
+                "20": 70,
+                "50": 66,
+                "base": 88
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H36",
+              "name": "GH 191AA (Somatropin)",
+              "specification": "36iu*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58038-H36HGH_36iu_Z3WH5Q6EF1BJ",
+              "pricing": {
+                "10": 108,
+                "20": 104,
+                "50": 98,
+                "base": 130
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "weight_loss",
+          "description": "Weight Loss & Metabolic Peptides",
+          "products": [
+            {
+              "cat_no": "SM5",
+              "name": "Semaglutide",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58022-SM5semaglutide_5mg_GZY1YNSFAFPC",
+              "pricing": {
+                "10": 36,
+                "20": 34,
+                "50": 32,
+                "base": 42
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SM10",
+              "name": "Semaglutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/54823-SM10semaglutude_10mg_GYXIMDQTLVP5",
+              "pricing": {
+                "10": 44,
+                "20": 42,
+                "50": 39,
+                "base": 52
+              },
+              "popular": true,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SM15",
+              "name": "Semaglutide",
+              "specification": "15mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/41561-semaglutide_10mg_T1R9E8ESR2RN",
+              "pricing": {
+                "10": 54,
+                "20": 52,
+                "50": 49,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SM20",
+              "name": "Semaglutide",
+              "specification": "20mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/54824-SM20Semaglutide_20mg_BIEZ8KMJ7AAL",
+              "pricing": {
+                "10": 62,
+                "20": 59,
+                "50": 56,
+                "base": 74
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SM30",
+              "name": "Semaglutide",
+              "specification": "30mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/60538-Semaglutide_30mg_9FHU73TLY8BA",
+              "pricing": {
+                "10": 80,
+                "20": 77,
+                "50": 73,
+                "base": 96
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR5",
+              "name": "Tirzepatide",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/41527-Tirzepatide_5mg_7BEM159VJ6TG",
+              "pricing": {
+                "10": 36,
+                "20": 34,
+                "50": 32,
+                "base": 42
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR10",
+              "name": "Tirzepatide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/54821-TR10Tirzepatide_10mg_7DZBCAVVGYCF",
+              "pricing": {
+                "10": 51,
+                "20": 49,
+                "50": 46,
+                "base": 61
+              },
+              "popular": true,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR15",
+              "name": "Tirzepatide",
+              "specification": "15mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58744-Tirzepatide_15mg_7ALCD53BVQU9",
+              "pricing": {
+                "10": 62,
+                "20": 59,
+                "50": 56,
+                "base": 74
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR20",
+              "name": "Tirzepatide",
+              "specification": "20mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58082-TR20Tirzepatide_20mg_4HEIEI19V7BK",
+              "pricing": {
+                "10": 70,
+                "20": 67,
+                "50": 63,
+                "base": 83
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR30",
+              "name": "Tirzepatide",
+              "specification": "30mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/70330-TR30Tirzepatide_30mg_3WCUE49DQVWM",
+              "pricing": {
+                "20": 100,
+                "50": 100,
+                "base": 110
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR40",
+              "name": "Tirzepatide",
+              "specification": "40mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55828-Tirzepatide_40mg_LGTPNRWYA4GU",
+              "pricing": {
+                "20": 140,
+                "50": 135,
+                "base": 145
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR50",
+              "name": "Tirzepatide",
+              "specification": "50mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/69784-Tirzepatide_50mg_AZCXH5ZM1YCF",
+              "pricing": {
+                "20": 175,
+                "50": 170,
+                "base": 180
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR60",
+              "name": "Tirzepatide",
+              "specification": "60mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/70331-TR60Tirzepatide_60mg_LPB1IP5XT5FA",
+              "pricing": {
+                "20": 195,
+                "50": 190,
+                "base": 200
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR100",
+              "name": "Tirzepatide (10ml)",
+              "specification": "100mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/62371-Tirzepatide_100mg_T21AR1Y57MIG",
+              "pricing": {
+                "20": 345,
+                "50": 340,
+                "base": 350
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR120",
+              "name": "Tirzepatide (10ml)",
+              "specification": "120mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/68621-Tirzepatide_120mg_FRD1B4TNCKFW",
+              "pricing": {
+                "20": 375,
+                "50": 370,
+                "base": 380
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT5",
+              "name": "Retatrutide",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/41528-Retatrutide_5mg_JV8U1KI7RH8K",
+              "pricing": {
+                "20": 68,
+                "50": 65,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT10",
+              "name": "Retatrutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/54825-RT10Retatrutide_10mg_WY1PVKJEVGLU",
+              "pricing": {
+                "10": 73,
+                "20": 70,
+                "50": 66,
+                "base": 87
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT12",
+              "name": "Retatrutide",
+              "specification": "12mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64654-Retatrutide_12mg_2vials_ERBH49ZK3LGJ",
+              "pricing": {
+                "20": 90,
+                "50": 85,
+                "base": 95
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT15",
+              "name": "Retatrutide",
+              "specification": "15mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/49526-Retatrutide_15mg_PD3ZMJGX9T7D",
+              "pricing": {
+                "10": 102,
+                "20": 98,
+                "50": 92,
+                "base": 122
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT20",
+              "name": "Retatrutide",
+              "specification": "20mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55662-RT20Retatrutide_20mg_2vials_6JGKGWYKZ8A4",
+              "pricing": {
+                "20": 135,
+                "50": 130,
+                "base": 140
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT24",
+              "name": "Retatrutide",
+              "specification": "24mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64653-Retatrutide_24mg_2vials_MAQEUKNXCH8L",
+              "pricing": {
+                "20": 160,
+                "50": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT30",
+              "name": "Retatrutide",
+              "specification": "30mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/70329-RT30Retatrutide_30mg_U175GV5BWWZ6",
+              "pricing": {
+                "20": 185,
+                "50": 180,
+                "base": 190
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT36",
+              "name": "Retatrutide",
+              "specification": "36mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64652-Retatrutide_36mg_2vials_86W8YR1QXHNU",
+              "pricing": {
+                "20": 215,
+                "50": 210,
+                "base": 220
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT40",
+              "name": "Retatrutide",
+              "specification": "40mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/70976-Retatrutide_40mg_Q2GR5SIKTW4K",
+              "pricing": {
+                "20": 240,
+                "50": 235,
+                "base": 245
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT50",
+              "name": "Retatrutide",
+              "specification": "50mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/67501-Retatrutide_50mg_8FU65T59AMLY",
+              "pricing": {
+                "20": 290,
+                "50": 285,
+                "base": 295
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RT60",
+              "name": "Retatrutide",
+              "specification": "60mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63893-Retatrutide_60mg_2vials_R7TLA3JFBESA",
+              "pricing": {
+                "20": 335,
+                "50": 330,
+                "base": 340
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CGL5",
+              "name": "Cagrilintide",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/60670-Cagrilintide_5mg_M18CSTPXS57E",
+              "pricing": {
+                "20": 78,
+                "50": 75,
+                "base": 80
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CGL10",
+              "name": "Cagrilintide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/54826-CGL10Cagrilintide_10mg_BWTV9SUJA5QQ",
+              "pricing": {
+                "20": 130,
+                "50": 128,
+                "base": 135
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CS5",
+              "name": "Cagrilintide + Semaglutide",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 85,
+                "50": 80,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CS10",
+              "name": "Cagrilintide + Semaglutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/65461-Cagrilintide_5mg_semaglutide_5mg_UG6RQDGKJKAY",
+              "pricing": {
+                "20": 125,
+                "50": 120,
+                "base": 130
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RC10",
+              "name": "Retatrutide + Cagrilintide",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 170,
+                "50": 165,
+                "base": 175
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "healing_recovery",
+          "description": "Healing & Recovery Peptides",
+          "products": [
+            {
+              "cat_no": "BC5",
+              "name": "BPC-157",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58027-BPC157BPC157_5mg_BSM3HYTX3VYM",
+              "pricing": {
+                "20": 30,
+                "50": 30,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BC10",
+              "name": "BPC-157",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/59906-BPC157_10mg_8HQAEKBJLHPV",
+              "pricing": {
+                "20": 48,
+                "50": 47,
+                "base": 50
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BT5",
+              "name": "TB500 (Thymosin B4 Acetate)",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58025-TB500_TB500_5mg_WX4NNEUCEQ47",
+              "pricing": {
+                "20": 58,
+                "50": 55,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BT10",
+              "name": "TB500 (Thymosin B4 Acetate)",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55801-TB10_TB500_10mg_1vials_G3PUMFPT4U7A",
+              "pricing": {
+                "20": 105,
+                "50": 100,
+                "base": 110
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GLOW50",
+              "name": "GLOW50 (BPC-157 + GHK-CU + TB500)",
+              "specification": "50mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58024-GLOW50BPC157_5mgGHKCU_35mgTB500_10mg_9CWF77623DHW",
+              "pricing": {
+                "20": 140,
+                "50": 135,
+                "base": 145
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GLOW70",
+              "name": "GLOW70 (BPC-157 + GHK-CU + TB500)",
+              "specification": "70mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58861-Glow70_JU2BFDL9HNP9",
+              "pricing": {
+                "20": 170,
+                "50": 165,
+                "base": 175
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "KLOW80",
+              "name": "KLOW80 (BPC-157 + GHK-CU + TB500 + KPV)",
+              "specification": "80mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/67498-BPC_157_10mgGHKCU_50mgTB500_10mg_KPV10mg_W4N4E5Y6QMEZ",
+              "pricing": {
+                "20": 185,
+                "50": 180,
+                "base": 190
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BTK20",
+              "name": "BTK20 (BPC-157 + TB500 + KPV)",
+              "specification": "20mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 155,
+                "50": 150,
+                "base": 160
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BB10",
+              "name": "BPC-157 + TB500",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 85,
+                "50": 80,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BB20",
+              "name": "BPC-157 + TB500",
+              "specification": "20mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 145,
+                "50": 140,
+                "base": 150
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "nad_longevity",
+          "description": "NAD+ and Longevity Peptides",
+          "products": [
+            {
+              "cat_no": "NJ100",
+              "name": "NAD+ (Buffered)",
+              "specification": "100mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 43,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NJ500",
+              "name": "NAD+ (Buffered)",
+              "specification": "500mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 68,
+                "50": 67,
+                "base": 70
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NJ1K",
+              "name": "NAD+ (Buffered)",
+              "specification": "1000mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 128,
+                "50": 125,
+                "base": 130
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "research_peptides",
+          "description": "Research & Enhancement Peptides",
+          "products": [
+            {
+              "cat_no": "MT1",
+              "name": "MT-1 (Melanotan 1)",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 40,
+                "50": 38,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ML10",
+              "name": "MT-2 (Melanotan 2 Acetate)",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 40,
+                "50": 38,
+                "base": 42
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P41",
+              "name": "PT-141 (Bremelanotide)",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 48,
+                "50": 45,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G25",
+              "name": "GHRP-2 Acetate",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 24,
+                "50": 24,
+                "base": 26
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G210",
+              "name": "GHRP-2 Acetate",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 48,
+                "50": 47,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G65",
+              "name": "GHRP-6 Acetate",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 24,
+                "50": 23,
+                "base": 26
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G610",
+              "name": "GHRP-6 Acetate",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 48,
+                "50": 45,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DS2",
+              "name": "DSIP",
+              "specification": "2mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/44603-DSIP_2mg_EBDMMKF2NVKP",
+              "pricing": {
+                "20": 18,
+                "50": 17,
+                "base": 20
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DS5",
+              "name": "DSIP",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/44601-DSIP_5mg_EBDMMKF2NVKV",
+              "pricing": {
+                "20": 41,
+                "50": 40,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DS10",
+              "name": "DSIP",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58858-Dsip10_V4QWLC4Z1YY5",
+              "pricing": {
+                "20": 62,
+                "50": 60,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DS15",
+              "name": "DSIP",
+              "specification": "15mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58859-DSIP_15mg_V4QWLC4Z1YY5",
+              "pricing": {
+                "20": 83,
+                "50": 80,
+                "base": 85
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SK5",
+              "name": "Selank",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55422-Selank_5mg_XY8BVTHWXXFL",
+              "pricing": {
+                "20": 32,
+                "50": 30,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SK10",
+              "name": "Selank",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63163-Selank_10mg_8RAX9YA6M7VB",
+              "pricing": {
+                "20": 45,
+                "50": 43,
+                "base": 48
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SK30",
+              "name": "Selank",
+              "specification": "30mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55422-Selank_30mg_XY8BVTHW9944",
+              "pricing": {
+                "20": 85,
+                "50": 83,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "XA5",
+              "name": "Semax",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55422-Semax_5mg_Y3B6VTHWXXFL",
+              "pricing": {
+                "20": 32,
+                "50": 30,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "XA10",
+              "name": "Semax",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55422-Semax_10mg_Y3B6VTHWXXFL",
+              "pricing": {
+                "20": 45,
+                "50": 43,
+                "base": 48
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "XA30",
+              "name": "Semax",
+              "specification": "30mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/55422-Semax_30mg_Y3B6VTHW9988",
+              "pricing": {
+                "20": 85,
+                "50": 83,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "2S10",
+              "name": "SS-31 (Elamipretide)",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64751-SS31_10mg_D8BRQL11PV7T",
+              "pricing": {
+                "20": 87,
+                "50": 85,
+                "base": 90
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "2S50",
+              "name": "SS-31 (Elamipretide)",
+              "specification": "50mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 340,
+                "50": 335,
+                "base": 345
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G2K",
+              "name": "HCG",
+              "specification": "2000IU*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58862-HCG_2000IU_QH5UT2E98YB7",
+              "pricing": {
+                "20": 44,
+                "50": 41,
+                "base": 46
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G5K",
+              "name": "HCG",
+              "specification": "5000IU*10vials",
+              "janoshik_url": "https://janoshik.com/tests/59905-HCG_5000iu_49N184MASR7I",
+              "pricing": {
+                "20": 65,
+                "50": 63,
+                "base": 68
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G10K",
+              "name": "HCG",
+              "specification": "10000IU*10vials",
+              "janoshik_url": "https://janoshik.com/tests/61505-HCG_10000iu_AD2T5HS9XDPA",
+              "pricing": {
+                "20": 123,
+                "50": 120,
+                "base": 125
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "2AD",
+              "name": "AOD9604",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 45,
+                "50": 43,
+                "base": 46
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "5AD",
+              "name": "AOD9604",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/62997-aod5_5mg_5CZLQ38SRE3N",
+              "pricing": {
+                "20": 88,
+                "50": 85,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "10AD",
+              "name": "AOD9604",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/65458-Aod9604_10mg_1IWIBPFV1Q8N",
+              "pricing": {
+                "20": 158,
+                "50": 155,
+                "base": 160
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IG01",
+              "name": "IGF-1 LR3",
+              "specification": "0.1mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58040-IG01_IGF1LR3_01mg_DM2LPHM5BMEX",
+              "pricing": {
+                "20": 30,
+                "50": 28,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IG1",
+              "name": "IGF-1 LR3",
+              "specification": "1mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58039-IG1IGF1LR3_1mg_1YMTZLDPVMET",
+              "pricing": {
+                "20": 165,
+                "50": 160,
+                "base": 170
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CND5",
+              "name": "CJC-1295 Without DAC",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/44880-CJC1295_Whitout_DAC_ERNL7N1TFEPM",
+              "pricing": {
+                "20": 73,
+                "50": 70,
+                "base": 75
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CND10",
+              "name": "CJC-1295 Without DAC",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 115,
+                "50": 110,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CP10",
+              "name": "CJC-1295 without DAC + Ipamorelin",
+              "specification": "5mg CJC + 5mg IPA*10vials",
+              "janoshik_url": "https://janoshik.com/tests/68615-CJC1295_without_DAC_5mg_IPA_5mg_RY6S8B5TE3Q1",
+              "pricing": {
+                "20": 95,
+                "50": 90,
+                "base": 100
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CD2",
+              "name": "CJC-1295 With DAC",
+              "specification": "2mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63474-CJC1295_DAC_2mg_W6NY8D3RDF95",
+              "pricing": {
+                "20": 73,
+                "50": 70,
+                "base": 75
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CD5",
+              "name": "CJC-1295 With DAC",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58859-CjC_dac_5_39SQGPKXIEHN",
+              "pricing": {
+                "20": 135,
+                "50": 130,
+                "base": 140
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BD5",
+              "name": "TB500 (cas885340-08-9)",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 50,
+                "50": 48,
+                "base": 52
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BD10",
+              "name": "TB500 (cas885340-08-9)",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 90,
+                "50": 85,
+                "base": 95
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IP2",
+              "name": "Ipamorelin",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 17,
+                "50": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IP5",
+              "name": "Ipamorelin",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 38,
+                "50": 35,
+                "base": 40
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IP10",
+              "name": "Ipamorelin",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/42649-IP10_cleargold_top_vial_QD7QLRIFEP6J",
+              "pricing": {
+                "20": 65,
+                "50": 60,
+                "base": 70
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MDT5",
+              "name": "Mazdutide",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64754-Mazdutide_10mg_MQLQW7XH98AW",
+              "pricing": {
+                "20": 115,
+                "50": 110,
+                "base": 120
+              },
+              "popular": true,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MDT10",
+              "name": "Mazdutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64754-Mazdutide_10mg_MQLQW7XH98AW",
+              "pricing": {
+                "20": 195,
+                "50": 190,
+                "base": 200
+              },
+              "popular": true,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SUR10",
+              "name": "Survodutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64755-Survodutide_10mg_P9JNTTATB2LU",
+              "pricing": {
+                "20": 230,
+                "50": 225,
+                "base": 235
+              },
+              "popular": true,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AP2",
+              "name": "Adipotide",
+              "specification": "2mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63724-Adipotide_2mg_LXWCQY5X9ECQ",
+              "pricing": {
+                "20": 58,
+                "50": 55,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AP5",
+              "name": "Adipotide",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 130,
+                "50": 125,
+                "base": 135
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AE1",
+              "name": "ACE-031",
+              "specification": "1mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63732-Ace031_1mg_BZ5KW6KIMIXD",
+              "pricing": {
+                "20": 80,
+                "50": 78,
+                "base": 82
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CBL60",
+              "name": "Cerebrolysin",
+              "specification": "60mg*6vials",
+              "janoshik_url": "https://janoshik.com/tests/50508-cerebrolysin_60mg_9LSIAV29TX4C",
+              "pricing": {
+                "20": 48,
+                "50": 45,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P21",
+              "name": "P21",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63728-P21_10mg_TPALCTXHX7F4",
+              "pricing": {
+                "20": 58,
+                "50": 57,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PNC5",
+              "name": "PNC27",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63730-PNC27_5mg_D7SIM1T6TKTS",
+              "pricing": {
+                "20": 58,
+                "50": 55,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PNC10",
+              "name": "PNC27",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 115,
+                "50": 110,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "KP10",
+              "name": "KPV",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63162-KPV10mg_YQU6DR9QFRGS",
+              "pricing": {
+                "20": 45,
+                "50": 43,
+                "base": 47
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ADA10",
+              "name": "Adamax",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63729-Adamax_10mg_DEQ62M1LJHBE",
+              "pricing": {
+                "20": 98,
+                "50": 95,
+                "base": 100
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RA10",
+              "name": "ARA-290",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58747-ARA290_10mg_WTKX8G997E66",
+              "pricing": {
+                "20": 63,
+                "50": 60,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PE10",
+              "name": "PE-22-28",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63159-PE2228_10mg_A9WNSB7NXBL5",
+              "pricing": {
+                "20": 48,
+                "50": 45,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NP810",
+              "name": "SNAP-8",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/67500-SNAP8_10mg_Y6IPM74L1SAL",
+              "pricing": {
+                "20": 43,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TRA2",
+              "name": "Triptorelin Acetate",
+              "specification": "2mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/42647-XA11_clearblue_top_vial_TJKSD8YJ3I57",
+              "pricing": {
+                "20": 18,
+                "50": 17,
+                "base": 19
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "KS5",
+              "name": "KissPeptin-10",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/66739-KissPeptin_5mg_WT8DRHSUUIAC",
+              "pricing": {
+                "20": 40,
+                "50": 38,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "KS10",
+              "name": "KissPeptin-10",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 72,
+                "50": 70,
+                "base": 75
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TY5",
+              "name": "Thymulin",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/58746-Thymulin_5mg_H12Z9HRL3XYM",
+              "pricing": {
+                "20": 41,
+                "50": 39,
+                "base": 43
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TY10",
+              "name": "Thymulin",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/64747-Thymulin_10mg_UJWWNA2HXMDT",
+              "pricing": {
+                "20": 77,
+                "50": 75,
+                "base": 80
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "VP5",
+              "name": "VIP",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 38,
+                "50": 36,
+                "base": 40
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "VP10",
+              "name": "VIP",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 67,
+                "50": 65,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CU50",
+              "name": "GHK-CU",
+              "specification": "50mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/62996-GHKCu_50mg_4K5X43P319YQ",
+              "pricing": {
+                "10": 31,
+                "20": 30,
+                "50": 28,
+                "base": 32
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CU100",
+              "name": "GHK-CU",
+              "specification": "100mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/60324-GHKCU_100mg_S6UDD83R4MV9",
+              "pricing": {
+                "10": 46,
+                "20": 45,
+                "50": 43,
+                "base": 48
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AU100",
+              "name": "AHK-CU",
+              "specification": "100mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 49,
+                "50": 47,
+                "base": 52
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GND2",
+              "name": "Gonadorelin Acetate",
+              "specification": "2mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/63472-Gonadorelin_Acetate_2mg_QEI7SFC4BAU3",
+              "pricing": {
+                "20": 30,
+                "50": 28,
+                "base": 32
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NET5",
+              "name": "N-Acetyl Epitalon Amidate",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 47,
+                "50": 45,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BC20",
+              "name": "BPC-157",
+              "specification": "20mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 82,
+                "50": 80,
+                "base": 85
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BT2",
+              "name": "TB500",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 23,
+                "50": 21,
+                "base": 25
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FM2",
+              "name": "MGF",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 42,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FMP2",
+              "name": "PEG MGF",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 49,
+                "50": 47,
+                "base": 52
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SMO2",
+              "name": "Sermorelin Acetate",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 28,
+                "50": 26,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SMO5",
+              "name": "Sermorelin Acetate",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 39,
+                "50": 37,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SMO10",
+              "name": "Sermorelin Acetate",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 72,
+                "50": 70,
+                "base": 75
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TSM2",
+              "name": "Tesamorelin",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 32,
+                "50": 30,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TSM10",
+              "name": "Tesamorelin",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 75,
+                "50": 70,
+                "base": 80
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TSM20",
+              "name": "Tesamorelin",
+              "specification": "20mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 110,
+                "50": 100,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "IP5",
+              "name": "Ipamorelin",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 42,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "HX5",
+              "name": "Hexarelin Acetate",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 37,
+                "50": 35,
+                "base": 40
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TA5",
+              "name": "Thymosin Alpha-1",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 42,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LL3710",
+              "name": "LL37",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/62370-LL37_5mg_HT8GDDXGZ2JU",
+              "pricing": {
+                "20": 82,
+                "50": 80,
+                "base": 85
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MT10",
+              "name": "Melatonin",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 32,
+                "50": 30,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FR2",
+              "name": "GH Fragment 176-191",
+              "specification": "2mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 23,
+                "50": 21,
+                "base": 25
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FR5",
+              "name": "GH Fragment 176-191",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 39,
+                "50": 37,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FR10",
+              "name": "GH Fragment 176-191",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 72,
+                "50": 70,
+                "base": 75
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DR5",
+              "name": "Dermorphin",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 42,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ISU",
+              "name": "Insulin (lantus)",
+              "specification": "3ml/1vial",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 24,
+                "50": 22,
+                "base": 26
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "WA10",
+              "name": "Bac.water",
+              "specification": "10ml/10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 14,
+                "50": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BA10",
+              "name": "Bac.water",
+              "specification": "10ml/10vials Contains Benzyl Alcohol",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 17,
+                "50": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BA03",
+              "name": "Bac.water",
+              "specification": "3ml/10vials Contains Benzyl Alcohol",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 11,
+                "50": 10,
+                "base": 12
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "XT100",
+              "name": "Botulinum toxin",
+              "specification": "100iu/10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 155,
+                "50": 150,
+                "base": 160
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "5AM",
+              "name": "5-amino-1mq",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 42,
+                "50": 40,
+                "base": 45
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "10AM",
+              "name": "5-amino-1mq",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 85,
+                "50": 82,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "50AM",
+              "name": "5-amino-1mq",
+              "specification": "50mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 210,
+                "50": 205,
+                "base": 215
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "G75",
+              "name": "HMG 75 IU",
+              "specification": "75 IU*10vials",
+              "janoshik_url": "https://janoshik.com/tests/62373-HMG_75iu_8KCPGF74ACTZ",
+              "pricing": {
+                "20": 62,
+                "50": 60,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "E3K",
+              "name": "EPO 3000 IU",
+              "specification": "3000 IU*5vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 95,
+                "50": 90,
+                "base": 100
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "HA5",
+              "name": "Hyaluronic acid",
+              "specification": "5mg*1vial",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 32,
+                "50": 30,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PI5",
+              "name": "Pinealon",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 43,
+                "50": 41,
+                "base": 46
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PI10",
+              "name": "Pinealon",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 62,
+                "50": 60,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PI20",
+              "name": "Pinealon",
+              "specification": "20mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 94,
+                "50": 91,
+                "base": 97
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "VI20",
+              "name": "Vilon",
+              "specification": "20mg/10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 105,
+                "50": 102,
+                "base": 110
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DL5",
+              "name": "Dulaglutide",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 94,
+                "50": 91,
+                "base": 97
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DL10",
+              "name": "Dulaglutide",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 185,
+                "50": 180,
+                "base": 190
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PL5",
+              "name": "Pramlintide",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 115,
+                "50": 112,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PL10",
+              "name": "Pramlintide",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 210,
+                "50": 205,
+                "base": 215
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PRO20",
+              "name": "Alprostadil",
+              "specification": "20mcg*5vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 115,
+                "50": 112,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LB10",
+              "name": "LEMON BOTTLE",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 115,
+                "50": 112,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AR50",
+              "name": "AICAR",
+              "specification": "50mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 62,
+                "50": 60,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ET5",
+              "name": "Epithalon",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 30,
+                "50": 29,
+                "base": 32
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ET10",
+              "name": "Epithalon",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/44876-Epithalon_10mg_W1RXSGRXH428",
+              "pricing": {
+                "20": 43,
+                "50": 42,
+                "base": 45
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ET40",
+              "name": "Epithalon",
+              "specification": "40mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 83,
+                "50": 80,
+                "base": 85
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ET50",
+              "name": "Epithalon",
+              "specification": "50mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/65462-Epithalon_50mg_B78EHNEPAMM8",
+              "pricing": {
+                "20": 118,
+                "50": 115,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MS5",
+              "name": "MOTS-c",
+              "specification": "5mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 28,
+                "50": 27,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MS10",
+              "name": "MOTS-c",
+              "specification": "10mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/42650-MS10_cleargold_top_vial_I27UCAXRCDSJ",
+              "pricing": {
+                "20": 53,
+                "50": 50,
+                "base": 55
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MS40",
+              "name": "MOTS-c",
+              "specification": "40mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 175,
+                "50": 170,
+                "base": 180
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "OT5",
+              "name": "Oxytocin",
+              "specification": "5mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/48191-Oxytocin_5mg_1vials_9E9AVRBVPAEM",
+              "pricing": {
+                "20": 36,
+                "50": 35,
+                "base": 38
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "OT10",
+              "name": "Oxytocin",
+              "specification": "10mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "20": 68,
+                "50": 65,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oral_tablets",
+      "description": "Oral Tablet Products",
+      "subcategories": [
+        {
+          "key": "anabolic_steroids",
+          "description": "Anabolic Steroid Tablets",
+          "products": [
+            {
+              "cat_no": "D20",
+              "name": "Dianabol (Methandrostenolone)",
+              "specification": "20mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/41537-DIANABOL_20mg_7UVJ15L318PP",
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": true,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "X25",
+              "name": "Anavar (Oxandrolone)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/51101-ANAVAR_25mg_HRIRS4X67U19",
+              "pricing": {
+                "10": 26,
+                "base": 27
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "W20",
+              "name": "Winstrol (Stanozolol)",
+              "specification": "20mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/43557-Winstrol_Or_Stanozolol_20mg_FZ2UXGAH68TD",
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "OXP50",
+              "name": "ANADROL (Oxymetholone)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/41577-Anadrol_50_mg_12Z2IPAC4UW5",
+              "pricing": {
+                "10": 17,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CT25",
+              "name": "Turinabol",
+              "specification": "25mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/41536-turinabol_25mg_GMLHJY1GGZPA",
+              "pricing": {
+                "10": 26,
+                "base": 27
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "X10",
+              "name": "Anavar (Oxandrolone)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/41576-Anavar_10_mg_IBGAWU3RA6FW",
+              "pricing": {
+                "10": 17,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "X50",
+              "name": "Anavar (Oxandrolone)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/51102-ANAVAR_50mg_GM5FYC6IEZXY",
+              "pricing": {
+                "10": 40,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "W10",
+              "name": "Winstrol (Stanozolol)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/51104-Stanozolol_10mg_TFDX3QTC6LPZ",
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "W50",
+              "name": "Winstrol (Stanozolol)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/51105-Stanozolol_50mg_BKIMH89TR9CI",
+              "pricing": {
+                "10": 21,
+                "base": 23
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "D10",
+              "name": "Dianabol (Methandrostenolone)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 11,
+                "base": 12
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "D50",
+              "name": "Dianabol (Methandrostenolone)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 22,
+                "base": 23
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SD10",
+              "name": "Superdrol (Methyldrostanolone)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/41538-superdrol_10mg_24K2T1PPLEG7",
+              "pricing": {
+                "10": 16,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CT10",
+              "name": "Turinabol",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CT50",
+              "name": "Turinabol",
+              "specification": "50mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 42,
+                "base": 43
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M10",
+              "name": "Methenolone Acetate (Primobolan)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 33,
+                "base": 34
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M25",
+              "name": "Methenolone Acetate (Primobolan)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/48619-Methenolonel_Acetate_25mg_LMXN67YQCTDM",
+              "pricing": {
+                "10": 63,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M50",
+              "name": "Methenolone Acetate (Primobolan)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 110,
+                "base": 115
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FX40",
+              "name": "Fluoxymesterone (Halotestin)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 58,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "1TT10",
+              "name": "DHB (1-Testosterone cypionate)",
+              "specification": "10mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SB20",
+              "name": "SALBUTAMOL",
+              "specification": "20mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MSB10",
+              "name": "Methylstenbolone",
+              "specification": "10mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 33,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M1T10",
+              "name": "17a-Methyl-1-testosterone M1T",
+              "specification": "10mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "pdn10",
+              "name": "Prednisone",
+              "specification": "10mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "pct_support",
+          "description": "Post Cycle Therapy Support",
+          "products": [
+            {
+              "cat_no": "T20",
+              "name": "Tamoxifen (Nolvadex)",
+              "specification": "20mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 14,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CD50",
+              "name": "Clomiphene (Clomid)",
+              "specification": "50mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 16,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DEX1",
+              "name": "Anastrozole (ARIMIDEX)",
+              "specification": "1mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 11,
+                "base": 12
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LZ25",
+              "name": "Letrazole (Femara)",
+              "specification": "2.5mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 12,
+                "base": 13
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "XE25",
+              "name": "Aromasin (Exemestane)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 29,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P10",
+              "name": "Mesterolone (Proviron)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 17,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P25",
+              "name": "Mesterolone (Proviron)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 26,
+                "base": 27
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "fat_loss",
+          "description": "Fat Loss & Cutting Compounds",
+          "products": [
+            {
+              "cat_no": "CB40",
+              "name": "CLEN (Clenbuterol)",
+              "specification": "40MCG*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 12,
+                "base": 13
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "325",
+              "name": "T3 (Liothyronine sodium)",
+              "specification": "25mcg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/43556-T3_Liothyronine_sodium_25mcg_QHQU9R5W53SZ",
+              "pricing": {
+                "10": 13,
+                "base": 14
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "340",
+              "name": "T3 (Liothyronine sodium)",
+              "specification": "40mcg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/43556-T3_Liothyronine_sodium_25mcg_QHQU9R5W53SZ",
+              "pricing": {
+                "10": 15,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "440",
+              "name": "T4 (Levothyroxine)",
+              "specification": "40mcg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "T500",
+              "name": "Tesofensine",
+              "specification": "500mcg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/44604-Tesofensine_500mcg_CLUTKT6V7ELK",
+              "pricing": {
+                "10": 29,
+                "base": 30
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "T3",
+              "name": "T3 (Liothyronine sodium)",
+              "specification": "40mcg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "sarms",
+          "description": "SARMs (Selective Androgen Receptor Modulators)",
+          "products": [
+            {
+              "cat_no": "G50",
+              "name": "GW-501516 (Cardarine)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/51106-GW501516_Cardarine_10mg_H4NURMXK1NSA",
+              "pricing": {
+                "10": 22,
+                "base": 23
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "L40",
+              "name": "LGD-4033 (Ligandrol)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 22,
+                "base": 26
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M6",
+              "name": "MK-677 (Ibutamoren)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 29,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S9",
+              "name": "SR9009 (Stenabolic)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 32,
+                "base": 33
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "R14",
+              "name": "RAD140 (Testolone)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 37,
+                "base": 41
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M28",
+              "name": "Ostarine (MK-2866)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 29,
+                "base": 30
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S040",
+              "name": "Andarine S4",
+              "specification": "25mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 23,
+                "base": 25
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "Y1",
+              "name": "YK11",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 51,
+                "base": 51
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GW0742",
+              "name": "GW0742 (Cardarine II)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 26,
+                "base": 28
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SR9009",
+              "name": "SR9009 (Stenabolic)",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 30,
+                "base": 32
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SR9011",
+              "name": "SR9011",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 33,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LGD3303",
+              "name": "LGD3303",
+              "specification": "10mg*100tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 33,
+                "base": 35
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "enhancement",
+          "description": "Enhancement & ED Support",
+          "products": [
+            {
+              "cat_no": "SD100",
+              "name": "Sildenafil (Viagra)",
+              "specification": "100mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/53262-Sildenafil_100mg_IG6J8DH5NFVK",
+              "pricing": {
+                "10": 12,
+                "base": 13
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DT20",
+              "name": "Tadalafil (Cialis)",
+              "specification": "20mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/44603-Tadanafil_20mg_9MQIIYJ38VC3",
+              "pricing": {
+                "10": 12,
+                "base": 13
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B70",
+              "name": "COCK BOMBS",
+              "specification": "70mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/65299-COCK_Bombs_70mg_XU5C75944GGT",
+              "pricing": {
+                "10": 19,
+                "base": 20
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "specialty",
+          "description": "Specialty Research Compounds",
+          "products": [
+            {
+              "cat_no": "DNP200",
+              "name": "DNP (2,4-Dinitrophenol)",
+              "specification": "200mg*50tabs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 25,
+                "20": 23,
+                "base": 27
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "CG25",
+              "name": "Cabergoline",
+              "specification": "0.25mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/53329-Cabergoline_025mg_R3AZIH68Y8TH",
+              "pricing": {
+                "10": 48,
+                "base": 50
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "EC25",
+              "name": "Androxal (Enclomiphene)",
+              "specification": "25mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/52941-EC25_Enclomiphene_25mg_XF5K2CWWBALJ",
+              "pricing": {
+                "10": 58,
+                "base": 60
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SLU250",
+              "name": "SLU-PP-332",
+              "specification": "250mcg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/65291-slupp332_250mcg_59BX6J4K8R3P",
+              "pricing": {
+                "10": 17,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SLU20",
+              "name": "SLU-PP-332",
+              "specification": "20mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/53260-SluPP332_20mg_3V8KMTRTLSRH",
+              "pricing": {
+                "10": 68,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DUT1",
+              "name": "Dutasteride",
+              "specification": "1mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/65293-Dutasteride_1mg_N9KY8YIPQ2BD",
+              "pricing": {
+                "10": 18,
+                "base": 19
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MD5",
+              "name": "Minoxidil",
+              "specification": "5mg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/65290-Minoxidil_5mg_ARY1KUPWB6G9",
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B157",
+              "name": "BPC-157 Tablets",
+              "specification": "500mcg*100tabs",
+              "janoshik_url": "https://janoshik.com/tests/48623-BPC157_500mcg_5MPDD9CUBT66",
+              "pricing": {
+                "10": 51,
+                "base": 55
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SM500",
+              "name": "Semaglutide Tablets",
+              "specification": "500mcg*25tabs",
+              "janoshik_url": "https://janoshik.com/tests/50512-semaglutide_500mcg_QZ322BDG96AL",
+              "pricing": {
+                "10": 15,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AMQ50",
+              "name": "5-amino-1mq",
+              "specification": "50mg x 25 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 29,
+                "base": 31
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BAM50",
+              "name": "BAM15 (capsule)",
+              "specification": "50mg x 60pcs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 115,
+                "base": 120
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "KP500",
+              "name": "KPV",
+              "specification": "500mcg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 75,
+                "base": 80
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BB500",
+              "name": "BPC+TB500",
+              "specification": "1000mcg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 150,
+                "base": 155
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MB20",
+              "name": "Methylene Blue",
+              "specification": "20mg x 100pcs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 29,
+                "base": 31
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "A10",
+              "name": "AICAR",
+              "specification": "10mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 39,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MD5",
+              "name": "Minoxidil",
+              "specification": "5mg x 100 tablets",
+              "janoshik_url": "https://janoshik.com/tests/65290-Minoxidil_5mg_ARY1KUPWB6G9",
+              "pricing": {
+                "10": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "EC125",
+              "name": "Androxal (Enclomiphene)",
+              "specification": "12.5mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 30,
+                "base": 32
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TM40",
+              "name": "Telmisartan",
+              "specification": "40mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FAN1",
+              "name": "Finasteride",
+              "specification": "1mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 14,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FS5",
+              "name": "Finasteride",
+              "specification": "5mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 19,
+                "base": 21
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LV5",
+              "name": "Ivermectin",
+              "specification": "5mg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 14,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "FB100",
+              "name": "Flibanserin",
+              "specification": "100mg x 30 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SLU1000",
+              "name": "SLU-PP-332",
+              "specification": "1000mcg x 100 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 23,
+                "base": 25
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SB300",
+              "name": "Slupp-332+BAM15 capsule",
+              "specification": "300mcg x 60pcs",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 31,
+                "base": 33
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TR500",
+              "name": "Tirzepatide",
+              "specification": "500mcg x 25 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "AICAR",
+              "name": "AICAR",
+              "specification": "50mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 62,
+                "20": 58,
+                "base": 65
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "ACC10",
+              "name": "Accutane (Isotretinoin)",
+              "specification": "10mg x 50 tablets",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 23,
+                "base": 25
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "injectable_oils",
+      "description": "Injectable Oils (Base oil MCT, BB20% BA1%)",
+      "subcategories": [
+        {
+          "key": "testosterone",
+          "description": "Testosterone Products",
+          "products": [
+            {
+              "cat_no": "C250",
+              "name": "TESTOSTERONE CYPIONATE",
+              "specification": "250mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64737-Test_Cyp_250mgml_Z1TGAVSXHPD7",
+              "pricing": {
+                "10": 8,
+                "base": 10
+              },
+              "popular": true,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "E250",
+              "name": "TESTOSTERONE ENANTHATE",
+              "specification": "250mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64738-Test_E_250mgml_DDI6QVXLKMBY",
+              "pricing": {
+                "10": 8,
+                "base": 10
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P100",
+              "name": "Testosterone Propionate",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43276-AAS_oil_P100_Testosterone_propionate_100mgml_IE7XQ7DSLQHU",
+              "pricing": {
+                "10": 6,
+                "base": 8
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "E300",
+              "name": "TESTOSTERONE ENANTHATE",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 12,
+                "base": 13
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TY300",
+              "name": "TU-300 (Testosterone Undecanoate)",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 10,
+                "base": 12
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S250",
+              "name": "Sustanon",
+              "specification": "250mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43275-AAS_oil_S250_Sustanon_250mgml_AX5ENDZCUSPN",
+              "pricing": {
+                "10": 11,
+                "base": 12
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S450",
+              "name": "Supertest",
+              "specification": "450mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64740-Supertest_450mg_I4BB5E46JHXG",
+              "pricing": {
+                "10": 15,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "P200",
+              "name": "Testosterone Propionate",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43276-AAS_oil_P200_Testosterone_propionate_200mgml_IE7XQ7DSLQHU",
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SP100",
+              "name": "Testosterone Suspension",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/48626-TS_TESTOSTERONE_SUSPENSION_100mgml_10_ml_BLB634I92V93",
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BA100",
+              "name": "Test Base (TNE)",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/48627-TEST_BASE_100mg_TNE_testosterone_no_ester_8YV9TF45ZRI3",
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S400",
+              "name": "SU-400",
+              "specification": "400mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/48628-SU400_400mgml_J12E95E13MG5",
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "T600",
+              "name": "Testo-600",
+              "specification": "600mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64741-Testo600mg_5CEUCFMG1XRA",
+              "pricing": {
+                "10": 15,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "trenbolone",
+          "description": "Trenbolone Products",
+          "products": [
+            {
+              "cat_no": "R100",
+              "name": "Trenbolone Acetate",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/41581-TRA_100mgml_52HT5YVQUI7T",
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RY100",
+              "name": "Trenbolone Enanthate",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43277-AAS_oil_RY100_Trenbolone_enanthate_100mgml_FQVSGLDFDU6S",
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "R200",
+              "name": "Trenbolone Enanthate",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43277-AAS_oil_RY100_Trenbolone_enanthate_100mgml_FQVSGLDFDU6S",
+              "pricing": {
+                "10": 17,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "3R225",
+              "name": "TriTren 225",
+              "specification": "225mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 34,
+                "base": 36
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RM200",
+              "name": "TRENMIX-200",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 19,
+                "base": 21
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BR50",
+              "name": "TRB 50 trenbolone base",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "H100",
+              "name": "TrX-100",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 34,
+                "base": 36
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "other",
+          "description": "Other Injectable Compounds",
+          "products": [
+            {
+              "cat_no": "N200",
+              "name": "DECA (NANDROLONE DECANOATE)",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/41582-DECA_200mgml_1ZXGBUN76SKJ",
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "U200",
+              "name": "EQUIPOISE (BOLDENONE UNDECYLENATE)",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64742-BU_Equipoise_200mgml_N1PZAPR61UFW",
+              "pricing": {
+                "10": 13,
+                "base": 14
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "U300",
+              "name": "BU-300 (EQUIPOISE)",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64743-BU_Equipoise_300mgml_894ZBMDRCIUC",
+              "pricing": {
+                "10": 15,
+                "base": 16
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "U600",
+              "name": "BU 600 (BOLDEN-600)",
+              "specification": "600mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/50515-BOLDEN600_600mgml_D52G188A6BME",
+              "pricing": {
+                "10": 21,
+                "base": 22
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PN100",
+              "name": "NPP-100",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/53461-NPP100_100mgml_6SP1FJE5RD8U",
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M100",
+              "name": "METHENOLONE ENANTHATE (Primo)",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/53456-METHENOLONE_ENANTHATE_100mgml_JQYV785INFD7",
+              "pricing": {
+                "10": 30,
+                "base": 31
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "M200",
+              "name": "METHENOLONE ENANTHATE (Primo)",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/53460-METHENOLONE_ENANTHATE_200mgml_8VSIJPA3K9I6",
+              "pricing": {
+                "10": 54,
+                "base": 55
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "D100",
+              "name": "Masteron 100 (DP)",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/41535-masteron_100mgml_7A2DTKG5HW29",
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DO50",
+              "name": "Dianabol-50",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/43278-AAS_oil_DO50_Dianabol50_50mgml_Z7WCNPVIXTJS",
+              "pricing": {
+                "10": 13,
+                "base": 14
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "1T100",
+              "name": "DHB (1-Testosterone cypionate)",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64746-1Testosterone_Cypionate_100mgml_N9FWVMUXP1A6",
+              "pricing": {
+                "10": 19,
+                "base": 23
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "EC100",
+              "name": "Estradial Cypionate",
+              "specification": "10mg/ml, 10ml vial",
+              "janoshik_url": "https://janoshik.com/tests/64745-Estradial_Cypionate_10mg_CJCMZ3L4LUE8",
+              "pricing": {
+                "10": 14,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B300",
+              "name": "BLEND 300",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 24,
+                "base": 26
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B375",
+              "name": "BLEND-375",
+              "specification": "375mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 27,
+                "base": 29
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B500",
+              "name": "BLEND-500",
+              "specification": "500mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 39,
+                "base": 42
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "MN50",
+              "name": "Trestolone acetate (MENT)",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 31,
+                "base": 33
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "DM200",
+              "name": "MAST Blend-200",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 22,
+                "base": 24
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RX225",
+              "name": "Ripex-225",
+              "specification": "225mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 22,
+                "base": 24
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BS250",
+              "name": "BC 250 (boldenone cypionate)",
+              "specification": "250mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "D200",
+              "name": "MAST-200",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 17,
+                "base": 19
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "N300",
+              "name": "DECA 300",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 15,
+                "base": 17
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NM300",
+              "name": "NANDROMIX-300",
+              "specification": "300mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 16,
+                "base": 18
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "PN200",
+              "name": "NPP-200",
+              "specification": "200mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SO50",
+              "name": "STANOZOLOL oil base",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SO100",
+              "name": "STANOZOLOL oil base",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SW50",
+              "name": "STANOZOLOL suspension",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SW100",
+              "name": "STANOZOLOL suspension",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 9,
+                "base": 11
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "OXO50",
+              "name": "Anadrol-50",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "HD50",
+              "name": "stanolone (DHT)",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 12,
+                "base": 14
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SDO50",
+              "name": "Superdrol",
+              "specification": "50mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 10,
+                "base": 12
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "BM5",
+              "name": "metribolone",
+              "specification": "5mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "NJ100",
+              "name": "NAD+ oil",
+              "specification": "100mg/ml, 10ml vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 13,
+                "base": 15
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "specialty_injections",
+      "description": "Specialty Injections (10ml x 10 vials)",
+      "subcategories": [
+        {
+          "key": "lipotropic",
+          "description": "Lipotropic & Fat Loss Injections",
+          "products": [
+            {
+              "cat_no": "LC120",
+              "name": "Lipo-C",
+              "specification": "10ml x 120mg/ml/vial",
+              "janoshik_url": "https://janoshik.com/tests/61134-LC120LipoC_CE7V8AY9KF2H",
+              "pricing": {
+                "10": 90,
+                "20": 85,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC553",
+              "name": "SUPER SHRED",
+              "specification": "10ml x 10 vials",
+              "janoshik_url": "https://janoshik.com/tests/67328-SUPER_SHRED_LC553_9R8UEH93WVNH",
+              "pricing": {
+                "10": 160,
+                "20": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC425",
+              "name": "Lipo-C FOCUS",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 150,
+                "20": 145,
+                "base": 155
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC526",
+              "name": "Lipo-C FAT BLASTER",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 160,
+                "20": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RP226",
+              "name": "Relaxation PM",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 160,
+                "20": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SHB",
+              "name": "SUPER Human Blend",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 160,
+                "20": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "HHB",
+              "name": "Healthy Hair, Skin & Nails Blend",
+              "specification": "10ml*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 160,
+                "20": 155,
+                "base": 165
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC1201",
+              "name": "Lipo-C + B12",
+              "specification": "10ml x 121mg/ml/vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 95,
+                "20": 90,
+                "base": 95
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "Lipo-C",
+              "name": "Lipo-C (Original)",
+              "specification": "10ml x 120mg/ml/vial",
+              "janoshik_url": "https://janoshik.com/tests/61134-LC120LipoC_CE7V8AY9KF2H",
+              "pricing": {
+                "10": 90,
+                "20": 85,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "Lipo-B",
+              "name": "Lipo-B Blend",
+              "specification": "10ml*10vials",
+              "janoshik_url": "https://janoshik.com/tests/67327-LipoB_LC216_63ZZGHE2G39P",
+              "pricing": {
+                "10": 105,
+                "20": 100,
+                "base": 105
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC500",
+              "name": "L-Carnitine",
+              "specification": "500mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/67329-LCarnitine_500mg_LC500_GQRRB859TU13",
+              "pricing": {
+                "10": 68,
+                "20": 65,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "wellness",
+          "description": "Health & Wellness Injections",
+          "products": [
+            {
+              "cat_no": "B1210",
+              "name": "Vitamin B12 Injection",
+              "specification": "10ml x 10 vials, 10mg per vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 85,
+                "base": 90
+              },
+              "popular": false,
+              "new": false,
+              "best_value": true,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GAZ",
+              "name": "Immunological Enhancement",
+              "specification": "10ml x 10 vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 170,
+                "20": 165,
+                "base": 175
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC216",
+              "name": "Lipo-B injection",
+              "specification": "10ml x 10 vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 135,
+                "20": 130,
+                "base": 140
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "B1201",
+              "name": "Vitamin B12 Injection",
+              "specification": "1mg*10ML",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 38,
+                "base": 40
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "D320",
+              "name": "Vitamin D3",
+              "specification": "20000iu/ml, 10ml/vial",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 68,
+                "base": 70
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LC1000",
+              "name": "L-Carnitine",
+              "specification": "1000mg*10vials",
+              "janoshik_url": null,
+              "pricing": {
+                "10": 130,
+                "base": 135
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GTT",
+              "name": "Glutathione",
+              "specification": "1500mg*10vials",
+              "janoshik_url": "https://janoshik.com/tests/66740-Glutathione_1500mg_9BMY5A4V7YZG",
+              "pricing": {
+                "10": 75,
+                "base": 80
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "raw_materials",
+      "description": "Raw Materials (Raw Powder Materials for Research)",
+      "subcategories": [
+        {
+          "key": "sarms",
+          "description": "SARMs (Selective Androgen Receptor Modulators)",
+          "products": [
+            {
+              "cat_no": "MK677-RAW",
+              "name": "MK677 (Ibutamoren)",
+              "specification": "Available: 10g, 50g, 100g, 500g, 1kg",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 160,
+                "50g": 400,
+                "100g": 730,
+                "500g": 3400,
+                "1kg": 6300
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RAD140-RAW",
+              "name": "RAD-140",
+              "specification": "Available: 10g, 50g, 100g, 500g, 1kg",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 145,
+                "50g": 680,
+                "100g": 1200,
+                "500g": 6000,
+                "1kg": 11400
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "LGD4033-RAW",
+              "name": "LGD4033",
+              "specification": "Available: 10g, 50g, 100g, 500g",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 340,
+                "50g": 650,
+                "100g": 3600,
+                "500g": 5700
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "YK11-RAW",
+              "name": "YK11",
+              "specification": "Available: 10g, 50g, 100g, 500g",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 380,
+                "50g": 950,
+                "100g": 4200,
+                "500g": 8500
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S23-RAW",
+              "name": "S23",
+              "specification": "Available: 10g, 50g, 100g, 500g",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 420,
+                "50g": 1100,
+                "100g": 4800,
+                "500g": 9200
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "GW501516-RAW",
+              "name": "GW501516 (Cardarine)",
+              "specification": "Available: 10g, 50g, 100g, 500g",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 280,
+                "50g": 750,
+                "100g": 3200,
+                "500g": 6800
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "S4-RAW",
+              "name": "Andarine S4",
+              "specification": "Available: 10g, 50g, 100g, 500g",
+              "janoshik_url": null,
+              "pricing": {
+                "10g": 320,
+                "50g": 820,
+                "100g": 3600,
+                "500g": 7400
+              },
+              "popular": false,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        },
+        {
+          "key": "peptides",
+          "description": "Peptide Raw Materials",
+          "products": [
+            {
+              "cat_no": "SEMAGLUTIDE-RAW",
+              "name": "Semaglutide",
+              "specification": "Minimum Order: 5g",
+              "janoshik_url": null,
+              "pricing": {
+                "per_gram": 150
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "TIRZEPATIDE-RAW",
+              "name": "Tirzepatide",
+              "specification": "Minimum Order: 5g",
+              "janoshik_url": null,
+              "pricing": {
+                "per_gram": 180
+              },
+              "popular": true,
+              "new": false,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "RETATRUTIDE-RAW",
+              "name": "Retatrutide",
+              "specification": "Minimum Order: 5g",
+              "janoshik_url": null,
+              "pricing": {
+                "per_gram": 351
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            },
+            {
+              "cat_no": "SS31-RAW",
+              "name": "SS-31 (Elamipretide)",
+              "specification": "Minimum Order: 1g",
+              "janoshik_url": null,
+              "pricing": {
+                "per_gram": 520
+              },
+              "popular": false,
+              "new": true,
+              "best_value": false,
+              "contact_pricing": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_products": 322,
+  "total_janoshik": 149
+}
