@@ -77,6 +77,14 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- Test Reports Page -->
+    <url>
+        <loc>https://sigmaaudley.site/test-reports.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
     <!-- Product Pages -->
     <url>
         <loc>https://sigmaaudley.site/products/peptides/</loc>
