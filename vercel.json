@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/reports/:catNo", "destination": "/api/reports/[catNo]?catNo=:catNo" },
+    { "source": "/tests/sigma/:slug", "destination": "/api/tests/sigma/[slug]?slug=:slug" },
+    { "source": "/tests/:slug", "destination": "/api/tests/[slug]?slug=:slug" }
+  ]
+}
