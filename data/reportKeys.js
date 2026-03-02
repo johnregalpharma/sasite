@@ -405,50 +405,30 @@ for (const r of reportKeys) {
   reportKeyMap[r.uniqueKey] = r;
 }
 
-const crypto = require('crypto');
-const fs = require('fs');
-const path = require('path');
-
-// Scan report subdirectories for sterility, endotoxin, heavy-metals
-const reportTypeMeta = {
-    sterility: { prefix: 'ST', label: 'Sterility' },
-    endotoxin: { prefix: 'EN', label: 'Endotoxin' },
-    'heavy-metals': { prefix: 'HM', label: 'Heavy_Metals' }
-};
-
+// Load pre-built report type map (sterility, endotoxin, heavy-metals)
+// This avoids scanning directories at runtime (which fails on Vercel since
+// reports/** is excluded from the serverless function).
 const reportTypeFiles = { sterility: {}, endotoxin: {}, 'heavy-metals': {} };
-
-Object.keys(reportTypeMeta).forEach(type => {
-    const dir = path.join(__dirname, '..', 'reports', type);
-    try {
-        const files = fs.readdirSync(dir).filter(f => f.endsWith('.png'));
-        const meta = reportTypeMeta[type];
-        files.forEach(file => {
-            const baseName = file.replace('.png', '');
-            const uniqueKey = crypto.createHash('md5').update(type + ':' + file).digest('hex').slice(0, 12).toUpperCase();
-            const taskNumber = meta.prefix + '-' + baseName;
-            const slug = taskNumber + '-' + meta.label + '_' + baseName + '_' + uniqueKey;
-            const verifyUrl = 'https://verify.janoshik.com.sigmaaudley.site/tests/sigma/' + slug;
-
-            reportKeyMap[uniqueKey] = {
-                uniqueKey,
-                taskNumber,
-                filename: file,
-                dir: type,
-                verifyUrl
-            };
-
-            reportTypeFiles[type][baseName] = {
-                filename: file,
-                dir: type,
-                verifyUrl,
-                taskNumber,
-                uniqueKey
-            };
-        });
-    } catch (e) {
-        // Directory doesn't exist yet
+try {
+    const reportTypeMap = require('./report-type-map.json');
+    for (const type of Object.keys(reportTypeFiles)) {
+        if (reportTypeMap[type]) {
+            reportTypeFiles[type] = reportTypeMap[type];
+            for (const [key, entry] of Object.entries(reportTypeMap[type])) {
+                if (entry.uniqueKey) {
+                    reportKeyMap[entry.uniqueKey] = {
+                        uniqueKey: entry.uniqueKey,
+                        taskNumber: entry.taskNumber,
+                        filename: entry.filename,
+                        dir: type,
+                        verifyUrl: entry.verifyUrl
+                    };
+                }
+            }
+        }
     }
-});
+} catch (e) {
+    // report-type-map.json not found — non-purity reports will show as Coming Soon
+}
 
 module.exports = { reportKeys, reportKeyMap, reportTypeFiles };
