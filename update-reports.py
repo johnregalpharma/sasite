@@ -62,7 +62,7 @@ while i < len(content):
     i += 1
 
 old_block = content[old_start:old_end]
-old_count = old_block.count('"https://verify.janoshik.net')
+old_count = old_block.count('"https://verify.janoshik.com.sigmaaudley.site')
 print(f"Old reportVerifyLinks had {old_count} entries")
 
 content = content[:old_start] + new_block + content[old_end:]
@@ -70,7 +70,7 @@ content = content[:old_start] + new_block + content[old_end:]
 with open(tr_path, "w", encoding="utf-8") as f:
     f.write(content)
 
-new_count = new_block.count('"https://verify.janoshik.net')
+new_count = new_block.count('"https://verify.janoshik.com.sigmaaudley.site')
 print(f"New reportVerifyLinks has {new_count} entries")
 print(f"Updated test-reports.html")
 

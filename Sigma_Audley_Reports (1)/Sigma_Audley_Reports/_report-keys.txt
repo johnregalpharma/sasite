@@ -1,0 +1,318 @@
+UNIQUE_KEY	TASK_NUMBER	SAMPLE	FILENAME	VERIFY_URL
+VLUHP7VQI32R	#51506	GH 191AA (Somatropin) 6IU	GH_191AA_(Somatropin)_6IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51506-GH_191AA_(Somatropin)_6IU_VLUHP7VQI32R
+0UKAQVAKPXIV	#51313	GH 191AA (Somatropin) 8IU	GH_191AA_(Somatropin)_8IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51313-GH_191AA_(Somatropin)_8IU_0UKAQVAKPXIV
+9UQ3L4W9FHVO	#51545	GH 191AA (Somatropin) 10IU	GH_191AA_(Somatropin)_10IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51545-GH_191AA_(Somatropin)_10IU_9UQ3L4W9FHVO
+NC96MSRR4K4G	#51849	GH 191AA (Somatropin) 12IU	GH_191AA_(Somatropin)_12IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51849-GH_191AA_(Somatropin)_12IU_NC96MSRR4K4G
+9ID0E1YFX904	#51319	GH 191AA (Somatropin) 15IU	GH_191AA_(Somatropin)_15IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51319-GH_191AA_(Somatropin)_15IU_9ID0E1YFX904
+PWZDA08GTQ9V	#51111	GH 191AA (Somatropin) 24IU	GH_191AA_(Somatropin)_24IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51111-GH_191AA_(Somatropin)_24IU_PWZDA08GTQ9V
+9JXIFQISD8BH	#51004	GH 191AA (Somatropin) 36IU	GH_191AA_(Somatropin)_36IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51004-GH_191AA_(Somatropin)_36IU_9JXIFQISD8BH
+QF96NQMNG82J	#51032	BPC-157 5mg	BPC-157_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51032-BPC-157_5mg_QF96NQMNG82J
+1IC37JD2Q5DR	#51898	BPC-157 10mg	BPC-157_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51898-BPC-157_10mg_1IC37JD2Q5DR
+5OUJF165EWQU	#51273	BPC-157 + TB500 Blend 10mg	BPC-157_+_TB500_Blend_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51273-BPC-157_+_TB500_Blend_10mg_5OUJF165EWQU
+HLBKVCTIDGOU	#51863	BPC-157 + TB500 Blend 20mg	BPC-157_+_TB500_Blend_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51863-BPC-157_+_TB500_Blend_20mg_HLBKVCTIDGOU
+PVGETNHYC63X	#51640	BTK20 (BPC-157 + TB500 + KPV) 20mg	BTK20_(BPC-157_+_TB500_+_KPV)_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51640-BTK20_(BPC-157_+_TB500_+_KPV)_20mg_PVGETNHYC63X
+07QAXVDQZP8A	#51419	GLOW50 (BPC-157 + GHK-CU + TB500) 50mg	GLOW50_(BPC-157_+_GHK-CU_+_TB500)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51419-GLOW50_(BPC-157_+_GHK-CU_+_TB500)_50mg_07QAXVDQZP8A
+S2E1JFIZW1MU	#51927	GLOW70 (BPC-157 + GHK-CU + TB500) 70mg	GLOW70_(BPC-157_+_GHK-CU_+_TB500)_70mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51927-GLOW70_(BPC-157_+_GHK-CU_+_TB500)_70mg_S2E1JFIZW1MU
+BCBBSEUEU32V	#51602	KLOW80 (BPC-157 + GHK-CU + TB500 + KPV) 80mg	KLOW80_(BPC-157_+_GHK-CU_+_TB500_+_KPV)_80mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51602-KLOW80_(BPC-157_+_GHK-CU_+_TB500_+_KPV)_80mg_BCBBSEUEU32V
+K4Q77O0F5WDD	#51449	TB500 (Thymosin B4 Acetate) 5mg	TB500_(Thymosin_B4_Acetate)_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51449-TB500_(Thymosin_B4_Acetate)_5mg_K4Q77O0F5WDD
+8SUJ8WLASLKS	#51946	TB500 (Thymosin B4 Acetate) 10mg	TB500_(Thymosin_B4_Acetate)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51946-TB500_(Thymosin_B4_Acetate)_10mg_8SUJ8WLASLKS
+RYZCY7114RZ9	#51315	NAD+ (Buffered) 100mg	NAD+_(Buffered)_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51315-NAD+_(Buffered)_100mg_RYZCY7114RZ9
+VW1MOLHZU0WX	#51350	NAD+ (Buffered) 500mg	NAD+_(Buffered)_500mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51350-NAD+_(Buffered)_500mg_VW1MOLHZU0WX
+ARUJYG5SJD0W	#51803	NAD+ (Buffered) 1000mg	NAD+_(Buffered)_1000mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51803-NAD+_(Buffered)_1000mg_ARUJYG5SJD0W
+IIVV5PZH1NLF	#51142	5-amino-1MQ 5mg	5-amino-1MQ_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51142-5-amino-1MQ_5mg_IIVV5PZH1NLF
+54DIJRNGMHN5	#51636	5-amino-1MQ 10mg	5-amino-1MQ_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51636-5-amino-1MQ_10mg_54DIJRNGMHN5
+0DPGG56KUBJ8	#51582	5-amino-1MQ 50mg	5-amino-1MQ_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51582-5-amino-1MQ_50mg_0DPGG56KUBJ8
+BEXQQCGVQ2ST	#51127	ACE-031 1mg	ACE-031_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51127-ACE-031_1mg_BEXQQCGVQ2ST
+FWVSZ19QCYE1	#51450	Adamax 10mg	Adamax_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51450-Adamax_10mg_FWVSZ19QCYE1
+UDWFU422Q1IR	#51837	Adipotide 2mg	Adipotide_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51837-Adipotide_2mg_UDWFU422Q1IR
+E88BILCJUBYW	#51802	Adipotide 5mg	Adipotide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51802-Adipotide_5mg_E88BILCJUBYW
+0NMV7IZBVAUV	#51738	AHK-CU 100mg	AHK-CU_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51738-AHK-CU_100mg_0NMV7IZBVAUV
+X4EHY4MRIII4	#51397	AICAR 50mg	AICAR_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51397-AICAR_50mg_X4EHY4MRIII4
+056L8I41YBKK	#51324	Alprostadil 20mcg	Alprostadil_20mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51324-Alprostadil_20mcg_056L8I41YBKK
+ZI5MI26CQEJZ	#51602	AOD9604 2mg	AOD9604_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51602-AOD9604_2mg_ZI5MI26CQEJZ
+88GXW4YKTKUR	#51435	AOD9604 5mg	AOD9604_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51435-AOD9604_5mg_88GXW4YKTKUR
+G0DSAW09WF4O	#51801	AOD9604 10mg	AOD9604_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51801-AOD9604_10mg_G0DSAW09WF4O
+DCN172VWL0PC	#51506	ARA-290 10mg	ARA-290_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51506-ARA-290_10mg_DCN172VWL0PC
+IS4Q3ONPXKRP	#51303	Bac Water	Bac_Water.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51303-Bac_Water_IS4Q3ONPXKRP
+1VKJA97K48EW	#51500	Bac Water	Bac_Water.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51500-Bac_Water_1VKJA97K48EW
+7QGG6ESTSN3S	#51594	Bac Water	Bac_Water.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51594-Bac_Water_7QGG6ESTSN3S
+EVCV64UZA4CD	#51826	Botulinum toxin 100IU	Botulinum_toxin_100IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51826-Botulinum_toxin_100IU_EVCV64UZA4CD
+3KBTFWO8PZUI	#51264	BPC-157 20mg	BPC-157_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51264-BPC-157_20mg_3KBTFWO8PZUI
+NSQUOFLK9K3L	#51271	Cerebrolysin 60mg	Cerebrolysin_60mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51271-Cerebrolysin_60mg_NSQUOFLK9K3L
+I7YWK598DT68	#51697	CJC-1295 With DAC 2mg	CJC-1295_With_DAC_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51697-CJC-1295_With_DAC_2mg_I7YWK598DT68
+AXCZGRUJACB2	#51606	CJC-1295 With DAC 5mg	CJC-1295_With_DAC_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51606-CJC-1295_With_DAC_5mg_AXCZGRUJACB2
+PYWQ0I0LFIQN	#51772	CJC-1295 Without DAC 5mg	CJC-1295_Without_DAC_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51772-CJC-1295_Without_DAC_5mg_PYWQ0I0LFIQN
+YO3ODUAN4S2V	#51926	CJC-1295 Without DAC 10mg	CJC-1295_Without_DAC_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51926-CJC-1295_Without_DAC_10mg_YO3ODUAN4S2V
+21CC4XH7IR03	#51539	CJC-1295 Without DAC + Ipamorelin Blend 10mg	CJC-1295_Without_DAC_+_Ipamorelin_Blend_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51539-CJC-1295_Without_DAC_+_Ipamorelin_Blend_10mg_21CC4XH7IR03
+UTZ86XP64UD2	#51231	Dermorphin 5mg	Dermorphin_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51231-Dermorphin_5mg_UTZ86XP64UD2
+6KREN23SFYU7	#51727	DSIP 2mg	DSIP_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51727-DSIP_2mg_6KREN23SFYU7
+ASMIL1O83KDU	#51033	DSIP 5mg	DSIP_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51033-DSIP_5mg_ASMIL1O83KDU
+RHAKSB45LTHW	#51662	DSIP 10mg	DSIP_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51662-DSIP_10mg_RHAKSB45LTHW
+DXGKRWYAGGD2	#51128	DSIP 15mg	DSIP_15mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51128-DSIP_15mg_DXGKRWYAGGD2
+STDT4K3226C2	#51410	Dulaglutide 5mg	Dulaglutide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51410-Dulaglutide_5mg_STDT4K3226C2
+S2OU1DNOL32X	#51619	Dulaglutide 10mg	Dulaglutide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51619-Dulaglutide_10mg_S2OU1DNOL32X
+66OF0HN69PGS	#51710	Epithalon 5mg	Epithalon_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51710-Epithalon_5mg_66OF0HN69PGS
+IINV32ZDCYKC	#51781	Epithalon 10mg	Epithalon_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51781-Epithalon_10mg_IINV32ZDCYKC
+IM0RFH6R9K1H	#51374	Epithalon 40mg	Epithalon_40mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51374-Epithalon_40mg_IM0RFH6R9K1H
+60A5SMGXM9FI	#51782	Epithalon 50mg	Epithalon_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51782-Epithalon_50mg_60A5SMGXM9FI
+2YT96XHPD3ZM	#51693	EPO 3000IU	EPO_3000IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51693-EPO_3000IU_2YT96XHPD3ZM
+5TXFPKLAMXI7	#51111	GH Fragment 176-191 2mg	GH_Fragment_176-191_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51111-GH_Fragment_176-191_2mg_5TXFPKLAMXI7
+PP6SYN70YYS3	#51219	GH Fragment 176-191 5mg	GH_Fragment_176-191_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51219-GH_Fragment_176-191_5mg_PP6SYN70YYS3
+W0G8EWF81ZAP	#51611	GH Fragment 176-191 10mg	GH_Fragment_176-191_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51611-GH_Fragment_176-191_10mg_W0G8EWF81ZAP
+6UUKTJFHB7QT	#51506	GHK-CU 50mg	GHK-CU_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51506-GHK-CU_50mg_6UUKTJFHB7QT
+630O0VRQQJSX	#51543	GHK-CU 100mg	GHK-CU_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51543-GHK-CU_100mg_630O0VRQQJSX
+NA2RKO2BII02	#51115	GHRP-2 Acetate 5mg	GHRP-2_Acetate_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51115-GHRP-2_Acetate_5mg_NA2RKO2BII02
+3Q2LILWX8NAO	#51034	GHRP-2 Acetate 10mg	GHRP-2_Acetate_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51034-GHRP-2_Acetate_10mg_3Q2LILWX8NAO
+WRVAHWJTLQND	#51189	GHRP-6 Acetate 5mg	GHRP-6_Acetate_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51189-GHRP-6_Acetate_5mg_WRVAHWJTLQND
+9O2GM89227C7	#51033	GHRP-6 Acetate 10mg	GHRP-6_Acetate_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51033-GHRP-6_Acetate_10mg_9O2GM89227C7
+UGIKREZXNTSS	#51533	Gonadorelin Acetate 2mg	Gonadorelin_Acetate_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51533-Gonadorelin_Acetate_2mg_UGIKREZXNTSS
+JSTOICPKKAUH	#51271	HCG 2000IU	HCG_2000IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51271-HCG_2000IU_JSTOICPKKAUH
+OWKL9QWXVR3Z	#51877	HCG 5000IU	HCG_5000IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51877-HCG_5000IU_OWKL9QWXVR3Z
+EK84PWWZR5XV	#51872	HCG 10000IU	HCG_10000IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51872-HCG_10000IU_EK84PWWZR5XV
+GOZ1U2KZQ59I	#51162	Hexarelin Acetate 5mg	Hexarelin_Acetate_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51162-Hexarelin_Acetate_5mg_GOZ1U2KZQ59I
+EXLC1XRHIL67	#51800	HMG 75IU	HMG_75IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51800-HMG_75IU_EXLC1XRHIL67
+3HXJAAFIRI2V	#51120	Hyaluronic acid 5mg	Hyaluronic_acid_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51120-Hyaluronic_acid_5mg_3HXJAAFIRI2V
+UYI2Q9BNSVR7	#51076	IGF-1 LR3 0.1mg	IGF-1_LR3_01mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51076-IGF-1_LR3_01mg_UYI2Q9BNSVR7
+2WDEZ2NXCR96	#51055	IGF-1 LR3 1mg	IGF-1_LR3_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51055-IGF-1_LR3_1mg_2WDEZ2NXCR96
+RZSPDPBSNFI8	#51790	Insulin (Lantus)	Insulin_(Lantus).png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51790-Insulin_(Lantus)_RZSPDPBSNFI8
+EXVI1L7073CF	#51848	Ipamorelin 2mg	Ipamorelin_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51848-Ipamorelin_2mg_EXVI1L7073CF
+33PNB5ISXXYM	#51665	Ipamorelin 5mg	Ipamorelin_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51665-Ipamorelin_5mg_33PNB5ISXXYM
+XNUJVEV77E7F	#51339	Ipamorelin 10mg	Ipamorelin_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51339-Ipamorelin_10mg_XNUJVEV77E7F
+9S4KGTGYD56P	#51029	KissPeptin-10 5mg	KissPeptin-10_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51029-KissPeptin-10_5mg_9S4KGTGYD56P
+VOWIC43SYIU3	#51006	KissPeptin-10 10mg	KissPeptin-10_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51006-KissPeptin-10_10mg_VOWIC43SYIU3
+3HZWOKZC0S0Y	#51538	KPV 10mg	KPV_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51538-KPV_10mg_3HZWOKZC0S0Y
+KEZ2HU4NH4YX	#51789	Lemon Bottle	Lemon_Bottle.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51789-Lemon_Bottle_KEZ2HU4NH4YX
+OO4L3QE0NWWC	#51399	LL37 10mg	LL37_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51399-LL37_10mg_OO4L3QE0NWWC
+PYYNDJNZF52S	#51663	Mazdutide 5mg	Mazdutide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51663-Mazdutide_5mg_PYYNDJNZF52S
+Z5C4712OKFHG	#51802	Mazdutide 10mg	Mazdutide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51802-Mazdutide_10mg_Z5C4712OKFHG
+ZMGLJBH1D7SM	#51475	Melatonin 10mg	Melatonin_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51475-Melatonin_10mg_ZMGLJBH1D7SM
+N4QP3O0B1IUF	#51134	MGF 2mg	MGF_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51134-MGF_2mg_N4QP3O0B1IUF
+VRMNOLP41CA9	#51642	MOTS-c 5mg	MOTS-c_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51642-MOTS-c_5mg_VRMNOLP41CA9
+EXECQN7URXF9	#51715	MOTS-c 10mg	MOTS-c_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51715-MOTS-c_10mg_EXECQN7URXF9
+105AEMC3IDYX	#51257	MOTS-c 40mg	MOTS-c_40mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51257-MOTS-c_40mg_105AEMC3IDYX
+9D90YRHHA9X0	#51692	MT-1 (Melanotan 1) 10mg	MT-1_(Melanotan_1)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51692-MT-1_(Melanotan_1)_10mg_9D90YRHHA9X0
+L7WM6XVHYQDJ	#51863	MT-2 (Melanotan 2 Acetate) 10mg	MT-2_(Melanotan_2_Acetate)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51863-MT-2_(Melanotan_2_Acetate)_10mg_L7WM6XVHYQDJ
+U3J2C32S3B7P	#51341	N-Acetyl Epitalon Amidate 5mg	N-Acetyl_Epitalon_Amidate_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51341-N-Acetyl_Epitalon_Amidate_5mg_U3J2C32S3B7P
+6WK7YS6GN4ZJ	#51043	Oxytocin 5mg	Oxytocin_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51043-Oxytocin_5mg_6WK7YS6GN4ZJ
+1JSCLST6W1FZ	#51071	Oxytocin 10mg	Oxytocin_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51071-Oxytocin_10mg_1JSCLST6W1FZ
+1N6T4JO0JC59	#51886	P21 10mg	P21_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51886-P21_10mg_1N6T4JO0JC59
+SE2JQU207PWO	#51522	PE-22-28 10mg	PE-22-28_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51522-PE-22-28_10mg_SE2JQU207PWO
+5LLAQXOMLR2S	#51926	PEG MGF 2mg	PEG_MGF_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51926-PEG_MGF_2mg_5LLAQXOMLR2S
+63XPKDU3GH2Y	#51046	Pinealon 5mg	Pinealon_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51046-Pinealon_5mg_63XPKDU3GH2Y
+FZN3OAEDHIJR	#51111	Pinealon 10mg	Pinealon_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51111-Pinealon_10mg_FZN3OAEDHIJR
+F9VPQA1JRY5G	#51691	Pinealon 20mg	Pinealon_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51691-Pinealon_20mg_F9VPQA1JRY5G
+T87WTN1AS4JR	#51135	PNC27 5mg	PNC27_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51135-PNC27_5mg_T87WTN1AS4JR
+TQESKIDJAJZ4	#51352	PNC27 10mg	PNC27_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51352-PNC27_10mg_TQESKIDJAJZ4
+IH1IHBQG115I	#51876	Pramlintide 5mg	Pramlintide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51876-Pramlintide_5mg_IH1IHBQG115I
+9XYM8OWLJQHM	#51936	Pramlintide 10mg	Pramlintide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51936-Pramlintide_10mg_9XYM8OWLJQHM
+3YJGYGEI74SR	#51663	PT-141 (Bremelanotide) 10mg	PT-141_(Bremelanotide)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51663-PT-141_(Bremelanotide)_10mg_3YJGYGEI74SR
+3WPOEYSGMKRP	#51087	Selank 5mg	Selank_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51087-Selank_5mg_3WPOEYSGMKRP
+AYCZ6Q87S148	#51721	Selank 10mg	Selank_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51721-Selank_10mg_AYCZ6Q87S148
+8S0YX1AEXXKN	#51532	Selank 30mg	Selank_30mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51532-Selank_30mg_8S0YX1AEXXKN
+OIG3XI1ZA1Q6	#51734	Semax 5mg	Semax_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51734-Semax_5mg_OIG3XI1ZA1Q6
+U0UKX4F1OJN0	#51963	Semax 10mg	Semax_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51963-Semax_10mg_U0UKX4F1OJN0
+7OGFNPIHMY3Z	#51613	Semax 30mg	Semax_30mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51613-Semax_30mg_7OGFNPIHMY3Z
+GECY8V2HTSHQ	#51657	Sermorelin Acetate 2mg	Sermorelin_Acetate_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51657-Sermorelin_Acetate_2mg_GECY8V2HTSHQ
+GH19PMPSG5PE	#51524	Sermorelin Acetate 5mg	Sermorelin_Acetate_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51524-Sermorelin_Acetate_5mg_GH19PMPSG5PE
+B2893CN5XFR0	#51779	Sermorelin Acetate 10mg	Sermorelin_Acetate_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51779-Sermorelin_Acetate_10mg_B2893CN5XFR0
+GS3IXUKW5RE8	#51484	SNAP-8 10mg	SNAP-8_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51484-SNAP-8_10mg_GS3IXUKW5RE8
+WJM61HDZ2HPJ	#51606	SS-31 (Elamipretide) 10mg	SS-31_(Elamipretide)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51606-SS-31_(Elamipretide)_10mg_WJM61HDZ2HPJ
+52TG82M7MM5E	#51643	SS-31 (Elamipretide) 50mg	SS-31_(Elamipretide)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51643-SS-31_(Elamipretide)_50mg_52TG82M7MM5E
+PMQZ3XTJ3YOQ	#51812	Survodutide 10mg	Survodutide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51812-Survodutide_10mg_PMQZ3XTJ3YOQ
+1XJNAOXVSFET	#51922	TB500 2mg	TB500_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51922-TB500_2mg_1XJNAOXVSFET
+YMTLYX7IAJJR	#51190	TB500 5mg	TB500_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51190-TB500_5mg_YMTLYX7IAJJR
+XZ1FNBLMIDP3	#51934	TB500 10mg	TB500_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51934-TB500_10mg_XZ1FNBLMIDP3
+IGEP191B9LX6	#51414	Tesamorelin 2mg	Tesamorelin_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51414-Tesamorelin_2mg_IGEP191B9LX6
+QI3Z64X4H33F	#51137	Tesamorelin 10mg	Tesamorelin_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51137-Tesamorelin_10mg_QI3Z64X4H33F
+UG0PHDW582TE	#51810	Tesamorelin 20mg	Tesamorelin_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51810-Tesamorelin_20mg_UG0PHDW582TE
+3M53HXBNHMN6	#51516	Thymosin Alpha-1 5mg	Thymosin_Alpha-1_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51516-Thymosin_Alpha-1_5mg_3M53HXBNHMN6
+ZQ1RHU3FSMFA	#51904	Thymulin 5mg	Thymulin_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51904-Thymulin_5mg_ZQ1RHU3FSMFA
+BPYBMGLE3WS9	#51342	Thymulin 10mg	Thymulin_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51342-Thymulin_10mg_BPYBMGLE3WS9
+HLWG71TXM6WZ	#51881	Triptorelin Acetate 2mg	Triptorelin_Acetate_2mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51881-Triptorelin_Acetate_2mg_HLWG71TXM6WZ
+PPU9QH1YEZVI	#51778	Vilon 20mg	Vilon_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51778-Vilon_20mg_PPU9QH1YEZVI
+OX3VZ7L1ZEDT	#51034	VIP 5mg	VIP_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51034-VIP_5mg_OX3VZ7L1ZEDT
+G7FWI0FRP6DC	#51161	VIP 10mg	VIP_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51161-VIP_10mg_G7FWI0FRP6DC
+24JA2M2R73BQ	#51814	Cagrilintide 5mg	Cagrilintide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51814-Cagrilintide_5mg_24JA2M2R73BQ
+R5H1S0QCG1GQ	#51725	Cagrilintide 10mg	Cagrilintide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51725-Cagrilintide_10mg_R5H1S0QCG1GQ
+9TIQHS7NKIAB	#51071	Cagrilintide + Semaglutide Blend 5mg	Cagrilintide_+_Semaglutide_Blend_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51071-Cagrilintide_+_Semaglutide_Blend_5mg_9TIQHS7NKIAB
+45Z4PPJMQJM4	#51154	Cagrilintide + Semaglutide Blend 10mg	Cagrilintide_+_Semaglutide_Blend_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51154-Cagrilintide_+_Semaglutide_Blend_10mg_45Z4PPJMQJM4
+0HMNOUFGNAVP	#51987	Retatrutide 5mg	Retatrutide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51987-Retatrutide_5mg_0HMNOUFGNAVP
+YH2GSUNS52A6	#51489	Retatrutide 10mg	Retatrutide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51489-Retatrutide_10mg_YH2GSUNS52A6
+NN0SDDFOWSMY	#51461	Retatrutide 12mg	Retatrutide_12mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51461-Retatrutide_12mg_NN0SDDFOWSMY
+K3JS04ELABTV	#51844	Retatrutide 15mg	Retatrutide_15mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51844-Retatrutide_15mg_K3JS04ELABTV
+AC4DSMH4VJRH	#51219	Retatrutide 20mg	Retatrutide_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51219-Retatrutide_20mg_AC4DSMH4VJRH
+706YBURWO1FS	#51977	Retatrutide 24mg	Retatrutide_24mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51977-Retatrutide_24mg_706YBURWO1FS
+DNJXHGQSK58L	#51615	Retatrutide 30mg	Retatrutide_30mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51615-Retatrutide_30mg_DNJXHGQSK58L
+VU91IHQADEVN	#51795	Retatrutide 36mg	Retatrutide_36mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51795-Retatrutide_36mg_VU91IHQADEVN
+IFUEIN522YZN	#51334	Retatrutide 40mg	Retatrutide_40mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51334-Retatrutide_40mg_IFUEIN522YZN
+YGTE56WDP5NE	#51280	Retatrutide 50mg	Retatrutide_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51280-Retatrutide_50mg_YGTE56WDP5NE
+1N19S2RLW6H9	#51013	Retatrutide 60mg	Retatrutide_60mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51013-Retatrutide_60mg_1N19S2RLW6H9
+AUVI3EPDO7OQ	#51831	Retatrutide + Cagrilintide Blend 10mg	Retatrutide_+_Cagrilintide_Blend_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51831-Retatrutide_+_Cagrilintide_Blend_10mg_AUVI3EPDO7OQ
+7DFCK35CCQCC	#51021	Semaglutide 5mg	Semaglutide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51021-Semaglutide_5mg_7DFCK35CCQCC
+EB8CWUV44ES1	#51746	Semaglutide 10mg	Semaglutide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51746-Semaglutide_10mg_EB8CWUV44ES1
+ZIJ5A06T6S13	#51644	Semaglutide 15mg	Semaglutide_15mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51644-Semaglutide_15mg_ZIJ5A06T6S13
+FCW2L17SM239	#51060	Semaglutide 20mg	Semaglutide_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51060-Semaglutide_20mg_FCW2L17SM239
+AXHBZI8A58AT	#51579	Semaglutide 30mg	Semaglutide_30mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51579-Semaglutide_30mg_AXHBZI8A58AT
+9O3B6ZLYY27T	#51516	Tirzepatide 5mg	Tirzepatide_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51516-Tirzepatide_5mg_9O3B6ZLYY27T
+TIRQ700OHH4H	#51141	Tirzepatide 10mg	Tirzepatide_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51141-Tirzepatide_10mg_TIRQ700OHH4H
+XEPLRW0Z9LRC	#51154	Tirzepatide 15mg	Tirzepatide_15mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51154-Tirzepatide_15mg_XEPLRW0Z9LRC
+G9KOGHJHNLRO	#51448	Tirzepatide 20mg	Tirzepatide_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51448-Tirzepatide_20mg_G9KOGHJHNLRO
+B5ZMT67SQUX0	#51136	Tirzepatide 30mg	Tirzepatide_30mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51136-Tirzepatide_30mg_B5ZMT67SQUX0
+8K8QCG0BYY8Y	#51504	Tirzepatide 40mg	Tirzepatide_40mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51504-Tirzepatide_40mg_8K8QCG0BYY8Y
+ID761Y7ES1SG	#51739	Tirzepatide 50mg	Tirzepatide_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51739-Tirzepatide_50mg_ID761Y7ES1SG
+5F2KBPBDWRGR	#51799	Tirzepatide 60mg	Tirzepatide_60mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51799-Tirzepatide_60mg_5F2KBPBDWRGR
+T4QFFO8VGROL	#51275	Tirzepatide 100mg	Tirzepatide_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51275-Tirzepatide_100mg_T4QFFO8VGROL
+KENRZE2LWKD6	#51265	Tirzepatide 120mg	Tirzepatide_120mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51265-Tirzepatide_120mg_KENRZE2LWKD6
+9AFFC8GKC6CT	#51577	17a-Methyl-1-Testosterone 10mg	17a-Methyl-1-Testosterone_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51577-17a-Methyl-1-Testosterone_10mg_9AFFC8GKC6CT
+XN14HLP86DVI	#51187	Anadrol (Oxymetholone) 50mg	Anadrol_(Oxymetholone)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51187-Anadrol_(Oxymetholone)_50mg_XN14HLP86DVI
+4YE1RLUX67L4	#51760	Anavar (Oxandrolone) 10mg	Anavar_(Oxandrolone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51760-Anavar_(Oxandrolone)_10mg_4YE1RLUX67L4
+AZ4ZUC454DI4	#51047	Anavar (Oxandrolone) 25mg	Anavar_(Oxandrolone)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51047-Anavar_(Oxandrolone)_25mg_AZ4ZUC454DI4
+4AXBTZ2KR3G2	#51483	Anavar (Oxandrolone) 50mg	Anavar_(Oxandrolone)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51483-Anavar_(Oxandrolone)_50mg_4AXBTZ2KR3G2
+QSP6HNN55UR6	#51064	DHB (1-Testosterone Cypionate) 10mg	DHB_(1-Testosterone_Cypionate)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51064-DHB_(1-Testosterone_Cypionate)_10mg_QSP6HNN55UR6
+LZA0VRSBP7K4	#51815	Dianabol (Methandrostenolone) 10mg	Dianabol_(Methandrostenolone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51815-Dianabol_(Methandrostenolone)_10mg_LZA0VRSBP7K4
+V9RLSKPU6WPG	#51414	Dianabol (Methandrostenolone) 20mg	Dianabol_(Methandrostenolone)_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51414-Dianabol_(Methandrostenolone)_20mg_V9RLSKPU6WPG
+FO1QRLWJLE1V	#51096	Dianabol (Methandrostenolone) 50mg	Dianabol_(Methandrostenolone)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51096-Dianabol_(Methandrostenolone)_50mg_FO1QRLWJLE1V
+QXVC0433SQ3O	#51350	Halotestin (Fluoxymesterone) 10mg	Halotestin_(Fluoxymesterone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51350-Halotestin_(Fluoxymesterone)_10mg_QXVC0433SQ3O
+H38IBCJ3UUQU	#51959	Primobolan (Methenolone Acetate) 10mg	Primobolan_(Methenolone_Acetate)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51959-Primobolan_(Methenolone_Acetate)_10mg_H38IBCJ3UUQU
+NUCHKT2W09FK	#51091	Primobolan (Methenolone Acetate) 25mg	Primobolan_(Methenolone_Acetate)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51091-Primobolan_(Methenolone_Acetate)_25mg_NUCHKT2W09FK
+D860Q855REW2	#51028	Primobolan (Methenolone Acetate) 50mg	Primobolan_(Methenolone_Acetate)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51028-Primobolan_(Methenolone_Acetate)_50mg_D860Q855REW2
+Z0H9ZKU2B8I6	#51489	Methylstenbolone 10mg	Methylstenbolone_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51489-Methylstenbolone_10mg_Z0H9ZKU2B8I6
+1W0WQTB3XJU1	#51365	Prednisone 10mg	Prednisone_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51365-Prednisone_10mg_1W0WQTB3XJU1
+SQB5GSXT1QDY	#51965	Salbutamol 20mg	Salbutamol_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51965-Salbutamol_20mg_SQB5GSXT1QDY
+Q5QOE8K3JYT9	#51963	Superdrol (Methyldrostanolone) 10mg	Superdrol_(Methyldrostanolone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51963-Superdrol_(Methyldrostanolone)_10mg_Q5QOE8K3JYT9
+RIC4MM45PNFK	#51145	Turinabol 10mg	Turinabol_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51145-Turinabol_10mg_RIC4MM45PNFK
+9Y8SPKWMCTW2	#51109	Turinabol 25mg	Turinabol_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51109-Turinabol_25mg_9Y8SPKWMCTW2
+SOA0A03KSRY6	#51394	Turinabol 50mg	Turinabol_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51394-Turinabol_50mg_SOA0A03KSRY6
+2DWUPC5ZQRNE	#51697	Winstrol (Stanozolol) 10mg	Winstrol_(Stanozolol)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51697-Winstrol_(Stanozolol)_10mg_2DWUPC5ZQRNE
+HQFNI485OCYI	#51691	Winstrol (Stanozolol) 20mg	Winstrol_(Stanozolol)_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51691-Winstrol_(Stanozolol)_20mg_HQFNI485OCYI
+B0THHBIE28ZL	#51256	Winstrol (Stanozolol) 50mg	Winstrol_(Stanozolol)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51256-Winstrol_(Stanozolol)_50mg_B0THHBIE28ZL
+MHAAZPXOMM3I	#51373	COCK BOMBS (Viagra + Cialis) 70mg	COCK_BOMBS_(Viagra_+_Cialis)_70mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51373-COCK_BOMBS_(Viagra_+_Cialis)_70mg_MHAAZPXOMM3I
+PK24ZT02Y2OU	#51095	Sildenafil (Viagra) 100mg	Sildenafil_(Viagra)_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51095-Sildenafil_(Viagra)_100mg_PK24ZT02Y2OU
+78VOTQRU0DUC	#51330	Tadalafil (Cialis) 20mg	Tadalafil_(Cialis)_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51330-Tadalafil_(Cialis)_20mg_78VOTQRU0DUC
+584S838GHSKG	#51402	Clenbuterol 40mcg	Clenbuterol_40mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51402-Clenbuterol_40mcg_584S838GHSKG
+ZUM4OI0JUF6K	#51850	T3 (Liothyronine) 25mcg	T3_(Liothyronine)_25mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51850-T3_(Liothyronine)_25mcg_ZUM4OI0JUF6K
+49BC5SAOIYI5	#51630	T3 (Liothyronine) 40mcg	T3_(Liothyronine)_40mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51630-T3_(Liothyronine)_40mcg_49BC5SAOIYI5
+AA2PSB2OHWW8	#51921	T4 (Levothyroxine) 40mcg	T4_(Levothyroxine)_40mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51921-T4_(Levothyroxine)_40mcg_AA2PSB2OHWW8
+4UN08M4ST61X	#51008	Tesofensine 500mcg	Tesofensine_500mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51008-Tesofensine_500mcg_4UN08M4ST61X
+4XWCBV624P6R	#51954	Anastrozole (Arimidex) 1mg	Anastrozole_(Arimidex)_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51954-Anastrozole_(Arimidex)_1mg_4XWCBV624P6R
+1DE5OOZYSHMG	#51731	Aromasin (Exemestane) 25mg	Aromasin_(Exemestane)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51731-Aromasin_(Exemestane)_25mg_1DE5OOZYSHMG
+EHLAHV69E4QC	#51204	Clomiphene (Clomid) 50mg	Clomiphene_(Clomid)_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51204-Clomiphene_(Clomid)_50mg_EHLAHV69E4QC
+GHKI8UV3732F	#51166	Letrozole (Femara) 2.5mg	Letrozole_(Femara)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51166-Letrozole_(Femara)_25mg_GHKI8UV3732F
+WR5O29W1DTSB	#51830	Proviron (Mesterolone) 10mg	Proviron_(Mesterolone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51830-Proviron_(Mesterolone)_10mg_WR5O29W1DTSB
+QFYX0CTM9HOT	#51531	Proviron (Mesterolone) 25mg	Proviron_(Mesterolone)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51531-Proviron_(Mesterolone)_25mg_QFYX0CTM9HOT
+RLB3CMWDUV4W	#51069	Tamoxifen (Nolvadex) 20mg	Tamoxifen_(Nolvadex)_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51069-Tamoxifen_(Nolvadex)_20mg_RLB3CMWDUV4W
+KZNZOWZ13FMV	#51780	Andarine S4 25mg	Andarine_S4_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51780-Andarine_S4_25mg_KZNZOWZ13FMV
+PURMEVMC51FV	#51371	GW-501516 (Cardarine) 10mg	GW-501516_(Cardarine)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51371-GW-501516_(Cardarine)_10mg_PURMEVMC51FV
+2VEQLMC6T95V	#51318	GW0742 (Cardarine II) 10mg	GW0742_(Cardarine_II)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51318-GW0742_(Cardarine_II)_10mg_2VEQLMC6T95V
+K2Z6PSWC09T2	#51408	LGD-4033 (Ligandrol) 10mg	LGD-4033_(Ligandrol)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51408-LGD-4033_(Ligandrol)_10mg_K2Z6PSWC09T2
+0JEP42URTEIJ	#51369	LGD3303 10mg	LGD3303_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51369-LGD3303_10mg_0JEP42URTEIJ
+BKDOP3YKQ3EN	#51684	MK-677 (Ibutamoren) 10mg	MK-677_(Ibutamoren)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51684-MK-677_(Ibutamoren)_10mg_BKDOP3YKQ3EN
+CF3G10MC5IL1	#51585	Ostarine (MK-2866) 25mg	Ostarine_(MK-2866)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51585-Ostarine_(MK-2866)_25mg_CF3G10MC5IL1
+3YK11MEQPDS6	#51516	RAD140 (Testolone) 10mg	RAD140_(Testolone)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51516-RAD140_(Testolone)_10mg_3YK11MEQPDS6
+JURPTBOIVUET	#51769	SR9009 (Stenabolic) 10mg	SR9009_(Stenabolic)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51769-SR9009_(Stenabolic)_10mg_JURPTBOIVUET
+QYN7EJ0KXL2C	#51104	SR9011 10mg	SR9011_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51104-SR9011_10mg_QYN7EJ0KXL2C
+DZ4N49AXBRQW	#51836	YK11 10mg	YK11_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51836-YK11_10mg_DZ4N49AXBRQW
+55TB6X2CQTEE	#51016	5-amino-1MQ Oral 50mg	5-amino-1MQ_Oral_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51016-5-amino-1MQ_Oral_50mg_55TB6X2CQTEE
+P098YDIJ5D0W	#51496	Isotretinoin (Accutane) 10mg	Isotretinoin_(Accutane)_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51496-Isotretinoin_(Accutane)_10mg_P098YDIJ5D0W
+3VROU60M39IK	#51718	AICAR Oral 10mg	AICAR_Oral_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51718-AICAR_Oral_10mg_3VROU60M39IK
+7YWJKK56DVR6	#51559	Enclomiphene (Androxal) 12.5mg	Enclomiphene_(Androxal)_125mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51559-Enclomiphene_(Androxal)_125mg_7YWJKK56DVR6
+0SBW62SL9PW9	#51622	Enclomiphene (Androxal) 25mg	Enclomiphene_(Androxal)_25mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51622-Enclomiphene_(Androxal)_25mg_0SBW62SL9PW9
+EPD38E4HAABQ	#51873	BAM15 50mg	BAM15_50mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51873-BAM15_50mg_EPD38E4HAABQ
+B5YKGQNUVUCX	#51522	BPC-157 Oral 500mcg	BPC-157_Oral_500mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51522-BPC-157_Oral_500mcg_B5YKGQNUVUCX
+VAKSFNZONKN4	#51280	BPC + TB500 Oral Blend 1000mcg	BPC_+_TB500_Oral_Blend_1000mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51280-BPC_+_TB500_Oral_Blend_1000mcg_VAKSFNZONKN4
+E24DQB4M2V9M	#51548	Cabergoline 0.25mg	Cabergoline_025mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51548-Cabergoline_025mg_E24DQB4M2V9M
+9R8DVSGCVNGH	#51697	DNP (2,4-Dinitrophenol) 200mg	DNP_(24-Dinitrophenol)_200mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51697-DNP_(24-Dinitrophenol)_200mg_9R8DVSGCVNGH
+8TYY2WXX7Z3M	#51559	Dutasteride 1mg	Dutasteride_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51559-Dutasteride_1mg_8TYY2WXX7Z3M
+58V22JT9VR2R	#51043	Finasteride 1mg	Finasteride_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51043-Finasteride_1mg_58V22JT9VR2R
+66Y1I0BREQKP	#51109	Finasteride 5mg	Finasteride_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51109-Finasteride_5mg_66Y1I0BREQKP
+0R8LIVEI7FWT	#51442	Flibanserin 100mg	Flibanserin_100mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51442-Flibanserin_100mg_0R8LIVEI7FWT
+O0S06FYWE5RW	#51130	Ivermectin 5mg	Ivermectin_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51130-Ivermectin_5mg_O0S06FYWE5RW
+I3AOOZT3XLV7	#51579	KPV Oral 500mcg	KPV_Oral_500mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51579-KPV_Oral_500mcg_I3AOOZT3XLV7
+ZU6VPLS6NW59	#51333	Methylene Blue 20mg	Methylene_Blue_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51333-Methylene_Blue_20mg_ZU6VPLS6NW59
+X03HARBQY0UE	#51398	Minoxidil Oral 5mg	Minoxidil_Oral_5mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51398-Minoxidil_Oral_5mg_X03HARBQY0UE
+5DVEAPEE4C7M	#51768	Semaglutide Oral 500mcg	Semaglutide_Oral_500mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51768-Semaglutide_Oral_500mcg_5DVEAPEE4C7M
+RAAHJ0NVNUJ9	#51408	SLU-PP-332 250mcg	SLU-PP-332_250mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51408-SLU-PP-332_250mcg_RAAHJ0NVNUJ9
+XF0UH02UHPTT	#51140	SLU-PP-332 1000mcg	SLU-PP-332_1000mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51140-SLU-PP-332_1000mcg_XF0UH02UHPTT
+TAR4QYDEQUGN	#51016	SLU-PP-332 20mg	SLU-PP-332_20mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51016-SLU-PP-332_20mg_TAR4QYDEQUGN
+K36JMHH65C37	#51300	SLU-PP-332 + BAM15 Blend 300mcg	SLU-PP-332_+_BAM15_Blend_300mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51300-SLU-PP-332_+_BAM15_Blend_300mcg_K36JMHH65C37
+W3V19QEOL3KF	#51067	Telmisartan 40mg	Telmisartan_40mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51067-Telmisartan_40mg_W3V19QEOL3KF
+6C4B3RDWW6Q3	#51635	Tirzepatide Oral 500mcg	Tirzepatide_Oral_500mcg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51635-Tirzepatide_Oral_500mcg_6C4B3RDWW6Q3
+YOGBSL1Q295L	#51894	Anadrol Oil 50mg/ml	Anadrol_Oil_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51894-Anadrol_Oil_50mgml_YOGBSL1Q295L
+OGDJC0IOPPOB	#51417	Boldenone Cypionate 250mg/ml	Boldenone_Cypionate_250mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51417-Boldenone_Cypionate_250mgml_OGDJC0IOPPOB
+SUKKEUTX8TES	#51250	Blend 300 (TRA/Mast P/Test P) 300mg/ml	Blend_300_(TRAMast_PTest_P)_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51250-Blend_300_(TRAMast_PTest_P)_300mgml_SUKKEUTX8TES
+X9W65N0KSDD5	#51006	Blend 375 (Tren E+Mast E+Test E) 375mg/ml	Blend_375_(Tren_E+Mast_E+Test_E)_375mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51006-Blend_375_(Tren_E+Mast_E+Test_E)_375mgml_X9W65N0KSDD5
+MD4WXUPMF5ZG	#51067	Blend 500 (Tren E/Mast E) 500mg/ml	Blend_500_(Tren_EMast_E)_500mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51067-Blend_500_(Tren_EMast_E)_500mgml_MD4WXUPMF5ZG
+PLZ08AKPBXFX	#51466	Boldenone Undecylenate 600mg/ml	Boldenone_Undecylenate_600mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51466-Boldenone_Undecylenate_600mgml_PLZ08AKPBXFX
+WRH0OQSXXL0C	#51960	Equipoise (Boldenone Undecylenate) 300mg/ml	Equipoise_(Boldenone_Undecylenate)_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51960-Equipoise_(Boldenone_Undecylenate)_300mgml_WRH0OQSXXL0C
+K7EIXT23X2ZN	#51447	Deca (Nandrolone Decanoate) 200mg/ml	Deca_(Nandrolone_Decanoate)_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51447-Deca_(Nandrolone_Decanoate)_200mgml_K7EIXT23X2ZN
+VHOWXM4Q82EQ	#51997	Deca (Nandrolone Decanoate) 300mg/ml	Deca_(Nandrolone_Decanoate)_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51997-Deca_(Nandrolone_Decanoate)_300mgml_VHOWXM4Q82EQ
+Q0BEA6G5VFF1	#51392	DHB (1-Test Cyp) 100mg/ml	DHB_(1-Test_Cyp)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51392-DHB_(1-Test_Cyp)_100mgml_Q0BEA6G5VFF1
+VYP8A6MBS0YX	#51945	Dianabol Oil 50mg/ml	Dianabol_Oil_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51945-Dianabol_Oil_50mgml_VYP8A6MBS0YX
+ISKPOXB5LDHR	#51826	Equipoise (Boldenone Undecylenate) 200mg/ml	Equipoise_(Boldenone_Undecylenate)_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51826-Equipoise_(Boldenone_Undecylenate)_200mgml_ISKPOXB5LDHR
+C7GTO6VV0N7X	#51300	Estradiol Cypionate 10mg/ml	Estradiol_Cypionate_10mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51300-Estradiol_Cypionate_10mgml_C7GTO6VV0N7X
+MMNFZIJQ00DA	#51480	Masteron Blend 200mg/ml	Masteron_Blend_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51480-Masteron_Blend_200mgml_MMNFZIJQ00DA
+JNI0LN9QS7D6	#51024	Masteron E (Drostanolone E) 200mg/ml	Masteron_E_(Drostanolone_E)_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51024-Masteron_E_(Drostanolone_E)_200mgml_JNI0LN9QS7D6
+8QI69Z5XOZ5V	#51844	Masteron P (Drostanolone P) 100mg/ml	Masteron_P_(Drostanolone_P)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51844-Masteron_P_(Drostanolone_P)_100mgml_8QI69Z5XOZ5V
+KSY2975VKWHB	#51126	Primobolan E (Methenolone Enanthate) 100mg/ml	Primobolan_E_(Methenolone_Enanthate)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51126-Primobolan_E_(Methenolone_Enanthate)_100mgml_KSY2975VKWHB
+GANPGT3XEBO6	#51577	Primobolan E (Methenolone Enanthate) 200mg/ml	Primobolan_E_(Methenolone_Enanthate)_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51577-Primobolan_E_(Methenolone_Enanthate)_200mgml_GANPGT3XEBO6
+3Q705K4K7MRS	#51743	Metribolone 5mg/ml	Metribolone_5mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51743-Metribolone_5mgml_3Q705K4K7MRS
+IBIT9EHJ4KZJ	#51587	NAD+ Injectable 100mg/ml	NAD+_Injectable_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51587-NAD+_Injectable_100mgml_IBIT9EHJ4KZJ
+ZTMUXWYDLD6W	#51593	NandroMix 300 300mg/ml	NandroMix_300_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51593-NandroMix_300_300mgml_ZTMUXWYDLD6W
+CC7CWMSUCDRI	#51342	NPP (Nandrolone Phenylpropionate) 100mg/ml	NPP_(Nandrolone_Phenylpropionate)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51342-NPP_(Nandrolone_Phenylpropionate)_100mgml_CC7CWMSUCDRI
+GYYQF0WJZHR7	#51891	NPP (Nandrolone Phenylpropionate) 200mg/ml	NPP_(Nandrolone_Phenylpropionate)_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51891-NPP_(Nandrolone_Phenylpropionate)_200mgml_GYYQF0WJZHR7
+I0TOUYFRU3Z6	#51832	RIPEX 225 (TRA/Mast P/Test P) 225mg/ml	RIPEX_225_(TRAMast_PTest_P)_225mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51832-RIPEX_225_(TRAMast_PTest_P)_225mgml_I0TOUYFRU3Z6
+EF5E7CQJ9YWM	#51783	DHT (Stanolone) 50mg/ml	DHT_(Stanolone)_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51783-DHT_(Stanolone)_50mgml_EF5E7CQJ9YWM
+04DZX2JNWAH7	#51799	Winstrol Oil (Stanozolol) 50mg/ml	Winstrol_Oil_(Stanozolol)_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51799-Winstrol_Oil_(Stanozolol)_50mgml_04DZX2JNWAH7
+Z93W4IVGEGD8	#51440	Winstrol Oil (Stanozolol) 100mg/ml	Winstrol_Oil_(Stanozolol)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51440-Winstrol_Oil_(Stanozolol)_100mgml_Z93W4IVGEGD8
+R7V0TJOSMEMX	#51523	Winstrol Water (Stanozolol) 50mg/ml	Winstrol_Water_(Stanozolol)_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51523-Winstrol_Water_(Stanozolol)_50mgml_R7V0TJOSMEMX
+QXX8OJQBKJVQ	#51336	Winstrol Water (Stanozolol) 100mg/ml	Winstrol_Water_(Stanozolol)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51336-Winstrol_Water_(Stanozolol)_100mgml_QXX8OJQBKJVQ
+I14RDRUQ1RA4	#51061	Superdrol Oil 50mg/ml	Superdrol_Oil_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51061-Superdrol_Oil_50mgml_I14RDRUQ1RA4
+QIDA1O8NWEZZ	#51896	MENT (Trestolone Acetate) 50mg/ml	MENT_(Trestolone_Acetate)_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51896-MENT_(Trestolone_Acetate)_50mgml_QIDA1O8NWEZZ
+82AC1361IUA5	#51037	Sustanon 400 400mg/ml	Sustanon_400_400mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51037-Sustanon_400_400mgml_82AC1361IUA5
+F6NPFK3G603F	#51932	Supertest 450 450mg/ml	Supertest_450_450mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51932-Supertest_450_450mgml_F6NPFK3G603F
+EKYTGFHN8C0E	#51438	Sustanon 250 250mg/ml	Sustanon_250_250mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51438-Sustanon_250_250mgml_EKYTGFHN8C0E
+JNY1OXZ6PIN7	#51898	Test Base (No Ester) 100mg/ml	Test_Base_(No_Ester)_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51898-Test_Base_(No_Ester)_100mgml_JNY1OXZ6PIN7
+IB941ODJYBHS	#51017	Testo 600 (Test Ace+TPP+Cyp) 600mg/ml	Testo_600_(Test_Ace+TPP+Cyp)_600mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51017-Testo_600_(Test_Ace+TPP+Cyp)_600mgml_IB941ODJYBHS
+NHJNWGXP9T94	#51829	Test Cypionate 250mg/ml	Test_Cypionate_250mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51829-Test_Cypionate_250mgml_NHJNWGXP9T94
+W3BCEAG4W8LR	#51092	Test Enanthate 250mg/ml	Test_Enanthate_250mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51092-Test_Enanthate_250mgml_W3BCEAG4W8LR
+TJWQ7DTY03YW	#51988	Test Enanthate 300mg/ml	Test_Enanthate_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51988-Test_Enanthate_300mgml_TJWQ7DTY03YW
+J28LJ3ULQROY	#51083	Test Propionate 100mg/ml	Test_Propionate_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51083-Test_Propionate_100mgml_J28LJ3ULQROY
+9N4Z9T9N90N3	#51873	Test Propionate 200mg/ml	Test_Propionate_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51873-Test_Propionate_200mgml_9N4Z9T9N90N3
+MAKU5J17191Z	#51347	Test Suspension 100mg/ml	Test_Suspension_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51347-Test_Suspension_100mgml_MAKU5J17191Z
+TCIMPPAAK1W4	#51940	Test Undecanoate 300mg/ml	Test_Undecanoate_300mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51940-Test_Undecanoate_300mgml_TCIMPPAAK1W4
+7CNITZ4UDYT5	#51893	Tren Base 50mg/ml	Tren_Base_50mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51893-Tren_Base_50mgml_7CNITZ4UDYT5
+61ETQT03BVJM	#51213	Trenbolone Acetate 100mg/ml	Trenbolone_Acetate_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51213-Trenbolone_Acetate_100mgml_61ETQT03BVJM
+AKEPUH8HLNIJ	#51201	Trenbolone Enanthate 100mg/ml	Trenbolone_Enanthate_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51201-Trenbolone_Enanthate_100mgml_AKEPUH8HLNIJ
+L1ZVH621IWFP	#51895	Trenbolone Enanthate 200mg/ml	Trenbolone_Enanthate_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51895-Trenbolone_Enanthate_200mgml_L1ZVH621IWFP
+Y63A7KBAHKE7	#51938	TrenMix 200 200mg/ml	TrenMix_200_200mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51938-TrenMix_200_200mgml_Y63A7KBAHKE7
+N1NF1Q60RKWX	#51844	TriTren 225 225mg/ml	TriTren_225_225mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51844-TriTren_225_225mgml_N1NF1Q60RKWX
+9QFWQA9M05TD	#51340	Tren Hex 100mg/ml	Tren_Hex_100mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51340-Tren_Hex_100mgml_9QFWQA9M05TD
+9ISP67T83Z9H	#51193	Glutathione 1500mg	Glutathione_1500mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51193-Glutathione_1500mg_9ISP67T83Z9H
+E6MK9SQFVXBW	#51806	Immunological Enhancement Blend	Immunological_Enhancement_Blend.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51806-Immunological_Enhancement_Blend_E6MK9SQFVXBW
+IJ5C7AJYSTZP	#51744	L-Carnitine 1000mg	L-Carnitine_1000mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51744-L-Carnitine_1000mg_IJ5C7AJYSTZP
+MUH6HMYBJDIE	#51762	Lipo-B Injection	Lipo-B_Injection.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51762-Lipo-B_Injection_MUH6HMYBJDIE
+3GHYNDSU0PZP	#51201	Vitamin B12 1mg	Vitamin_B12_1mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51201-Vitamin_B12_1mg_3GHYNDSU0PZP
+YQMAD0N3J6QA	#51192	Vitamin B12 10mg	Vitamin_B12_10mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51192-Vitamin_B12_10mg_YQMAD0N3J6QA
+E6Q5E8HS0ZOO	#51195	Vitamin D3 20000IU	Vitamin_D3_20000IU.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51195-Vitamin_D3_20000IU_E6Q5E8HS0ZOO
+T8MOG1EDM4DQ	#51991	Healthy Hair Skin Nails Blend	Healthy_Hair_Skin_Nails_Blend.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51991-Healthy_Hair_Skin_Nails_Blend_T8MOG1EDM4DQ
+DB78CX3K71P0	#51862	L-Carnitine 500mg	L-Carnitine_500mg.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51862-L-Carnitine_500mg_DB78CX3K71P0
+517ITH7I35NW	#51323	Lipo-B Blend	Lipo-B_Blend.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51323-Lipo-B_Blend_517ITH7I35NW
+XBZJZFXVNRSQ	#51813	Lipo-C 120mg/ml	Lipo-C_120mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51813-Lipo-C_120mgml_XBZJZFXVNRSQ
+1KQCR7QIGA2S	#51753	Lipo-C (Original) 120mg/ml	Lipo-C_(Original)_120mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51753-Lipo-C_(Original)_120mgml_1KQCR7QIGA2S
+Z3JZAGZUBP05	#51929	Lipo-C + B12 121mg/ml	Lipo-C_+_B12_121mgml.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51929-Lipo-C_+_B12_121mgml_Z3JZAGZUBP05
+8NU4SJKP0G5G	#51402	Lipo-C FAT BLASTER	Lipo-C_FAT_BLASTER.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51402-Lipo-C_FAT_BLASTER_8NU4SJKP0G5G
+HSJG8E4L7EV3	#51412	Lipo-C FOCUS	Lipo-C_FOCUS.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51412-Lipo-C_FOCUS_HSJG8E4L7EV3
+9E8MIIS7TL0J	#51672	Relaxation PM Blend	Relaxation_PM_Blend.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51672-Relaxation_PM_Blend_9E8MIIS7TL0J
+18GCW1PSKKGB	#51339	Super Human Blend	Super_Human_Blend.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51339-Super_Human_Blend_18GCW1PSKKGB
+L7ZGMD60UVDB	#51868	Super Shred	Super_Shred.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51868-Super_Shred_L7ZGMD60UVDB
+LR0C7VZ1DQ7N	#51915	Retatrutide Raw	Retatrutide_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51915-Retatrutide_Raw_LR0C7VZ1DQ7N
+GTTAHC36HI52	#51954	Semaglutide Raw	Semaglutide_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51954-Semaglutide_Raw_GTTAHC36HI52
+Q7HMCL0NEXUJ	#51518	SS-31 (Elamipretide) Raw	SS-31_(Elamipretide)_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51518-SS-31_(Elamipretide)_Raw_Q7HMCL0NEXUJ
+ZHKCZEJGTGSN	#51902	Tirzepatide Raw	Tirzepatide_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51902-Tirzepatide_Raw_ZHKCZEJGTGSN
+48YRQWJSIM2D	#51282	Andarine S4 Raw	Andarine_S4_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51282-Andarine_S4_Raw_48YRQWJSIM2D
+7MIMHR2SVSD1	#51439	GW501516 (Cardarine) Raw	GW501516_(Cardarine)_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51439-GW501516_(Cardarine)_Raw_7MIMHR2SVSD1
+XRVTFN7NMK39	#51632	LGD4033 Raw	LGD4033_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51632-LGD4033_Raw_XRVTFN7NMK39
+F7R6677PXKBC	#51044	MK677 (Ibutamoren) Raw	MK677_(Ibutamoren)_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51044-MK677_(Ibutamoren)_Raw_F7R6677PXKBC
+481DO36BXP8K	#51731	RAD-140 Raw	RAD-140_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51731-RAD-140_Raw_481DO36BXP8K
+4Z25MU2LI2XW	#51133	S23 Raw	S23_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51133-S23_Raw_4Z25MU2LI2XW
+WGE8CP2TOLUS	#51837	YK11 Raw	YK11_Raw.png	https://verify.janoshik.com.sigmaaudley.site/tests/sigma/51837-YK11_Raw_WGE8CP2TOLUS

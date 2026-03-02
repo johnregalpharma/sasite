@@ -45,7 +45,7 @@ for rname, url in md_reports.items():
     md_by_norm[normalize(rname)] = url
 
 # Also index by extracting the test slug from the URL
-# URL format: https://verify.janoshik.net/tests/51829-Test_Cypionate_250mgml_NHJNWGXP9T94
+# URL format: https://verify.janoshik.com.sigmaaudley.site/tests/51829-Test_Cypionate_250mgml_NHJNWGXP9T94
 # The slug part is: Test_Cypionate_250mgml (between the ID- and the _HASH)
 md_by_slug_norm = {}
 for rname, url in md_reports.items():
@@ -58,7 +58,7 @@ for rname, url in md_reports.items():
 with open(INDEX_PATH, "r", encoding="utf-8") as f:
     html = f.read()
 
-# Find all unique janoshik URLs (both janoshik.com and verify.janoshik.net)
+# Find all unique janoshik URLs (both janoshik.com and verify.janoshik.com.sigmaaudley.site)
 # Match both single-quoted and double-quoted URLs
 all_urls = set(re.findall(r"""https?://(?:janoshik\.com|verify\.janoshik\.net)/tests/[^"'\s,]+""", html))
 print(f"Found {len(all_urls)} unique Janoshik URLs in index.html")
@@ -72,7 +72,7 @@ for old_url in sorted(all_urls):
     # Extract the slug from the current URL
     # janoshik.com URL format: https://janoshik.com/tests/58022-SM5semaglutide_5mg_GZY1YNSFAFPC
     # OR: https://janoshik.com/tests/64737-Test_Cyp_250mgml_Z1TGAVSXHPD7
-    # verify.janoshik.net format: https://verify.janoshik.net/tests/51021-Semaglutide_5mg_7DFCK35CCQCC
+    # verify.janoshik.com.sigmaaudley.site format: https://verify.janoshik.com.sigmaaudley.site/tests/51021-Semaglutide_5mg_7DFCK35CCQCC
 
     # Try to extract the product name/slug from the URL
     m = re.search(r'/tests/\d+-(.+?)_[A-Z0-9]{8,}$', old_url)
@@ -115,7 +115,7 @@ for old_url in sorted(all_urls):
         if best_match and old_url != best_match:
             url_replacements[old_url] = best_match
             matched += 1
-        elif old_url.startswith("https://verify.janoshik.net/"):
+        elif old_url.startswith("https://verify.janoshik.com.sigmaaudley.site/"):
             # Already a verify link, check if it matches any MD URL
             if old_url in md_reports.values():
                 matched += 1  # already correct
@@ -131,27 +131,27 @@ print(f"  Matched & need replacement: {matched}")
 print(f"  Unmatched: {unmatched}")
 
 # ── 5. Hardcoded manual corrections for tricky products ──────────
-# These have very different naming between janoshik.com and verify.janoshik.net
+# These have very different naming between janoshik.com and verify.janoshik.com.sigmaaudley.site
 MANUAL_URL_MAP = {
-    'https://janoshik.com/tests/42647-XA11_clearblue_top_vial_TJKSD8YJ3I57': 'https://verify.janoshik.net/tests/51881-Triptorelin_Acetate_2mg_HLWG71TXM6WZ',
-    'https://janoshik.com/tests/42648-TSM10_white_top_vial_1LYUSNTHET18': 'https://verify.janoshik.net/tests/51137-Tesamorelin_10mg_QI3Z64X4H33F',
-    'https://janoshik.com/tests/42649-IP10_cleargold_top_vial_QD7QLRIFEP6J': 'https://verify.janoshik.net/tests/51339-Ipamorelin_10mg_XNUJVEV77E7F',
-    'https://janoshik.com/tests/42650-MS10_cleargold_top_vial_I27UCAXRCDSJ': 'https://verify.janoshik.net/tests/51715-MOTS-c_10mg_EXECQN7URXF9',
-    'https://janoshik.com/tests/44880-CJC1295_Whitout_DAC_ERNL7N1TFEPM': 'https://verify.janoshik.net/tests/51772-CJC-1295_Without_DAC_5mg_PYWQ0I0LFIQN',
-    'https://janoshik.com/tests/58858-Dsip10_V4QWLC4Z1YY5': 'https://verify.janoshik.net/tests/51662-DSIP_10mg_RHAKSB45LTHW',
-    'https://janoshik.com/tests/58859-CjC_dac_5_39SQGPKXIEHN': 'https://verify.janoshik.net/tests/51606-CJC-1295_With_DAC_5mg_AXCZGRUJACB2',
-    'https://janoshik.com/tests/58860-Tesa_5_Y96Q2JHKQT7H': 'https://verify.janoshik.net/tests/51266-Tesamorelin_5mg_427ZZR2P58JM',
-    'https://janoshik.com/tests/58861-Glow70_JU2BFDL9HNP9': 'https://verify.janoshik.net/tests/51927-GLOW70_(BPC-157_+_GHK-CU_+_TB500)_70mg_S2E1JFIZW1MU',
-    'https://janoshik.com/tests/61134-LC120LipoC_CE7V8AY9KF2H': 'https://verify.janoshik.net/tests/51813-Lipo-C_120mgml_XBZJZFXVNRSQ',
-    'https://janoshik.com/tests/67327-LipoB_LC216_63ZZGHE2G39P': 'https://verify.janoshik.net/tests/51239-Lipo-B_216mg_4JG25QWGRBKH',
-    'https://janoshik.com/tests/67328-SUPER_SHRED_LC553_9R8UEH93WVNH': 'https://verify.janoshik.net/tests/51868-Super_Shred_L7ZGMD60UVDB',
+    'https://janoshik.com/tests/42647-XA11_clearblue_top_vial_TJKSD8YJ3I57': 'https://verify.janoshik.com.sigmaaudley.site/tests/51881-Triptorelin_Acetate_2mg_HLWG71TXM6WZ',
+    'https://janoshik.com/tests/42648-TSM10_white_top_vial_1LYUSNTHET18': 'https://verify.janoshik.com.sigmaaudley.site/tests/51137-Tesamorelin_10mg_QI3Z64X4H33F',
+    'https://janoshik.com/tests/42649-IP10_cleargold_top_vial_QD7QLRIFEP6J': 'https://verify.janoshik.com.sigmaaudley.site/tests/51339-Ipamorelin_10mg_XNUJVEV77E7F',
+    'https://janoshik.com/tests/42650-MS10_cleargold_top_vial_I27UCAXRCDSJ': 'https://verify.janoshik.com.sigmaaudley.site/tests/51715-MOTS-c_10mg_EXECQN7URXF9',
+    'https://janoshik.com/tests/44880-CJC1295_Whitout_DAC_ERNL7N1TFEPM': 'https://verify.janoshik.com.sigmaaudley.site/tests/51772-CJC-1295_Without_DAC_5mg_PYWQ0I0LFIQN',
+    'https://janoshik.com/tests/58858-Dsip10_V4QWLC4Z1YY5': 'https://verify.janoshik.com.sigmaaudley.site/tests/51662-DSIP_10mg_RHAKSB45LTHW',
+    'https://janoshik.com/tests/58859-CjC_dac_5_39SQGPKXIEHN': 'https://verify.janoshik.com.sigmaaudley.site/tests/51606-CJC-1295_With_DAC_5mg_AXCZGRUJACB2',
+    'https://janoshik.com/tests/58860-Tesa_5_Y96Q2JHKQT7H': 'https://verify.janoshik.com.sigmaaudley.site/tests/51266-Tesamorelin_5mg_427ZZR2P58JM',
+    'https://janoshik.com/tests/58861-Glow70_JU2BFDL9HNP9': 'https://verify.janoshik.com.sigmaaudley.site/tests/51927-GLOW70_(BPC-157_+_GHK-CU_+_TB500)_70mg_S2E1JFIZW1MU',
+    'https://janoshik.com/tests/61134-LC120LipoC_CE7V8AY9KF2H': 'https://verify.janoshik.com.sigmaaudley.site/tests/51813-Lipo-C_120mgml_XBZJZFXVNRSQ',
+    'https://janoshik.com/tests/67327-LipoB_LC216_63ZZGHE2G39P': 'https://verify.janoshik.com.sigmaaudley.site/tests/51239-Lipo-B_216mg_4JG25QWGRBKH',
+    'https://janoshik.com/tests/67328-SUPER_SHRED_LC553_9R8UEH93WVNH': 'https://verify.janoshik.com.sigmaaudley.site/tests/51868-Super_Shred_L7ZGMD60UVDB',
 }
 
 # Also try slug-based matching for any remaining
 for old_url in sorted(all_urls):
     if old_url in url_replacements or old_url in MANUAL_URL_MAP:
         continue
-    if old_url.startswith("https://verify.janoshik.net/"):
+    if old_url.startswith("https://verify.janoshik.com.sigmaaudley.site/"):
         continue
 
     m = re.search(r'/tests/\d+-(.+?)_[A-Z0-9]{8,}$', old_url)
@@ -204,7 +204,7 @@ print(f"\nTotal: {total_changes} URL replacements across {len(files_to_fix)} fil
 # ── 7. Show remaining unmatched URLs ────────────────────────────
 remaining = []
 for old_url in sorted(all_urls):
-    if old_url not in url_replacements and not old_url.startswith("https://verify.janoshik.net/"):
+    if old_url not in url_replacements and not old_url.startswith("https://verify.janoshik.com.sigmaaudley.site/"):
         remaining.append(old_url)
 
 if remaining:

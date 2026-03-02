@@ -1,0 +1,5 @@
+[     535ms] [WARNING] [Warning] Please install/enable Redux devtools extension @ https://frontend-assets.supabase.com/studio/8f1ad8b5ed52/_next/static/chunks/a4304b377636722d.js?dpl=dpl_FWdUwL3ZUYmU1sd2tE8LQVcaBYFd:5
+[     936ms] [WARNING] Service Worker registration blocked by Playwright @ :2
+[    1039ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.supabase.com/platform/projects/qkcesnhfrxfscltcpqco:0
+[    1684ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.supabase.com/platform/projects/_/config/storage:0
+[    1684ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.supabase.com/platform/auth/_/config:0

@@ -1,0 +1,2 @@
+[     684ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://paygate.to/?wc-ajax=get_refreshed_fragments:0
+[     750ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://paygate.to/wp-includes/js/wp-emoji-release.min.js:0
